@@ -1,19 +1,20 @@
-# Real photography
+# Storefront photography
 
-The current storefront uses downloaded photographic stock images from Pexels, rather than the earlier generated artwork. The image files are local in `source/assets/` and copied to `dist/assets/` during the build. Each Journal article has its own image.
+All current images are real Pexels stock photographs, downloaded locally. No competitor artwork or film-poster collages are used. Hero photos are dedicated to the slideshow and are separate from the section and Journal photos.
 
-| Website asset | Source |
-| --- | --- |
-| hero-real.jpg | https://www.pexels.com/photo/faceless-person-switching-channels-on-tv-7400892/ |
-| cinema-real.jpg | https://www.pexels.com/photo/lined-up-black-leather-cinema-seats-7234230/ |
-| sports-real.jpg | https://www.pexels.com/photo/photo-of-a-person-s-hand-holding-a-remote-control-4777979/ |
-| journal-iptv.jpg | https://www.pexels.com/photo/person-holding-black-remote-control-3721597/ |
-| journal-cinema.jpg | https://www.pexels.com/photo/blue-and-black-chairs-in-stadium-7081161/ |
-| journal-device.jpg | https://www.pexels.com/photo/young-man-using-smartphone-and-watching-tv-in-living-room-3811814/ |
-| journal-buffering.jpg | https://www.pexels.com/photo/unrecognizable-person-with-remote-controller-watching-tv-7400906/ |
-| journal-4k.jpg | https://www.pexels.com/photo/a-close-up-shot-of-a-person-using-a-tv-remote-controller-12956039/ |
-| journal-canada.jpg | https://www.pexels.com/photo/a-elderly-man-holding-a-remote-control-while-sitting-beside-a-man-relaxing-on-a-couch-8550030/ |
+| Asset | Pexels photo | Subject |
+| --- | --- | --- |
+| hero-home.jpg | https://www.pexels.com/photo/4545943/ | Family watching television, Ketut Subiyanto |
+| hero-movies.jpg | https://www.pexels.com/photo/7991142/ | Cinema audience, Tima Miroshnichenko |
+| hero-hockey.jpg | https://www.pexels.com/photo/1770650/ | Live hockey action, Lynda Sanchez |
+| viewing-home.jpg | https://www.pexels.com/photo/4260643/ | Family TV time, August de Richelieu |
+| viewing-movies.jpg | https://www.pexels.com/photo/4833635/ | Movie night with popcorn, Ketut Subiyanto |
+| viewing-hockey.jpg | https://www.pexels.com/photo/8974844/ | Hockey players, Ron Lach |
+| article-iptv.jpg | https://www.pexels.com/photo/11097671/ | Home television setup, Avinash Gumber |
+| article-plans.jpg | https://www.pexels.com/photo/7234322/ | Cinema viewing, Pavel Danilyuk |
+| article-devices.jpg | https://www.pexels.com/photo/6284970/ | Laptop entertainment, Gustavo Fring |
+| article-connection.jpg | https://www.pexels.com/photo/13201481/ | Home entertainment setup, Felipe Hueb |
+| article-picture.jpg | https://www.pexels.com/photo/11589680/ | Mother and son watching television, Helena Lopes |
+| article-canada.jpg | https://www.pexels.com/photo/5813746/ | Family television time, Tima Miroshnichenko |
 
-The source pages describe these as free stock photographs. Photographs depict TV viewing, cinema and sports; they are not a claim that every pictured programme or channel is part of a particular subscription. The earlier generated assets remain in source history and are not referenced by the current pages.
-
-The IPTV-site research focused on the visual patterns of live TV, sports, films, device compatibility and prominent subscription choices. Competitor logos, claims, payment details and film-poster collages were not copied into Lumina Stream.
+Source pages list photographs as free to use under the Pexels license. The images represent viewing themes and do not confirm that a particular pictured event or channel is included in a subscription. Older photographs remain in repository history but no current page references them.

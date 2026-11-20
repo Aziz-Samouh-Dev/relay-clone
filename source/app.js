@@ -11,6 +11,8 @@
   applyTheme();themeButton?.addEventListener('click',()=>{themePreference={system:'light',light:'dark',dark:'system'}[themePreference];try{localStorage.setItem('lumina:theme',themePreference);}catch{}applyTheme();});
   systemTheme.addEventListener('change',()=>{if(themePreference==='system')applyTheme();});
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const heroSlides=$$('[data-hero-slideshow] .hero-slide'),heroScenes=$$('[data-hero-scene]');
+  if(heroSlides.length){let scene=0,request=0;const showScene=async index=>{const ticket=++request,next=heroSlides[index];try{await next.decode();}catch{if(!next.naturalWidth)return;}if(ticket!==request)return;scene=index;heroSlides.forEach((img,i)=>img.classList.toggle('is-active',i===scene));heroScenes.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===scene)));};heroScenes.forEach(button=>button.addEventListener('click',()=>showScene(Number(button.dataset.heroScene))));if(!reduced)setInterval(()=>{if(!document.hidden&&!document.body.classList.contains('pause-motion')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)showScene((scene+1)%heroSlides.length);},7000);}
   const menu=$('.menu-toggle'),nav=$('.nav');
   function closeMenu(){nav?.classList.remove('is-open');menu?.setAttribute('aria-expanded','false');menu?.setAttribute('aria-label','Open navigation');}
   menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';nav.classList.toggle('is-open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');});

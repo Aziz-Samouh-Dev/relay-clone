@@ -25,3 +25,23 @@ html[data-theme=light]{--bg:#f5f7f2;--surface:#fff;--soft:#edf1e8;--text:#15241a
 @media(max-width:1150px){.site-header .nav{display:none;position:absolute;top:90px;left:0;right:0;padding:24px;background:#101810fc;border:1px solid var(--line);border-radius:25px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 24px 60px #0004;max-height:calc(100svh - 160px);overflow:auto}.site-header .nav.is-open{display:flex}.site-header .nav a{padding:14px;font-size:1.1rem;border-bottom:1px solid var(--line)}.site-header .menu-toggle{display:grid;place-items:center}html[data-theme=light] .site-header .nav{background:#fffffff9}}
 @media(max-width:700px){.header-actions>.btn{display:none}.header-actions{gap:8px}.site-preferences{gap:5px}.language-toggle,.theme-toggle{min-width:31px;height:31px}.theme-toggle{font-size:1.1rem}.site-header .nav{top:77px}.brand-name{font-size:1.08rem}.site-header{gap:8px}html[lang=fr-CA] .hero h1{font-size:clamp(3.2rem,10.6vw,5rem)}.canada-service{font-size:.8125rem}html[lang=fr-CA] .pricing-controls .segmented button{padding:10px 11px}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js-motion .reveal:not(.visible){opacity:1;transform:none}.hero-card{transform:rotate(2deg)}.device-track{animation:none}.device-marquee{overflow-x:auto;mask-image:none}.device-group[aria-hidden=true]{display:none}}
+/* Dedicated hero photography: dissolve through a soft blur, keeping copy still. */
+.hero-bg[data-hero-slideshow]{background:#0a100d}
+.hero-bg[data-hero-slideshow]:after{animation:none;background:linear-gradient(90deg,#050a08d9 0%,#050a0899 35%,#050a0815 72%),linear-gradient(0deg,#080b0a55,transparent 45%);mix-blend-mode:normal;z-index:4}
+.hero-bg[data-hero-slideshow] .hero-slide{position:absolute;inset:0;object-fit:cover;object-position:65% center;opacity:0;filter:blur(5px) brightness(.8) saturate(.95);transform:scale(1.045);animation:none;transition:opacity 1.7s ease,filter 1.9s ease,transform 7.8s linear;will-change:opacity,transform}
+.hero-bg[data-hero-slideshow] .hero-slide.is-active{opacity:1;filter:blur(0) brightness(.86) saturate(1);transform:scale(1)}
+.hero-bg[data-hero-slideshow] .hero-slide:nth-child(2){object-position:70% center}
+.hero-bg[data-hero-slideshow] .hero-slide:nth-child(3){object-position:40% center}
+.hero:before{background:linear-gradient(90deg,#050a08b8,transparent 76%),linear-gradient(0deg,#080b0a,transparent 20%)}
+html[data-theme=light] .hero:before{background:linear-gradient(90deg,#050a08b8,transparent 76%),linear-gradient(0deg,#f5f7f2,transparent 12%)}
+.hero-scenes{display:flex;gap:10px;justify-content:flex-end;margin-top:48px;margin-bottom:24px}
+.hero-scenes button{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:10px;padding:16px 22px;border:1px solid #ffffff30;border-radius:12px;color:#e5ebe1;background:#111a1680;backdrop-filter:blur(16px);font-size:.8rem;transition:border-color .25s,background .25s}
+.hero-scenes button:hover{border-color:#c4f27780;background:#152317cc}
+.hero-scenes button[aria-pressed=true]{border-color:#c4f2779e;background:#182419d9;color:#fff}
+.scene-number{font-size:.625rem;letter-spacing:.1em;color:#c4f277}
+.scene-progress{position:absolute;left:0;bottom:0;height:2px;width:100%;background:#c4f277;transform:scaleX(0);transform-origin:left}
+.hero-scenes button[aria-pressed=true] .scene-progress{animation:sceneProgress 7s linear both}
+@keyframes sceneProgress{to{transform:scaleX(1)}}
+.pause-motion .hero-scenes .scene-progress{animation-play-state:paused}
+@media(max-width:700px){.hero-scenes{justify-content:flex-start;gap:6px;margin-top:32px}.hero-scenes button{padding:13px 10px;gap:6px;font-size:.65rem;border-radius:9px}.hero-bg[data-hero-slideshow] .hero-slide{object-position:72% center}.hero-bg[data-hero-slideshow]:after{background:linear-gradient(90deg,#050a08c9,#050a0860),linear-gradient(0deg,#080b0a55,transparent 45%)}.hero .hero-foot{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){.hero-bg[data-hero-slideshow] .hero-slide{transition:none;transform:none;filter:brightness(.86)}.hero-scenes .scene-progress{animation:none!important}.hero-scenes button[aria-pressed=true] .scene-progress{transform:scaleX(1)}}

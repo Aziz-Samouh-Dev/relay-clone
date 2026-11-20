@@ -62,3 +62,6 @@ French runtime fix: translation observer disconnects while applying its own chan
 
 Canada search update: public indexing enabled at the owner's request. Main English/French pages target IPTV Canada with unique titles, descriptions, homepage/plan headings and a visible Canada FAQ section matching FAQPage markup. Organization/WebPage/Service markup identifies Canada without invented offices or city pages. robots.txt permits crawling; checkout and confirmations retain noindex and stay out of the sitemap. Search indexing and AI citations are not guaranteed. Existing placeholder payment guard remains active.
 
+
+Photography refresh: 12 new local stock photographs replace every previous photo reference across English and French pages. The homepage has three dedicated slides, soft blur/crossfade transitions, manual scene buttons, motion pause, hidden-tab pause and reduced-motion support. Browser QA verified image loading, scene switching, French labels and no overflow at 390px. PHOTO-SOURCES.md records sources.
+

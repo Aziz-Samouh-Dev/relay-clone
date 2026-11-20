@@ -24,6 +24,7 @@ for(const page of manifest.pages){
   if(!(await fs.stat(path.join(dist,relative)).catch(()=>null))?.size)errors.push(page.route+': broken reference '+ref);
  }
  if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|30,000|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
+ if(/(?:hero-real|cinema-real|sports-real|journal-(?:iptv|cinema|device|buffering|4k|canada))\.jpg/.test(html))errors.push(page.route+': replaced photography remains');
 }
 const checkout=await fs.readFile(path.join(dist,'checkout/index.html'),'utf8');
 if(JSON.parse(await fs.readFile(path.join(project,'fr-untranslated.json'),'utf8')).length)errors.push('Untranslated French content remains');
@@ -41,6 +42,10 @@ if(!home.includes('"areaServed":{"@type":"Country","name":"Canada","identifier":
 const robots=await fs.readFile(path.join(dist,'robots.txt'),'utf8');
 if(manifest.indexing&&(!robots.includes('Allow: /')||robots.includes('Disallow: /')))errors.push('Public crawling blocked');
 if(!home.includes('class="device-track"'))errors.push('Animated device banner missing');
+const heroImages=[...home.matchAll(/class="hero-slide[^"]*" src="([^"]+)"/g)].map(m=>m[1]);
+if(heroImages.length!==3||new Set(heroImages).size!==3)errors.push('Hero requires three dedicated photographs');
+if((home.match(/data-hero-scene="\d"/g)||[]).length!==3)errors.push('Hero slide controls missing');
+for(const src of heroImages)if(journalImages.includes(src))errors.push('Hero photography repeated in Journal');
 if(home.includes('class="preview-bar"'))errors.push('Obsolete preview banner present');
 if(/(?:watching-tv|cinema-tv|sports-tv)\.jpg/.test(home))errors.push('Generated imagery still referenced on home');
 const app=await fs.readFile(path.join(dist,'assets/app.js'),'utf8');
