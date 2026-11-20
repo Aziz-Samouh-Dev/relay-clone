@@ -9,6 +9,15 @@
       "title": "Lumina Stream | A Better Kind of IPTV & TV Time",
       "description": "Explore IPTV plans, device setup guides and clear answers with Lumina Stream. Compare subscription plans in CAD and choose a simpler way to enjoy your television.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/",
+      "title": "Lumina Stream | IPTV et télévision au Canada",
+      "description": "Découvrez les forfaits IPTV, les guides d’installation et les réponses de Lumina Stream. Comparez les abonnements en dollars canadiens et profitez de votre télévision.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -16,6 +25,15 @@
       "title": "IPTV Subscription Plans & Prices in CAD | Lumina Stream",
       "description": "Compare IPTV plan terms, total prices in Canadian dollars and simultaneous stream options. Review every detail before checkout.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/subscription/",
+      "title": "Forfaits IPTV et prix en dollars canadiens | Lumina Stream",
+      "description": "Comparez les durées IPTV, les prix totaux en dollars canadiens et les diffusions simultanées. Vérifiez tous les détails avant de payer.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -23,6 +41,15 @@
       "title": "24-Hour IPTV Trial | Lumina Stream",
       "description": "Explore the 24-hour IPTV trial: CAD 2.99, one stream and a practical checklist for testing your device and viewing list.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/free-trial/",
+      "title": "Essai IPTV de 24 heures | Lumina Stream",
+      "description": "Découvrez l’essai IPTV de 24 heures : 2,99 $ CAD, un écran et une liste pratique pour tester votre installation.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -30,6 +57,15 @@
       "title": "IPTV Channel & Viewing Availability Checklist | Lumina Stream",
       "description": "Explore viewing categories and create a channel availability request. Confirm your exact channels, languages and region before choosing an IPTV plan.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/channels/",
+      "title": "Chaînes IPTV et disponibilité des programmes | Lumina Stream",
+      "description": "Explorez les catégories et préparez une demande pour vos chaînes. Vérifiez les chaînes et langues importantes avant de choisir un forfait IPTV.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -37,6 +73,15 @@
       "title": "IPTV Device Compatibility Checklist | Lumina Stream",
       "description": "Check IPTV setup requirements for Fire TV, Android TV, Apple TV, Samsung and LG TVs, phones, Windows and Mac. Confirm your exact model before ordering.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/devices/",
+      "title": "Compatibilité des appareils IPTV | Lumina Stream",
+      "description": "Vérifiez les exigences IPTV pour Fire TV, Android TV, Apple TV, Samsung, LG, téléphones, Windows et Mac. Confirmez votre modèle avant de commander.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -44,6 +89,15 @@
       "title": "IPTV Setup Guides by Device | Lumina Stream",
       "description": "Get a clear IPTV setup checklist for your television, streaming device, phone or computer. Learn what to check before installing a player or adding an account.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/",
+      "title": "Guides d’installation IPTV par appareil | Lumina Stream",
+      "description": "Consultez une liste claire pour votre téléviseur, appareil de diffusion, téléphone ou ordinateur avant d’installer un lecteur.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -51,6 +105,15 @@
       "title": "Fire TV IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your Fire TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/fire-tv/",
+      "title": "Installation IPTV sur Fire TV | Lumina Stream",
+      "description": "Préparez Fire TV pour l’IPTV : modèle, lecteur officiel, identifiants et test de connexion avant l’achat.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -58,6 +121,15 @@
       "title": "Android & Google TV IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your Android & Google TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/android-tv/",
+      "title": "Installation IPTV sur Android et Google TV | Lumina Stream",
+      "description": "Préparez Android et Google TV pour l’IPTV : compatibilité, lecteur officiel, identifiants et connexion.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -65,6 +137,15 @@
       "title": "Samsung & LG TVs IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your Samsung & LG TVs for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/smart-tv/",
+      "title": "Installation IPTV sur les téléviseurs Samsung et LG | Lumina Stream",
+      "description": "Préparez votre téléviseur Samsung ou LG pour l’IPTV : modèle, lecteur, identifiants et connexion.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -72,6 +153,15 @@
       "title": "Apple TV IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your Apple TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/apple-tv/",
+      "title": "Installation IPTV sur Apple TV | Lumina Stream",
+      "description": "Préparez Apple TV pour l’IPTV : compatibilité, lecteur officiel, identifiants et connexion.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -79,6 +169,15 @@
       "title": "iPhone & Android IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your iPhone & Android for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/mobile/",
+      "title": "Installation IPTV sur iPhone et Android | Lumina Stream",
+      "description": "Préparez votre iPhone ou téléphone Android pour l’IPTV : modèle, lecteur, identifiants et connexion.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -86,6 +185,15 @@
       "title": "Windows & Mac IPTV Setup Checklist | Lumina Stream",
       "description": "Prepare your Windows & Mac for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/guide/computer/",
+      "title": "Installation IPTV sur Windows et Mac | Lumina Stream",
+      "description": "Préparez Windows ou Mac pour l’IPTV : lecteur officiel, compatibilité, identifiants et tests de connexion.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -93,6 +201,15 @@
       "title": "IPTV FAQ: Plans, Devices, Setup & Billing | Lumina Stream",
       "description": "Find direct answers to IPTV questions about plans, CAD pricing, device compatibility, trials, buffering, content availability and Lumina Stream.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/faq/",
+      "title": "FAQ IPTV : forfaits, appareils, installation et paiement | Lumina Stream",
+      "description": "Des réponses claires sur l’IPTV : forfaits, prix en CAD, appareils, essais, qualité et assistance Lumina Stream.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -100,6 +217,15 @@
       "title": "The Lumina Journal | IPTV Guides, Setup & Streaming Tips",
       "description": "Understand IPTV, compare plans, choose a device and solve streaming problems with practical guides from the Lumina Stream journal.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/blog/",
+      "title": "Le journal Lumina | Guides IPTV, installation et conseils",
+      "description": "Comprenez l’IPTV, comparez les forfaits et résolvez les problèmes grâce aux guides du journal Lumina Stream.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -107,6 +233,15 @@
       "title": "What is IPTV? A clear guide before you subscribe. | Lumina Stream",
       "description": "Understand IPTV, players, subscriptions and the questions to ask before paying for a service.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/what-is-iptv/",
+      "title": "Qu’est-ce que l’IPTV? Bien comprendre avant de s’abonner. | Lumina Stream",
+      "description": "Comprenez l’IPTV, les lecteurs, les abonnements et les questions à poser avant de payer.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -114,6 +249,15 @@
       "title": "Choose a plan for the way you actually watch. | Lumina Stream",
       "description": "Compare IPTV terms, stream limits, total costs and trial conditions without getting lost in channel counts.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/choose-an-iptv-plan/",
+      "title": "Choisissez un forfait adapté à vos habitudes. | Lumina Stream",
+      "description": "Comparez les durées, les diffusions simultanées, les prix totaux et les essais, au-delà du nombre de chaînes.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -121,6 +265,15 @@
       "title": "Your device. Your sofa. A simpler setup. | Lumina Stream",
       "description": "A practical IPTV device checklist covering TV models, official app stores, player fees and account details.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/iptv-device-checklist/",
+      "title": "Votre appareil. Votre canapé. Une installation simple. | Lumina Stream",
+      "description": "Une liste pratique pour vérifier votre appareil IPTV, les boutiques officielles, les frais du lecteur et vos identifiants.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -128,6 +281,15 @@
       "title": "Buffering? Start with these simple checks. | Lumina Stream",
       "description": "A structured troubleshooting checklist for buffering, from Wi-Fi and device checks to useful support information.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/reduce-streaming-buffering/",
+      "title": "Lecture interrompue? Commencez par ces vérifications. | Lumina Stream",
+      "description": "Une méthode pratique pour la mise en mémoire tampon : Wi-Fi, appareil et informations utiles à l’assistance.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -135,6 +297,15 @@
       "title": "What “4K ready” really means for your evenings. | Lumina Stream",
       "description": "Understand the difference between a 4K screen, a 4K source and a streaming experience that supports both.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/understand-4k-streaming/",
+      "title": "Que signifie vraiment « compatible 4K »? | Lumina Stream",
+      "description": "Comprenez la différence entre un écran 4K, une source 4K et une installation qui prend les deux en charge.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -142,6 +313,15 @@
       "title": "An IPTV buying checklist for Canadian households. | Lumina Stream",
       "description": "Check language options, Canadian-dollar pricing, content availability, support and service terms before subscribing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "article"
+    },
+    {
+      "route": "/fr/blog/iptv-checklist-canada/",
+      "title": "Bien choisir son IPTV au Canada. | Lumina Stream",
+      "description": "Vérifiez les langues, les prix canadiens, le contenu, l’assistance et les conditions avant de vous abonner.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "article"
     },
     {
@@ -149,6 +329,15 @@
       "title": "Essentials IPTV Guides | Lumina Stream",
       "description": "Browse essentials articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/blog/category/essentials/",
+      "title": "Guides essentiels IPTV | Lumina Stream",
+      "description": "Les essentiels de Lumina Stream : des informations claires pour choisir et installer votre télévision.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -156,6 +345,15 @@
       "title": "Buying guides IPTV Guides | Lumina Stream",
       "description": "Browse buying guides articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/blog/category/buying-guides/",
+      "title": "Guides d’achat IPTV | Lumina Stream",
+      "description": "Les guides d’achat de Lumina Stream pour choisir votre expérience télé en toute clarté.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -163,6 +361,15 @@
       "title": "Setup IPTV Guides | Lumina Stream",
       "description": "Browse setup articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/blog/category/setup/",
+      "title": "Guides d’installation IPTV | Lumina Stream",
+      "description": "Les guides d’installation de Lumina Stream pour préparer simplement votre expérience télé.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -170,6 +377,15 @@
       "title": "Streaming IPTV Guides | Lumina Stream",
       "description": "Browse streaming articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/blog/category/streaming/",
+      "title": "Guides de diffusion IPTV | Lumina Stream",
+      "description": "Les conseils de diffusion de Lumina Stream pour mieux profiter de votre télévision.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -177,6 +393,15 @@
       "title": "About Lumina Stream | A Clearer Way to Choose IPTV",
       "description": "Meet the thinking behind Lumina Stream: clear plans, practical setup help and honest service information. Explore live channels, movies, series and flexible subscription terms.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/about/",
+      "title": "À propos de Lumina Stream | L’IPTV en toute clarté",
+      "description": "Découvrez Lumina Stream : des forfaits clairs, une installation pratique, la télé en direct, les films et les séries.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -184,27 +409,15 @@
       "title": "IPTV in Canada: Buying & Setup Checklist | Lumina Stream",
       "description": "Compare CAD pricing, language options, compatible devices and content availability before choosing IPTV in Canada.",
       "noindex": true,
+      "lang": "en-CA",
       "kind": "page"
     },
     {
-      "route": "/iptv-quebec/",
-      "title": "IPTV in Quebec: Buying & Setup Checklist | Lumina Stream",
-      "description": "A Quebec IPTV checklist for French-language viewing, regional feeds, bilingual household needs and device compatibility.",
+      "route": "/fr/iptv-canada/",
+      "title": "IPTV au Canada : guide d’achat et d’installation | Lumina Stream",
+      "description": "Comparez les prix canadiens, les langues, les appareils et le contenu avant de choisir votre IPTV au Canada.",
       "noindex": true,
-      "kind": "page"
-    },
-    {
-      "route": "/iptv-montreal/",
-      "title": "IPTV in Montreal: Buying & Setup Checklist | Lumina Stream",
-      "description": "Plan an IPTV setup for your Montreal household with language preferences, Wi-Fi checks and the right device questions.",
-      "noindex": true,
-      "kind": "page"
-    },
-    {
-      "route": "/iptv-toronto/",
-      "title": "IPTV in Toronto: Buying & Setup Checklist | Lumina Stream",
-      "description": "Check multilingual viewing needs, simultaneous streams, device support and total costs before choosing an IPTV plan in Toronto.",
-      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -212,6 +425,15 @@
       "title": "Contact & IPTV Availability Enquiries | Lumina Stream",
       "description": "Prepare an IPTV enquiry about your channels, device or plan. Prepare and review your complete channel, device or subscription enquiry.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/contact/",
+      "title": "Contact et disponibilité IPTV | Lumina Stream",
+      "description": "Préparez et vérifiez votre demande concernant les chaînes, les appareils ou votre abonnement IPTV.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -219,6 +441,15 @@
       "title": "Your IPTV Subscription & Checkout | Lumina Stream",
       "description": "Configure your IPTV subscription, simultaneous streams and viewing preferences. Review your subscription details and payment availability.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/checkout/",
+      "title": "Votre abonnement IPTV et paiement | Lumina Stream",
+      "description": "Configurez votre abonnement IPTV, les diffusions simultanées et vos préférences. Vérifiez la commande et le paiement.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -226,6 +457,15 @@
       "title": "Your Subscription Summary | Lumina Stream",
       "description": "Review your selected subscription and check the status of your purchase.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/order-confirmation/",
+      "title": "Récapitulatif de votre abonnement | Lumina Stream",
+      "description": "Consultez votre sélection d’abonnement et l’état de votre achat.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -233,6 +473,15 @@
       "title": "Privacy | Lumina Stream",
       "description": "How Lumina Stream handles your information and browser preferences.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/privacy/",
+      "title": "Confidentialité | Lumina Stream",
+      "description": "Comment Lumina Stream traite vos informations et préférences de navigation.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -240,6 +489,15 @@
       "title": "Service terms | Lumina Stream",
       "description": "Subscription terms, device compatibility and the details to check before purchasing.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/terms/",
+      "title": "Conditions du service | Lumina Stream",
+      "description": "Conditions d’abonnement, compatibilité et détails à vérifier avant l’achat.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     },
     {
@@ -247,6 +505,15 @@
       "title": "Refund information | Lumina Stream",
       "description": "How to prepare a refund enquiry and what to check before subscribing to Lumina Stream.",
       "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/refund-policy/",
+      "title": "Informations de remboursement | Lumina Stream",
+      "description": "Préparez une demande de remboursement et découvrez les vérifications utiles avant de vous abonner.",
+      "noindex": true,
+      "lang": "fr-CA",
       "kind": "page"
     }
   ]

@@ -51,3 +51,8 @@ Pages are static HTML with unique metadata, canonical URLs, breadcrumbs, social 
 npm run check covers all 35 pages, 1,390 internal references, valid JSON-LD, unique metadata, six different Journal images, the device banner and placeholder Interac guard. Browser QA checked pricing consistency, copy controls, generated references, mobile field overflow, Journal filtering, image loading and removal of example-plan labels.
 
 The original Relay snapshot remains in reference-relay/ and Git history. Earlier generated artwork is retained for history but is not referenced by current pages.
+
+## Canada, French and light mode
+
+The site now has 32 English and 32 French pages, matching language switches, localized metadata and hreflang links. Light mode persists on the visitor's device. Checkout fixes Canada without a country or city selector. City landing pages and links were removed. Automated checks cover all 64 pages and em dash removal. This update's browser QA could not complete because the in-app browser connection timed out.
+

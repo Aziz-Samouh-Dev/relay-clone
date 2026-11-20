@@ -1,0 +1,762 @@
+0|Lumina Stream | A Better Kind of IPTV & TV Time
+1|Skip to content
+2|Lumina
+3|Stream
+4|Plans
+5|Channels
+6|Devices
+7|Setup
+8|FAQ
+9|Journal
+10|Contact
+11|FR
+12|Try it first
+13|Live channels · Movies · Series
+14|Live TV. Movies.
+15|Your next great
+16|night in.
+17|Choose your IPTV subscription for live channels, movies and series. Flexible terms. Clear CAD pricing. One, two or three screens.
+18|Choose your subscription
+19|Clear plans
+20|Your choice of screen
+21|Setup made simpler
+22|Take a closer look
+23|Your subscription. Every kind of screen.
+24|Find your device
+25|Fire TV
+26|Android TV
+27|Apple TV
+28|Samsung & LG
+29|iOS & Android
+30|Windows & Mac
+31|Keep the choice simple
+32|Your TV time.
+33|Your kind of plan.
+34|Your choice of server, term and screens. See the total, choose your subscription and get ready for your next night in.
+35|Your term
+36|1 mo
+37|3 mo
+38|6 mo
+39|12 mo · best rate
+40|Watching at the same time
+41|1 screen
+42|2 screens
+43|3 screens
+44|Show prices as
+45|Full term
+46|Per month
+47|Duck
+48|The essentials
+49|CAD
+50|$6.67/month · $80.00 total
+51|1 simultaneous stream
+52|12-month prepaid term
+53|Live TV, movies & series
+54|Device setup checklist
+55|No automatic renewal
+56|Choose Duck
+57|Edge
+58|Entertainment without limits
+59|$8.33/month · $100.00 total
+60|Choose Edge
+61|FEATURED PLAN
+62|Raccoon
+63|The widest selection
+64|$15.00/month · $180.00 total
+65|Choose Raccoon
+66|Trex
+67|The ultimate catalogue
+68|$10.83/month · $130.00 total
+69|Choose Trex
+70|A different kind of plan
+71|Just one more episode.
+72|Just the Ciné Pack.
+73|A separate movies-and-series option, without live channels. Choose your term and screens above to see its full price.
+74|On-demand option
+75|1–3 streams
+76|1–12 month terms
+77|Movies and series, without a live-TV package.
+78|Ciné Pack
+79|Movies and series on demand
+80|$5.83/month · $70.00 total
+81|On-demand option · no live channels
+82|Choose Ciné Pack
+83|All prices are in CAD. Your total updates for your server, subscription term and simultaneous streams. Select a plan to review your complete order.
+84|A little trial. A much easier decision.
+85|24 hours · 1 stream · CAD 2.99 price
+86|Explore the trial
+87|A better kind of downtime
+88|There’s a lot to watch.
+89|Finding your kind of TV
+90|should feel effortless.
+91|Less noise around the details. More clarity about your plan, your devices and what comes next. That’s the thinking behind Lumina Stream.
+92|Meet Lumina Stream
+93|Your screen. Your rhythm.
+94|Big nights in.
+95|Small moments
+96|that matter.
+97|From the living room to a little downtime on your laptop, start with the setup that suits you. Check compatibility before you choose.
+98|Explore the setup guides
+99|lumina stream
+100|LIVE TV · MOVIES · SERIES
+101|Discover
+102|Live TV
+103|On demand
+104|A little closer
+105|to extraordinary.
+106|Your next discovery starts with a little curiosity.
+107|Live channels, movies and series, on the screen you love.
+108|Make it personal.
+109|Start with the channels and languages that matter to your home.
+110|Know the full picture.
+111|Compare the term, stream limit and total price together.
+112|Settle in with confidence.
+113|Check the setup before making a longer commitment.
+114|Find your kind of evening
+115|A world to discover.
+116|A place to unwind.
+117|Explore viewing interests, then ask us to confirm the exact channels in your region.
+118|Live TV & channels
+119|Your world.
+120|Live on screen.
+121|News, culture and everyday favourites.
+122|Movies & series
+123|Just one
+124|more episode.
+125|Make it a proper movie night.
+126|Sports & live events
+127|Every moment.
+128|On the big screen.
+129|For the matches you make time for.
+130|Looking for a particular channel? Ask about your country and preferred lineup before choosing a plan.
+131|From first look to first watch
+132|A simpler way
+133|to settle in.
+134|A few thoughtful checks now make for a much better evening later.
+135|Choose thoughtfully
+136|Start with your favourites.
+137|Build a viewing list and check the exact channels, languages and availability you need.
+138|Explore viewing categories
+139|Get comfortable
+140|Meet your setup.
+141|Find the guide for your device and check which player works with your service.
+142|Find your setup guide
+143|Make your choice
+144|Try before a longer stay.
+145|A trial on your own network helps you check the experience before choosing a longer term.
+146|Read about the trial
+147|The screen you already know
+148|At home.
+149|On your terms.
+150|Explore all devices
+151|A familiar remote. A screen you already love.
+152|View setup checklist
+153|Android & Google TV
+154|Bring your evenings to the big screen.
+155|Samsung & LG TVs
+156|Keep your setup simple.
+157|Compatibility depends on model, app and region. Device brands are not partners or endorsements.
+158|The Lumina journal
+159|A little clarity.
+160|A better experience.
+161|Explore the journal
+162|Essentials
+163|2 min read
+164|What is IPTV? A clear guide before you subscribe.
+165|Understand IPTV, players, subscriptions and the questions to ask before paying for a service.
+166|Read the guide
+167|Buying guides
+168|Choose a plan for the way you actually watch.
+169|Compare IPTV terms, stream limits, total costs and trial conditions without getting lost in channel counts.
+170|Your device. Your sofa. A simpler setup.
+171|A practical IPTV device checklist covering TV models, official app stores, player fees and account details.
+172|A few good questions
+173|Before you
+174|settle in.
+175|Clear answers make choosing easier. Here’s a good place to start.
+176|All questions & answers
+177|What is IPTV?
+178|IPTV means Internet Protocol Television: television delivered through an internet connection instead of a satellite dish or traditional cable connection. You need a compatible device, a player and an active subscription from a provider with rights to distribute the content.
+179|Which Lumina Stream plan should I choose?
+180|Choose Duck, Edge, Raccoon or Trex for live TV, movies and series, or Ciné Pack for on-demand viewing. Select a term of 1, 3, 6 or 12 months and one, two or three simultaneous streams. All plan totals are shown in CAD.
+181|What currency are the prices in?
+182|All prices are in Canadian dollars (CAD). Each card shows the total for the selected term and the equivalent monthly cost. Applicable taxes, final prices and any other charges must be disclosed before a live payment is accepted.
+183|Can I use the TV I already own?
+184|Possibly. Compatibility depends on your TV model, operating system, regional app store and the player supported by the service. Check the device guide before ordering. A compatible streaming device connected by HDMI may be an alternative.
+185|Is 4K available on every channel?
+186|No. Picture quality depends on the source, your plan, device, player, display and network. A 4K-capable television cannot turn every source into native 4K. Confirm the resolution of the channels you care about before buying.
+187|Make yourself comfortable
+188|Good evenings
+189|start here.
+190|Find your screen. Pick your plan. Make a little more room for the things you love watching.
+191|Explore the plans
+192|Ask a question
+193|TV time, thoughtfully connected.
+194|A clearer way to choose, set up and settle in.
+195|Live television, movies and series.
+196|Choose your plan. Make it your evening.
+197|Find your evening
+198|Subscription plans
+199|24-hour trial
+200|Viewing categories
+201|Supported devices
+202|A little help
+203|Setup guides
+204|Questions & answers
+205|Closer to home
+206|Canada checklist
+207|Subscription FAQ
+208|About Lumina Stream
+209|© 2026 Lumina Stream.
+210|Privacy
+211|Service terms
+212|Refund information
+213|Made for your downtime.
+214|Lumina Stream
+215|#080b0a
+216|Explore IPTV plans, device setup guides and clear answers with Lumina Stream. Compare subscription plans in CAD and choose a simpler way to enjoy your television.
+217|Lumina Stream television and movie night at home
+218|Lumina Stream home
+219|Main navigation
+220|Afficher le site en français
+221|Switch to light mode
+222|Open navigation
+223|A real close-up photograph of a viewer changing television channels with a remote
+224|Watch on your favourite device
+225|Subscription duration
+226|Simultaneous streams
+227|Plan price display
+228|Real cinema seating with popcorn ready for a movie
+229|A viewer using a remote control to watch television
+230|Cinema seats and popcorn before a film
+231|A remote control in front of a television showing football
+232|A hand holding a television remote control
+233|Rows of seats inside a real cinema
+234|A viewer using a smartphone while watching television
+235|Pause decorative animations
+236|IPTV Subscription Plans & Prices in CAD | Lumina Stream
+237|Home
+238|A plan for your kind of evening
+239|Less overthinking.
+240|More looking forward.
+241|Compare the full term, the total price and the screens you need. A clearer choice from the start.
+242|Plans at a glance
+243|Choose Duck, Edge, Raccoon, Trex or the on-demand Ciné Pack. Subscribe for 1, 3, 6 or 12 months and select 1–3 simultaneous streams. All prices are in Canadian dollars.
+244|The details, side by side.
+245|Lumina Stream 12-month pricing for one simultaneous stream
+246|Plan detail
+247|12-month total · 1 stream
+248|$80.00 CAD
+249|$100.00 CAD
+250|$180.00 CAD
+251|$130.00 CAD
+252|$70.00 CAD
+253|Monthly equivalent
+254|$6.67 CAD
+255|$8.33 CAD
+256|$15.00 CAD
+257|$10.83 CAD
+258|$5.83 CAD
+259|1-month price · 1 stream
+260|$18.00 CAD
+261|$20.00 CAD
+262|$22.00 CAD
+263|Type
+264|Live TV plan
+265|On demand only
+266|Available terms
+267|1, 3, 6, 12 months
+268|1, 2 or 3
+269|Renewal
+270|Manual renewal
+271|Know before you choose
+272|The small print.
+273|Made clearer.
+274|A term, a price and a stream limit should all tell the same story.
+275|Will my subscription renew automatically?
+276|Plans are prepaid for the chosen term. There is no automatic renewal.
+277|How many screens can I watch at once?
+278|Choose one, two or three simultaneous streams. Prices vary by server, term and stream count; the plan cards and checkout use the same price table. Household rules and actual service availability must be confirmed before purchase.
+279|How does the 24-hour trial work?
+280|The trial costs CAD 2.99, lasts 24 hours and covers one stream. Use it to check your device, connection and requested channels before choosing a longer subscription.
+281|Compare IPTV plan terms, total prices in Canadian dollars and simultaneous stream options. Review every detail before checkout.
+282|Breadcrumb
+283|24-Hour IPTV Trial | Lumina Stream
+284|Try your own kind of evening
+285|A little trial.
+286|A clearer choice.
+287|Check your screen, your connection and your favourites before a longer commitment.
+288|24-HOUR TRIAL
+289|24 hours.
+290|Your own screen.
+291|Trial at a glance
+292|The trial is CAD 2.99 for 24 hours on one simultaneous stream. Choose the trial to check your setup before a longer commitment.
+293|Make your trial count.
+294|Use the television or device you plan to watch on.
+295|Check the specific channels and languages you need.
+296|Try it during your usual viewing hours.
+297|Explore the player and programme guide, if included.
+298|Confirm the final trial and renewal terms first.
+299|Get the 24-hour trial
+300|24 hours · 1 screen · CAD 2.99
+301|Explore the 24-hour IPTV trial: CAD 2.99, one stream and a practical checklist for testing your device and viewing list.
+302|Real cinema seating before a movie
+303|IPTV Channel & Viewing Availability Checklist | Lumina Stream
+304|Find what matters to you
+305|Your kind of watching.
+306|A great lineup starts with your favourites. Explore the categories below and build a list to check before you choose a plan.
+307|Find your favourites
+308|Explore live TV, movies, sports and international viewing. Tell us the exact channels and languages you want so we can help you choose the right plan.
+309|Search viewing categories
+310|8 viewing categories
+311|Viewing interest
+312|Documentary & discovery
+313|Nature, history, science and a little more perspective.
+314|Add to my request
+315|Entertainment & drama
+316|Programmes, films and series for the nights you keep free.
+317|International & languages
+318|Make room for the languages and cultures in your home.
+319|French-language viewing
+320|Ask about the exact French-language and Quebec feeds you need.
+321|News & current affairs
+322|Check the local, national and international sources you follow.
+323|Confirm the exact event, rights territory and available feed.
+324|Family viewing
+325|Ask about age-appropriate programming and parental controls.
+326|Music & culture
+327|Performances, arts and the sounds that feel like home.
+328|No matching category. You can ask support about any specific channel.
+329|interests selected
+330|We’ll add them to your availability enquiry.
+331|Ask about availability
+332|Explore viewing categories and create a channel availability request. Confirm your exact channels, languages and region before choosing an IPTV plan.
+333|Search a language, interest or category…
+334|IPTV Device Compatibility Checklist | Lumina Stream
+335|Keep the screen you love
+336|Your sofa.
+337|Your screen.
+338|Your kind of simple.
+339|Start with what you already own. Then check the model, player and connection that bring it all together.
+340|The short answer
+341|Compatibility depends on the exact device model, operating system, regional app store and the player supported by the service. Choose your device below for a practical setup checklist.
+342|All
+343|TV devices
+344|Smart TVs
+345|Mobile
+346|Computers
+347|Your living room, beautifully connected.
+348|iPhone & Android
+349|A smaller screen. The same favourite moments.
+350|Make room for a little downtime.
+351|Brand names identify device families. They do not imply a partnership or endorsement.
+352|Check IPTV setup requirements for Fire TV, Android TV, Apple TV, Samsung and LG TVs, phones, Windows and Mac. Confirm your exact model before ordering.
+353|Filter devices
+354|IPTV Setup Guides by Device | Lumina Stream
+355|A good start makes all the difference
+356|Less figuring out.
+357|More settling in.
+358|Choose your device for a focused setup checklist. No mysterious downloads. No guessing which details you need.
+359|Before the first watch
+360|Three things
+361|to have ready.
+362|Your exact device.
+363|Find the model and operating system. Check the supported player in its official app store.
+364|Your connection.
+365|Use the network you plan to watch on. Compare Ethernet where your hardware supports it.
+366|Your account details.
+367|Use only credentials issued by your authorised provider. Keep passwords and playlist URLs private.
+368|Get a clear IPTV setup checklist for your television, streaming device, phone or computer. Learn what to check before installing a player or adding an account.
+369|Fire TV IPTV Setup Checklist | Lumina Stream
+370|Your device. A clearer start.
+371|Settle in with
+372|Fire TV.
+373|Check your Fire TV model and the compatible player in your regional Amazon Appstore before ordering.
+374|Your setup checklist
+375|Check your model and app store
+376|Install from an official source
+377|Add your authorised account
+378|Load your guide and test a stream
+379|Make the setup your own
+380|Ask about your model
+381|Before installing, confirm your exact Fire TV model, the player’s availability in your region and the connection format your provider supports.
+382|Check your Fire TV model and the compatible player in your regional Amazon Appstore before ordering. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+383|Use the official store or the developer’s verified website for your Fire TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+384|Choose the connection method supported by your player and provider. Enter the supplied server address and login or playlist URL exactly. Check for extra spaces and keep the complete details private.
+385|Allow the player to load the content supplied by your provider. Check a channel you care about, the audio language and the programme guide if your service includes one.
+386|Save favourites and review parental controls where available. If something fails, note the device model, player version, affected stream and time before contacting support.
+387|If it doesn’t work first time.
+388|Check whether the issue affects one stream or the entire player. Compare another app on the same device and avoid sharing private credentials in screenshots.
+389|Read the buffering checklist
+390|Explore common questions
+391|Prepare your Fire TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+392|Android & Google TV IPTV Setup Checklist | Lumina Stream
+393|Android & Google TV.
+394|Confirm the app is built for your TV operating system; a phone app is not necessarily a TV app.
+395|Before installing, confirm your exact Android & Google TV model, the player’s availability in your region and the connection format your provider supports.
+396|Confirm the app is built for your TV operating system; a phone app is not necessarily a TV app. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+397|Use the official store or the developer’s verified website for your Android & Google TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+398|Prepare your Android & Google TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+399|Samsung & LG TVs IPTV Setup Checklist | Lumina Stream
+400|Samsung & LG TVs.
+401|App availability varies by model year, region and whether your TV runs Tizen or webOS.
+402|Before installing, confirm your exact Samsung & LG TVs model, the player’s availability in your region and the connection format your provider supports.
+403|App availability varies by model year, region and whether your TV runs Tizen or webOS. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+404|Use the official store or the developer’s verified website for your Samsung & LG TVs player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+405|Prepare your Samsung & LG TVs for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+406|Apple TV IPTV Setup Checklist | Lumina Stream
+407|Apple TV.
+408|Check the tvOS App Store for a player compatible with the credentials supplied by your provider.
+409|Before installing, confirm your exact Apple TV model, the player’s availability in your region and the connection format your provider supports.
+410|Check the tvOS App Store for a player compatible with the credentials supplied by your provider. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+411|Use the official store or the developer’s verified website for your Apple TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+412|Prepare your Apple TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+413|iPhone & Android IPTV Setup Checklist | Lumina Stream
+414|iPhone & Android.
+415|Check mobile data usage and country restrictions. Your player and provider must both support your phone.
+416|Before installing, confirm your exact iPhone & Android model, the player’s availability in your region and the connection format your provider supports.
+417|Check mobile data usage and country restrictions. Your player and provider must both support your phone. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+418|Use the official store or the developer’s verified website for your iPhone & Android player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+419|Prepare your iPhone & Android for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+420|Windows & Mac IPTV Setup Checklist | Lumina Stream
+421|Windows & Mac.
+422|A compatible desktop player may support your provider’s playlist. Use only official software downloads.
+423|Before installing, confirm your exact Windows & Mac model, the player’s availability in your region and the connection format your provider supports.
+424|A compatible desktop player may support your provider’s playlist. Use only official software downloads. Confirm the exact player and any separate app fee with your provider before buying a subscription.
+425|Use the official store or the developer’s verified website for your Windows & Mac player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar.
+426|Prepare your Windows & Mac for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing.
+427|IPTV FAQ: Plans, Devices, Setup & Billing | Lumina Stream
+428|Good questions. Clear answers.
+429|A lot less guesswork.
+430|From your first question to your first setup. Find the answer you came for, without the runaround.
+431|IPTV is television delivered over an internet connection. A compatible device, a player and an authorised content source work together. Plans, channel availability and device limits vary by provider.
+432|Search frequently asked questions
+433|All questions
+434|Getting started
+435|Plans & billing
+436|Devices & setup
+437|Streaming & support
+438|Trust & availability
+439|15 answers
+440|Can I check a specific channel before choosing a plan?
+441|Yes. Use the channel request tool to build a list of the channels, languages or programmes that matter to you. Ask support to confirm the exact lineup for your country and plan before you pay. Tell us your country and the exact feeds that matter to you.
+442|Does an IPTV player include a subscription?
+443|No. A player is software that plays a stream or playlist. Content access is separate, and some players charge their own fee. Only enter credentials issued by your authorised service provider.
+444|What do I need before setup?
+445|Have your device model, a stable internet connection, a compatible player and the connection details supplied by your provider ready. Install software from the official app store or developer source. Keep account credentials private.
+446|Why does a stream buffer?
+447|Buffering can come from a weak Wi-Fi signal, network congestion, device limitations or the content source. First compare another app on the same device, restart the player, try Ethernet where available and test a lower playback quality. If only one channel fails, tell support which channel and when it happened.
+448|What should I include in a support request?
+449|Share your device model, player name, a description of the issue, the affected channel or title, and when it happened. Never put your password, full playlist URL or payment information in a public message.
+450|How can I check a provider’s content permissions?
+451|Ask the provider which content it is authorised to distribute and in which countries. Confirm the business identity, service terms, refund policy and payment route before purchasing. A large channel count alone does not establish that a provider has permission to distribute the content.
+452|Can I watch while travelling?
+453|Country restrictions and account rules may limit access when you travel. Check the permitted territory and household rules before relying on the service outside your usual location. A VPN does not change the provider’s distribution rights.
+454|No matching answer yet. Try a shorter search or
+455|ask your question
+456|Still a little unsure?
+457|Tell us your device and what you want to watch.
+458|Start a conversation
+459|Find direct answers to IPTV questions about plans, CAD pricing, device compatibility, trials, buffering, content availability and Lumina Stream.
+460|Try “screens”, “trial” or “buffering”…
+461|Filter questions
+462|The Lumina Journal | IPTV Guides, Setup & Streaming Tips
+463|A little know-how.
+464|A better night in.
+465|Thoughtful answers for the way you watch. Start with the basics or find the detail that makes the difference.
+466|Search journal articles
+467|Streaming
+468|6 practical guides
+469|Buffering? Start with these simple checks.
+470|A structured troubleshooting checklist for buffering, from Wi-Fi and device checks to useful support information.
+471|What “4K ready” really means for your evenings.
+472|Understand the difference between a 4K screen, a 4K source and a streaming experience that supports both.
+473|An IPTV buying checklist for Canadian households.
+474|Check language options, Canadian-dollar pricing, content availability, support and service terms before subscribing.
+475|No guides match your search. Try another topic.
+476|Essentials archive
+477|Buying guides archive
+478|Setup archive
+479|Streaming archive
+480|Understand IPTV, compare plans, choose a device and solve streaming problems with practical guides from the Lumina Stream journal.
+481|Search devices, plans or streaming…
+482|Filter articles
+483|A viewer using a remote in front of a television
+484|A close-up photograph of a television remote in use
+485|Two people watching television together on a sofa
+486|Article topic archives
+487|What is IPTV? A clear guide before you subscribe. | Lumina Stream
+488|By Lumina Stream editorial
+489|20 November 2026
+490|In this guide
+491|The three parts of your setup
+492|A player is not a content subscription
+493|What determines the picture quality?
+494|Questions worth asking before you pay
+495|All journal articles
+496|IPTV delivers television over an internet connection. The player, content subscription and internet access are separate parts of the experience.
+497|IPTV stands for Internet Protocol Television. Rather than arriving through a traditional cable connection or satellite dish, a stream reaches your device over your internet connection. That explains the delivery method; it does not tell you which channels a service includes or whether a provider has permission to distribute them.
+498|A working setup usually has three parts: a device such as a television or streaming box, a player that can open the stream, and an active subscription or other authorised source of content. An internet subscription is a separate requirement.
+499|An IPTV player organises and plays streams. Installing one does not automatically give you access to television channels, films or series. Some players have an additional purchase or subscription fee. Check that cost before comparing providers.
+500|Your provider may supply a playlist address or a server address with login details. Those details can contain private account information. Enter them only in a compatible player that you trust and never post them in a public forum.
+501|The source resolution, stream bitrate, your device, display and home network all affect what you see. A service advertising 4K does not mean every programme is available in native 4K. Ask about the particular channels and events you want to watch.
+502|When comparing a service, test the same device and network you plan to use every day. A successful test on a phone does not prove that an older television or a distant Wi-Fi connection will work just as well.
+503|Ask for the current channel lineup for your country, simultaneous stream limits, device compatibility, full price, renewal terms and refund conditions. Confirm the business identity and how support can be reached.
+504|Ask the provider to confirm the content it is authorised to distribute in your location. A large catalogue, low price or polished website is not a substitute for that confirmation. Keep a copy of the terms and order information.
+505|Your next useful step.
+506|Check your device, make a viewing list and compare the full plan terms before you pay. Use the focused guides below to keep the next step simple.
+507|Check your device
+508|Compare subscription plans
+509|About this guide: written for Lumina Stream. Device apps, pricing and availability can change. Confirm current instructions with the official device manufacturer, player developer and your content provider.
+510|Keep exploring.
+511|All guides
+512|Choose a plan for the way you actually watch. | Lumina Stream
+513|Start with your viewing list
+514|Count simultaneous viewers, not devices
+515|Compare total cost over the same period
+516|Use a trial as a practical test
+517|Choose a plan by checking your must-have channels, device compatibility, simultaneous streams, full price and renewal terms. Test the service before a longer commitment.
+518|Write down the programmes, languages and channel names that would make a subscription useful to you. Distinguish something you watch every day from a category you only browse occasionally. This list is more useful than choosing the largest advertised catalogue.
+519|Ask the provider to confirm those specific channels for your location and plan. A generic logo grid or an old channel list may not reflect what is currently available. If a particular event is the reason you are subscribing, ask about that event directly.
+520|A household may have several televisions and phones but only one or two people watching at the same time. A simultaneous stream limit describes how many streams can run together, which can differ from the number of devices you may register.
+521|Confirm household and travel restrictions. Do not assume a two-stream plan can be shared across separate homes. If the terms are unclear, get an answer before checkout.
+522|Compare the total amount due for each term, not just the monthly equivalent printed in a large font. Include player fees, taxes, hardware and any recurring renewal charge. A longer prepaid term is a larger commitment even if its monthly equivalent is lower.
+523|Lumina Stream uses a single price catalogue across plan cards and checkout. Choose a term and stream count to compare the complete total, not just a monthly equivalent.
+524|Try the player on your actual television, check the channels you care about and watch at the times you normally use the service. Explore the programme guide and language options if those features matter to you.
+525|Read the trial duration, charge, activation time and any renewal conditions. A trial should help you decide, not hide an unexpected long-term commitment. Keep your confirmation details for reference.
+526|Your device. Your sofa. A simpler setup. | Lumina Stream
+527|Identify the device you will actually use
+528|Check an official app source
+529|Prepare the connection details
+530|Test one thing at a time
+531|Check the exact device model, operating system and available player before purchasing. Player availability and features can vary by country and model year.
+532|Find the model number and operating system in the device settings or on its product label. A television brand alone is not enough to establish compatibility: different model years can have different software and app support.
+533|If you use an HDMI streaming device, check that device separately from the television. The streaming device runs the player, while the television displays its output.
+534|Look for a player in your device’s official app store and read its developer information. Confirm that it accepts the type of connection details your provider supplies. An app with a similar name is not necessarily the same product.
+535|Avoid downloading unknown packages just because a forum post promises access to premium content. Check the developer’s official instructions and any player fee before installing.
+536|Your provider may use a playlist URL or a server address with a username and password. Copy the values carefully and check for accidental spaces. You should not need to share your device account password with the television provider.
+537|A playlist URL may itself contain your username and password. Treat the entire address as private. If you need help, redact sensitive parts before sending a screenshot.
+538|Load the player, check a channel and then test the programme guide if the service includes one. If something fails, note whether it affects one stream, every stream or the entire app. That distinction helps support find the cause.
+539|Keep track of the device model, player version and the time of any issue. Review the setup guide for your device family and contact support before changing advanced settings you do not understand.
+540|Buffering? Start with these simple checks. | Lumina Stream
+541|Find out how wide the problem is
+542|Check the connection near the screen
+543|Give the player a clean start
+544|Send support something useful
+545|First check whether the problem affects one channel or every app. Then test your home network, restart the player and try a lower quality setting if available.
+546|Try another channel, then another streaming app on the same device. If only one channel fails, the source may be the issue. If every app struggles, your device or network may need attention. A speed test is one signal, not a complete diagnosis.
+547|Record the affected channel, time and what the player does. A frozen picture, repeated loading spinner and login error can point to different causes.
+548|A fast internet plan does not guarantee a strong Wi-Fi signal beside your television. Walls, distance, interference and other household traffic can affect the connection. Test near the device rather than only next to the router.
+549|Where your hardware supports it, compare a wired Ethernet connection. Pause other large downloads during the test. Change one variable at a time so you can see whether it helps.
+550|Close and reopen the player. If the problem continues, restart the device using its normal restart option. Check the official store for updates. Avoid clearing account data unless you have the connection details needed to sign back in.
+551|If a lower playback quality is available, use it for a comparison. Improvement at a lower quality suggests the connection or device may be struggling with the original stream, but it is not proof of a single cause.
+552|Include your device model, player, affected stream, approximate time and whether other apps work. Explain which tests you have already tried. That helps avoid repeating the same steps.
+553|Never send a full payment card number, player account password or unredacted playlist in a public message. Support should explain any account information it needs and provide a suitable private channel.
+554|What “4K ready” really means for your evenings. | Lumina Stream
+555|Start at the source
+556|Check the full chain
+557|Stability matters as much as a peak speed
+558|Check before committing
+559|To watch native 4K, the content source, plan, player, streaming device and display must all support it, with a connection stable enough for the stream.
+560|A stream can only contain the detail supplied by its source. A 4K-capable device may scale a lower-resolution image to fit the screen, but that is different from receiving native 4K content. Ask about the actual channel or title, not just the platform’s maximum capability.
+561|Resolution is also separate from HDR, frame rate and audio format. A label that mentions one feature does not promise all the others.
+562|Your player, streaming device, connection to the screen and display all need to support the format in use. Device settings or a player limitation can affect the result. Follow the manufacturer’s guidance for your exact model.
+563|For a practical test, use the same player, network and display you will normally watch on. A demonstration on a different setup cannot confirm what your own equipment will deliver.
+564|A short speed test can show a high number while a wireless connection still fluctuates. Household downloads, signal quality and congestion can all affect sustained playback. Compare different times of day if the problem is intermittent.
+565|Choose a playback quality that works reliably on your setup. A stable HD stream can be a better experience than repeatedly interrupted higher-resolution playback.
+566|Ask the provider which sources are available in native 4K in your country and on your plan. Confirm any device requirements and use a trial where one is offered.
+567|Check the resolution and regional availability of your preferred channels before purchase. A player or screen with 4K support does not make every content source native 4K.
+568|An IPTV buying checklist for Canadian households. | Lumina Stream
+569|Make language part of your shortlist
+570|Read the price and payment details together
+571|Check your device before your plan
+572|Keep the provider accountable
+573|Canadian viewers should confirm local content availability, English or French options, prices in CAD, device support and the provider’s rights to distribute the service in Canada.
+574|A household may watch news in French, films in English and international programmes in another language. Ask about original audio, subtitles and the specific channels you need. A category called “French” does not guarantee a particular local feed.
+575|For viewers in Quebec, distinguish French-language availability from a confirmed Quebec channel lineup. Ask about the exact version of a channel or programme when regional coverage matters.
+576|Confirm the currency, total charge, applicable taxes, term and renewal policy. If a monthly equivalent is displayed for an annual plan, check how much will be taken at checkout. Save the final summary.
+577|Use a payment route that clearly identifies the merchant. Never send money to an account copied from an unrelated reference website. Use only the payment route shown for your own order.
+578|Confirm the model, operating system, player availability and any separate player cost. If more than one person watches at once, check the simultaneous stream limit and household rules.
+579|A trial on your own network can reveal practical issues that a feature list will not. Check the channels you need during your usual viewing hours.
+580|Look for a clear business identity, contact route, service terms and refund policy. Ask about authorised distribution in Canada and any regional restrictions. Marketing claims alone do not settle those questions.
+581|Use these checks to compare the service with your household’s viewing needs. Keep your order information and the service terms for reference.
+582|Essentials IPTV Guides | Lumina Stream
+583|A little more
+584|essentials.
+585|Browse essentials articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.
+586|Buying guides IPTV Guides | Lumina Stream
+587|buying guides.
+588|Browse buying guides articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.
+589|Setup IPTV Guides | Lumina Stream
+590|setup.
+591|Browse setup articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.
+592|Streaming IPTV Guides | Lumina Stream
+593|streaming.
+594|Browse streaming articles from Lumina Stream: clear, practical information for choosing and setting up your television experience.
+595|About Lumina Stream | A Clearer Way to Choose IPTV
+596|Your channels.
+597|Your movies.
+598|Your kind of TV.
+599|Lumina Stream brings live television, films and series into one subscription experience. Choose Duck, Edge, Raccoon, Trex or the on-demand Ciné Pack, with flexible terms and one to three simultaneous streams.
+600|Your viewing. Your choice.
+601|Pick the term that works for you: one, three, six or twelve months. Compare the full price in Canadian dollars, check your preferred device and choose the number of screens your household needs.
+602|Start with the things you love.
+603|Live channels, entertainment, sports, family viewing and international programming. Tell us the exact channels and languages you want, and we’ll help you choose a suitable plan.
+604|Meet the thinking behind Lumina Stream: clear plans, practical setup help and honest service information. Explore live channels, movies, series and flexible subscription terms.
+605|IPTV in Canada: Buying & Setup Checklist | Lumina Stream
+606|Canada
+607|Your viewing checklist · Canada
+608|A clearer IPTV checklist for Canada.
+609|Compare CAD pricing, language options, compatible devices and content availability before choosing IPTV in Canada.
+610|Make a clearer choice
+611|Start with the Canadian details
+612|Make the total price clear
+613|Try your normal viewing setup
+614|Choose your IPTV subscription for your household in Canada. Start with your channels, languages, device and the number of screens you watch at the same time.
+615|Confirm that the provider is authorised to distribute the channels you want in Canada. Ask about the precise regional feed, not just a general category.
+616|Check that the quoted price is in Canadian dollars, whether any taxes apply, and how much is due for the entire term. Ask if renewal is manual or automatic.
+617|Use your own device and home connection to test the experience. Watch during your usual hours and confirm simultaneous stream rules.
+618|Before you choose a plan.
+619|Keep your device model, viewing list and preferred term together. Ask the operator to confirm the complete catalogue, price, payment route, service terms and refund policy for your location.
+620|Prepare an enquiry
+621|Read the Canadian checklist
+622|Contact & IPTV Availability Enquiries | Lumina Stream
+623|A good place to start
+624|Let’s find
+625|your kind of TV.
+626|Your device. Your favourite channels. A question about a plan. Start with a little context and make the next step clearer.
+627|Thinking about your setup?
+628|Find your device model and the player you plan to use.
+629|A channel you can’t miss?
+630|List the exact names and languages you want to confirm.
+631|Prepare your channel, device or subscription enquiry below. You can review and copy the complete message.
+632|Tell us a little about it.
+633|Your name
+634|Email address
+635|What can we help with?
+636|Channel availability
+637|Device compatibility
+638|Technical support
+639|Something else
+640|A little more detail
+641|Keep passwords, playlist URLs and payment details out of this message.
+642|Prepare my message
+643|Nothing is sent. You can review and copy the message.
+644|Your prepared message
+645|Copy message
+646|Prepare an IPTV enquiry about your channels, device or plan. Prepare and review your complete channel, device or subscription enquiry.
+647|Your device model, the channels or languages you need, and where you plan to watch…
+648|Your IPTV Subscription & Checkout | Lumina Stream
+649|Checkout
+650|Your evening starts with a clear choice
+651|Make yourself
+652|comfortable.
+653|One clear summary. Every detail in its place.
+654|Your plan
+655|Review & payment
+656|Confirmation
+657|A plan that feels right.
+658|Choose your server or trial
+659|$2.99 CAD
+660|1 month
+661|3 months
+662|6 months
+663|12 months
+664|Your main device
+665|Choose your device
+666|Other / not sure yet
+667|Your viewing preferences.
+668|Choose the viewing categories you want included in your request.
+669|What do you like watching?
+670|A little of everything
+671|A few details for your summary.
+672|Full name
+673|Subscriptions for Canada · All prices in CAD
+674|Your details stay on this page until you choose a payment option. We do not ask for card information on this form.
+675|Review my order
+676|INTERAC E-TRANSFER
+677|Pay by
+678|Interac e-Transfer.
+679|Send your transfer from your own Canadian bank’s app. Use the exact total and include your order reference.
+680|Order reference
+681|Preparing reference
+682|Total · CAD
+683|Method
+684|Interac
+685|Copy each field below to avoid typos.
+686|Recipient name · Company
+687|Copy
+688|Send to · Email
+689|payments@example.com
+690|Exact amount · CAD
+691|Memo / message · Your order reference
+692|Include your order reference in the transfer memo so the payment can be matched to your subscription.
+693|You do not need to choose a bank here. Send the transfer through your own participating Canadian bank or credit union.
+694|Check the recipient name your banking app displays before sending.
+695|Recipient details are not configured yet.
+696|payments@example.com is a placeholder ,  do not send a transfer to it.
+697|I have checked the recipient, amount and order reference.
+698|Edit my order
+699|I’ve sent the payment
+700|Review my contact & device details
+701|Your kind of evening
+702|Your order summary.
+703|Plan
+704|Term
+705|Currency
+706|Canadian dollars
+707|Total
+708|$6.67 monthly equivalent
+709|Review all applicable charges before paying. A summary does not confirm a purchase or activate access.
+710|A question before you choose?
+711|Find a clear answer
+712|Configure your IPTV subscription, simultaneous streams and viewing preferences. Review your subscription details and payment availability.
+713|Checkout progress
+714|Order summary
+715|A viewer selecting a television channel
+716|Your Subscription Summary | Lumina Stream
+717|Your subscription selection
+718|A good place to start.
+719|Your plan selection is shown below. A summary alone does not confirm payment or activate a subscription.
+720|Your subscription summary.
+721|Choose a subscription plan to see the full summary here.
+722|Explore subscription plans
+723|Only your selected plan, subscription term and stream count appear in this address.
+724|Find my setup guide
+725|Back to home
+726|Review your selected subscription and check the status of your purchase.
+727|Privacy | Lumina Stream
+728|Your information.
+729|Handled thoughtfully.
+730|Updated 20 November 2026.
+731|Your information on this website.
+732|The subscription configuration and contact preparation tools keep your contact entries in page memory. They do not send your name or email address to a server. Leaving or refreshing the page clears those entries.
+733|Saved order selections.
+734|Your browser can save the selected plan, term, stream count, total and order reference on this device. Names and email addresses are not included in that saved record. This local record is not a server-confirmed order or proof of payment.
+735|Preferences and technical requests.
+736|Your browser may remember whether you paused decorative animations. This website does not use advertising trackers. The hosting provider may process technical request data to deliver and secure the website.
+737|Payment information.
+738|No card fields are hosted on this website. Interac transfers are made through your own bank. Use only verified recipient details. Never include passwords, full playlist URLs or card details in an enquiry.
+739|How Lumina Stream handles your information and browser preferences.
+740|Service terms | Lumina Stream
+741|The details.
+742|Before you subscribe.
+743|Choose your subscription.
+744|Plans are priced in Canadian dollars. Terms are one, three, six or twelve months, with one, two or three simultaneous streams. Your order summary shows the selected server, duration, screen count and total.
+745|Check your setup.
+746|Device and player compatibility varies by model, operating system and app availability. Confirm the channels and regional feeds important to you before purchasing. Picture quality depends on the source, device and connection.
+747|Keep account details private.
+748|Use your access details only with a compatible player. Do not publish passwords or playlist URLs. A simultaneous-stream allowance does not automatically permit account sharing between separate households.
+749|Before payment.
+750|Review the complete order and any applicable charges. Payment availability is shown at checkout. Access is not activated by viewing an order summary.
+751|Subscription terms, device compatibility and the details to check before purchasing.
+752|Refund information | Lumina Stream
+753|A clearer view.
+754|Before you pay.
+755|Check before you pay.
+756|Review the plan, subscription term, number of streams and total. If you need to confirm a channel or device, ask before making a payment.
+757|Need help with a purchase?
+758|Prepare a request with your order reference, purchase date and the issue you are experiencing. Do not include a full payment card number, password or unredacted playlist URL.
+759|Trial and service issues.
+760|The 24-hour trial is a shorter way to check your setup before a longer subscription. Ask about the refund conditions applicable to your order before payment. No fixed refund period or unconditional guarantee is advertised here.
+761|How to prepare a refund enquiry and what to check before subscribing to Lumina Stream.

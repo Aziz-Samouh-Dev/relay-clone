@@ -1,0 +1,3050 @@
+[
+  {
+    "id": 0,
+    "en": "Lumina Stream | A Better Kind of IPTV & TV Time"
+  },
+  {
+    "id": 1,
+    "en": "Skip to content"
+  },
+  {
+    "id": 2,
+    "en": "Lumina"
+  },
+  {
+    "id": 3,
+    "en": "Stream"
+  },
+  {
+    "id": 4,
+    "en": "Plans"
+  },
+  {
+    "id": 5,
+    "en": "Channels"
+  },
+  {
+    "id": 6,
+    "en": "Devices"
+  },
+  {
+    "id": 7,
+    "en": "Setup"
+  },
+  {
+    "id": 8,
+    "en": "FAQ"
+  },
+  {
+    "id": 9,
+    "en": "Journal"
+  },
+  {
+    "id": 10,
+    "en": "Contact"
+  },
+  {
+    "id": 11,
+    "en": "FR"
+  },
+  {
+    "id": 12,
+    "en": "Try it first"
+  },
+  {
+    "id": 13,
+    "en": "Live channels · Movies · Series"
+  },
+  {
+    "id": 14,
+    "en": "Live TV. Movies."
+  },
+  {
+    "id": 15,
+    "en": "Your next great"
+  },
+  {
+    "id": 16,
+    "en": "night in."
+  },
+  {
+    "id": 17,
+    "en": "Choose your IPTV subscription for live channels, movies and series. Flexible terms. Clear CAD pricing. One, two or three screens."
+  },
+  {
+    "id": 18,
+    "en": "Choose your subscription"
+  },
+  {
+    "id": 19,
+    "en": "Clear plans"
+  },
+  {
+    "id": 20,
+    "en": "Your choice of screen"
+  },
+  {
+    "id": 21,
+    "en": "Setup made simpler"
+  },
+  {
+    "id": 22,
+    "en": "Take a closer look"
+  },
+  {
+    "id": 23,
+    "en": "Your subscription. Every kind of screen."
+  },
+  {
+    "id": 24,
+    "en": "Find your device"
+  },
+  {
+    "id": 25,
+    "en": "Fire TV"
+  },
+  {
+    "id": 26,
+    "en": "Android TV"
+  },
+  {
+    "id": 27,
+    "en": "Apple TV"
+  },
+  {
+    "id": 28,
+    "en": "Samsung & LG"
+  },
+  {
+    "id": 29,
+    "en": "iOS & Android"
+  },
+  {
+    "id": 30,
+    "en": "Windows & Mac"
+  },
+  {
+    "id": 31,
+    "en": "Keep the choice simple"
+  },
+  {
+    "id": 32,
+    "en": "Your TV time."
+  },
+  {
+    "id": 33,
+    "en": "Your kind of plan."
+  },
+  {
+    "id": 34,
+    "en": "Your choice of server, term and screens. See the total, choose your subscription and get ready for your next night in."
+  },
+  {
+    "id": 35,
+    "en": "Your term"
+  },
+  {
+    "id": 36,
+    "en": "1 mo"
+  },
+  {
+    "id": 37,
+    "en": "3 mo"
+  },
+  {
+    "id": 38,
+    "en": "6 mo"
+  },
+  {
+    "id": 39,
+    "en": "12 mo · best rate"
+  },
+  {
+    "id": 40,
+    "en": "Watching at the same time"
+  },
+  {
+    "id": 41,
+    "en": "1 screen"
+  },
+  {
+    "id": 42,
+    "en": "2 screens"
+  },
+  {
+    "id": 43,
+    "en": "3 screens"
+  },
+  {
+    "id": 44,
+    "en": "Show prices as"
+  },
+  {
+    "id": 45,
+    "en": "Full term"
+  },
+  {
+    "id": 46,
+    "en": "Per month"
+  },
+  {
+    "id": 47,
+    "en": "Duck"
+  },
+  {
+    "id": 48,
+    "en": "The essentials"
+  },
+  {
+    "id": 49,
+    "en": "CAD"
+  },
+  {
+    "id": 50,
+    "en": "$6.67/month · $80.00 total"
+  },
+  {
+    "id": 51,
+    "en": "1 simultaneous stream"
+  },
+  {
+    "id": 52,
+    "en": "12-month prepaid term"
+  },
+  {
+    "id": 53,
+    "en": "Live TV, movies & series"
+  },
+  {
+    "id": 54,
+    "en": "Device setup checklist"
+  },
+  {
+    "id": 55,
+    "en": "No automatic renewal"
+  },
+  {
+    "id": 56,
+    "en": "Choose Duck"
+  },
+  {
+    "id": 57,
+    "en": "Edge"
+  },
+  {
+    "id": 58,
+    "en": "Entertainment without limits"
+  },
+  {
+    "id": 59,
+    "en": "$8.33/month · $100.00 total"
+  },
+  {
+    "id": 60,
+    "en": "Choose Edge"
+  },
+  {
+    "id": 61,
+    "en": "FEATURED PLAN"
+  },
+  {
+    "id": 62,
+    "en": "Raccoon"
+  },
+  {
+    "id": 63,
+    "en": "The widest selection"
+  },
+  {
+    "id": 64,
+    "en": "$15.00/month · $180.00 total"
+  },
+  {
+    "id": 65,
+    "en": "Choose Raccoon"
+  },
+  {
+    "id": 66,
+    "en": "Trex"
+  },
+  {
+    "id": 67,
+    "en": "The ultimate catalogue"
+  },
+  {
+    "id": 68,
+    "en": "$10.83/month · $130.00 total"
+  },
+  {
+    "id": 69,
+    "en": "Choose Trex"
+  },
+  {
+    "id": 70,
+    "en": "A different kind of plan"
+  },
+  {
+    "id": 71,
+    "en": "Just one more episode."
+  },
+  {
+    "id": 72,
+    "en": "Just the Ciné Pack."
+  },
+  {
+    "id": 73,
+    "en": "A separate movies-and-series option, without live channels. Choose your term and screens above to see its full price."
+  },
+  {
+    "id": 74,
+    "en": "On-demand option"
+  },
+  {
+    "id": 75,
+    "en": "1–3 streams"
+  },
+  {
+    "id": 76,
+    "en": "1–12 month terms"
+  },
+  {
+    "id": 77,
+    "en": "Movies and series, without a live-TV package."
+  },
+  {
+    "id": 78,
+    "en": "Ciné Pack"
+  },
+  {
+    "id": 79,
+    "en": "Movies and series on demand"
+  },
+  {
+    "id": 80,
+    "en": "$5.83/month · $70.00 total"
+  },
+  {
+    "id": 81,
+    "en": "On-demand option · no live channels"
+  },
+  {
+    "id": 82,
+    "en": "Choose Ciné Pack"
+  },
+  {
+    "id": 83,
+    "en": "All prices are in CAD. Your total updates for your server, subscription term and simultaneous streams. Select a plan to review your complete order."
+  },
+  {
+    "id": 84,
+    "en": "A little trial. A much easier decision."
+  },
+  {
+    "id": 85,
+    "en": "24 hours · 1 stream · CAD 2.99 price"
+  },
+  {
+    "id": 86,
+    "en": "Explore the trial"
+  },
+  {
+    "id": 87,
+    "en": "A better kind of downtime"
+  },
+  {
+    "id": 88,
+    "en": "There’s a lot to watch."
+  },
+  {
+    "id": 89,
+    "en": "Finding your kind of TV"
+  },
+  {
+    "id": 90,
+    "en": "should feel effortless."
+  },
+  {
+    "id": 91,
+    "en": "Less noise around the details. More clarity about your plan, your devices and what comes next. That’s the thinking behind Lumina Stream."
+  },
+  {
+    "id": 92,
+    "en": "Meet Lumina Stream"
+  },
+  {
+    "id": 93,
+    "en": "Your screen. Your rhythm."
+  },
+  {
+    "id": 94,
+    "en": "Big nights in."
+  },
+  {
+    "id": 95,
+    "en": "Small moments"
+  },
+  {
+    "id": 96,
+    "en": "that matter."
+  },
+  {
+    "id": 97,
+    "en": "From the living room to a little downtime on your laptop, start with the setup that suits you. Check compatibility before you choose."
+  },
+  {
+    "id": 98,
+    "en": "Explore the setup guides"
+  },
+  {
+    "id": 99,
+    "en": "lumina stream"
+  },
+  {
+    "id": 100,
+    "en": "LIVE TV · MOVIES · SERIES"
+  },
+  {
+    "id": 101,
+    "en": "Discover"
+  },
+  {
+    "id": 102,
+    "en": "Live TV"
+  },
+  {
+    "id": 103,
+    "en": "On demand"
+  },
+  {
+    "id": 104,
+    "en": "A little closer"
+  },
+  {
+    "id": 105,
+    "en": "to extraordinary."
+  },
+  {
+    "id": 106,
+    "en": "Your next discovery starts with a little curiosity."
+  },
+  {
+    "id": 107,
+    "en": "Live channels, movies and series, on the screen you love."
+  },
+  {
+    "id": 108,
+    "en": "Make it personal."
+  },
+  {
+    "id": 109,
+    "en": "Start with the channels and languages that matter to your home."
+  },
+  {
+    "id": 110,
+    "en": "Know the full picture."
+  },
+  {
+    "id": 111,
+    "en": "Compare the term, stream limit and total price together."
+  },
+  {
+    "id": 112,
+    "en": "Settle in with confidence."
+  },
+  {
+    "id": 113,
+    "en": "Check the setup before making a longer commitment."
+  },
+  {
+    "id": 114,
+    "en": "Find your kind of evening"
+  },
+  {
+    "id": 115,
+    "en": "A world to discover."
+  },
+  {
+    "id": 116,
+    "en": "A place to unwind."
+  },
+  {
+    "id": 117,
+    "en": "Explore viewing interests, then ask us to confirm the exact channels in your region."
+  },
+  {
+    "id": 118,
+    "en": "Live TV & channels"
+  },
+  {
+    "id": 119,
+    "en": "Your world."
+  },
+  {
+    "id": 120,
+    "en": "Live on screen."
+  },
+  {
+    "id": 121,
+    "en": "News, culture and everyday favourites."
+  },
+  {
+    "id": 122,
+    "en": "Movies & series"
+  },
+  {
+    "id": 123,
+    "en": "Just one"
+  },
+  {
+    "id": 124,
+    "en": "more episode."
+  },
+  {
+    "id": 125,
+    "en": "Make it a proper movie night."
+  },
+  {
+    "id": 126,
+    "en": "Sports & live events"
+  },
+  {
+    "id": 127,
+    "en": "Every moment."
+  },
+  {
+    "id": 128,
+    "en": "On the big screen."
+  },
+  {
+    "id": 129,
+    "en": "For the matches you make time for."
+  },
+  {
+    "id": 130,
+    "en": "Looking for a particular channel? Ask about your country and preferred lineup before choosing a plan."
+  },
+  {
+    "id": 131,
+    "en": "From first look to first watch"
+  },
+  {
+    "id": 132,
+    "en": "A simpler way"
+  },
+  {
+    "id": 133,
+    "en": "to settle in."
+  },
+  {
+    "id": 134,
+    "en": "A few thoughtful checks now make for a much better evening later."
+  },
+  {
+    "id": 135,
+    "en": "Choose thoughtfully"
+  },
+  {
+    "id": 136,
+    "en": "Start with your favourites."
+  },
+  {
+    "id": 137,
+    "en": "Build a viewing list and check the exact channels, languages and availability you need."
+  },
+  {
+    "id": 138,
+    "en": "Explore viewing categories"
+  },
+  {
+    "id": 139,
+    "en": "Get comfortable"
+  },
+  {
+    "id": 140,
+    "en": "Meet your setup."
+  },
+  {
+    "id": 141,
+    "en": "Find the guide for your device and check which player works with your service."
+  },
+  {
+    "id": 142,
+    "en": "Find your setup guide"
+  },
+  {
+    "id": 143,
+    "en": "Make your choice"
+  },
+  {
+    "id": 144,
+    "en": "Try before a longer stay."
+  },
+  {
+    "id": 145,
+    "en": "A trial on your own network helps you check the experience before choosing a longer term."
+  },
+  {
+    "id": 146,
+    "en": "Read about the trial"
+  },
+  {
+    "id": 147,
+    "en": "The screen you already know"
+  },
+  {
+    "id": 148,
+    "en": "At home."
+  },
+  {
+    "id": 149,
+    "en": "On your terms."
+  },
+  {
+    "id": 150,
+    "en": "Explore all devices"
+  },
+  {
+    "id": 151,
+    "en": "A familiar remote. A screen you already love."
+  },
+  {
+    "id": 152,
+    "en": "View setup checklist"
+  },
+  {
+    "id": 153,
+    "en": "Android & Google TV"
+  },
+  {
+    "id": 154,
+    "en": "Bring your evenings to the big screen."
+  },
+  {
+    "id": 155,
+    "en": "Samsung & LG TVs"
+  },
+  {
+    "id": 156,
+    "en": "Keep your setup simple."
+  },
+  {
+    "id": 157,
+    "en": "Compatibility depends on model, app and region. Device brands are not partners or endorsements."
+  },
+  {
+    "id": 158,
+    "en": "The Lumina journal"
+  },
+  {
+    "id": 159,
+    "en": "A little clarity."
+  },
+  {
+    "id": 160,
+    "en": "A better experience."
+  },
+  {
+    "id": 161,
+    "en": "Explore the journal"
+  },
+  {
+    "id": 162,
+    "en": "Essentials"
+  },
+  {
+    "id": 163,
+    "en": "2 min read"
+  },
+  {
+    "id": 164,
+    "en": "What is IPTV? A clear guide before you subscribe."
+  },
+  {
+    "id": 165,
+    "en": "Understand IPTV, players, subscriptions and the questions to ask before paying for a service."
+  },
+  {
+    "id": 166,
+    "en": "Read the guide"
+  },
+  {
+    "id": 167,
+    "en": "Buying guides"
+  },
+  {
+    "id": 168,
+    "en": "Choose a plan for the way you actually watch."
+  },
+  {
+    "id": 169,
+    "en": "Compare IPTV terms, stream limits, total costs and trial conditions without getting lost in channel counts."
+  },
+  {
+    "id": 170,
+    "en": "Your device. Your sofa. A simpler setup."
+  },
+  {
+    "id": 171,
+    "en": "A practical IPTV device checklist covering TV models, official app stores, player fees and account details."
+  },
+  {
+    "id": 172,
+    "en": "A few good questions"
+  },
+  {
+    "id": 173,
+    "en": "Before you"
+  },
+  {
+    "id": 174,
+    "en": "settle in."
+  },
+  {
+    "id": 175,
+    "en": "Clear answers make choosing easier. Here’s a good place to start."
+  },
+  {
+    "id": 176,
+    "en": "All questions & answers"
+  },
+  {
+    "id": 177,
+    "en": "What is IPTV?"
+  },
+  {
+    "id": 178,
+    "en": "IPTV means Internet Protocol Television: television delivered through an internet connection instead of a satellite dish or traditional cable connection. You need a compatible device, a player and an active subscription from a provider with rights to distribute the content."
+  },
+  {
+    "id": 179,
+    "en": "Which Lumina Stream plan should I choose?"
+  },
+  {
+    "id": 180,
+    "en": "Choose Duck, Edge, Raccoon or Trex for live TV, movies and series, or Ciné Pack for on-demand viewing. Select a term of 1, 3, 6 or 12 months and one, two or three simultaneous streams. All plan totals are shown in CAD."
+  },
+  {
+    "id": 181,
+    "en": "What currency are the prices in?"
+  },
+  {
+    "id": 182,
+    "en": "All prices are in Canadian dollars (CAD). Each card shows the total for the selected term and the equivalent monthly cost. Applicable taxes, final prices and any other charges must be disclosed before a live payment is accepted."
+  },
+  {
+    "id": 183,
+    "en": "Can I use the TV I already own?"
+  },
+  {
+    "id": 184,
+    "en": "Possibly. Compatibility depends on your TV model, operating system, regional app store and the player supported by the service. Check the device guide before ordering. A compatible streaming device connected by HDMI may be an alternative."
+  },
+  {
+    "id": 185,
+    "en": "Is 4K available on every channel?"
+  },
+  {
+    "id": 186,
+    "en": "No. Picture quality depends on the source, your plan, device, player, display and network. A 4K-capable television cannot turn every source into native 4K. Confirm the resolution of the channels you care about before buying."
+  },
+  {
+    "id": 187,
+    "en": "Make yourself comfortable"
+  },
+  {
+    "id": 188,
+    "en": "Good evenings"
+  },
+  {
+    "id": 189,
+    "en": "start here."
+  },
+  {
+    "id": 190,
+    "en": "Find your screen. Pick your plan. Make a little more room for the things you love watching."
+  },
+  {
+    "id": 191,
+    "en": "Explore the plans"
+  },
+  {
+    "id": 192,
+    "en": "Ask a question"
+  },
+  {
+    "id": 193,
+    "en": "TV time, thoughtfully connected."
+  },
+  {
+    "id": 194,
+    "en": "A clearer way to choose, set up and settle in."
+  },
+  {
+    "id": 195,
+    "en": "Live television, movies and series."
+  },
+  {
+    "id": 196,
+    "en": "Choose your plan. Make it your evening."
+  },
+  {
+    "id": 197,
+    "en": "Find your evening"
+  },
+  {
+    "id": 198,
+    "en": "Subscription plans"
+  },
+  {
+    "id": 199,
+    "en": "24-hour trial"
+  },
+  {
+    "id": 200,
+    "en": "Viewing categories"
+  },
+  {
+    "id": 201,
+    "en": "Supported devices"
+  },
+  {
+    "id": 202,
+    "en": "A little help"
+  },
+  {
+    "id": 203,
+    "en": "Setup guides"
+  },
+  {
+    "id": 204,
+    "en": "Questions & answers"
+  },
+  {
+    "id": 205,
+    "en": "Closer to home"
+  },
+  {
+    "id": 206,
+    "en": "Canada checklist"
+  },
+  {
+    "id": 207,
+    "en": "Subscription FAQ"
+  },
+  {
+    "id": 208,
+    "en": "About Lumina Stream"
+  },
+  {
+    "id": 209,
+    "en": "© 2026 Lumina Stream."
+  },
+  {
+    "id": 210,
+    "en": "Privacy"
+  },
+  {
+    "id": 211,
+    "en": "Service terms"
+  },
+  {
+    "id": 212,
+    "en": "Refund information"
+  },
+  {
+    "id": 213,
+    "en": "Made for your downtime."
+  },
+  {
+    "id": 214,
+    "en": "Lumina Stream"
+  },
+  {
+    "id": 215,
+    "en": "#080b0a"
+  },
+  {
+    "id": 216,
+    "en": "Explore IPTV plans, device setup guides and clear answers with Lumina Stream. Compare subscription plans in CAD and choose a simpler way to enjoy your television."
+  },
+  {
+    "id": 217,
+    "en": "Lumina Stream television and movie night at home"
+  },
+  {
+    "id": 218,
+    "en": "Lumina Stream home"
+  },
+  {
+    "id": 219,
+    "en": "Main navigation"
+  },
+  {
+    "id": 220,
+    "en": "Afficher le site en français"
+  },
+  {
+    "id": 221,
+    "en": "Switch to light mode"
+  },
+  {
+    "id": 222,
+    "en": "Open navigation"
+  },
+  {
+    "id": 223,
+    "en": "A real close-up photograph of a viewer changing television channels with a remote"
+  },
+  {
+    "id": 224,
+    "en": "Watch on your favourite device"
+  },
+  {
+    "id": 225,
+    "en": "Subscription duration"
+  },
+  {
+    "id": 226,
+    "en": "Simultaneous streams"
+  },
+  {
+    "id": 227,
+    "en": "Plan price display"
+  },
+  {
+    "id": 228,
+    "en": "Real cinema seating with popcorn ready for a movie"
+  },
+  {
+    "id": 229,
+    "en": "A viewer using a remote control to watch television"
+  },
+  {
+    "id": 230,
+    "en": "Cinema seats and popcorn before a film"
+  },
+  {
+    "id": 231,
+    "en": "A remote control in front of a television showing football"
+  },
+  {
+    "id": 232,
+    "en": "A hand holding a television remote control"
+  },
+  {
+    "id": 233,
+    "en": "Rows of seats inside a real cinema"
+  },
+  {
+    "id": 234,
+    "en": "A viewer using a smartphone while watching television"
+  },
+  {
+    "id": 235,
+    "en": "Pause decorative animations"
+  },
+  {
+    "id": 236,
+    "en": "IPTV Subscription Plans & Prices in CAD | Lumina Stream"
+  },
+  {
+    "id": 237,
+    "en": "Home"
+  },
+  {
+    "id": 238,
+    "en": "A plan for your kind of evening"
+  },
+  {
+    "id": 239,
+    "en": "Less overthinking."
+  },
+  {
+    "id": 240,
+    "en": "More looking forward."
+  },
+  {
+    "id": 241,
+    "en": "Compare the full term, the total price and the screens you need. A clearer choice from the start."
+  },
+  {
+    "id": 242,
+    "en": "Plans at a glance"
+  },
+  {
+    "id": 243,
+    "en": "Choose Duck, Edge, Raccoon, Trex or the on-demand Ciné Pack. Subscribe for 1, 3, 6 or 12 months and select 1–3 simultaneous streams. All prices are in Canadian dollars."
+  },
+  {
+    "id": 244,
+    "en": "The details, side by side."
+  },
+  {
+    "id": 245,
+    "en": "Lumina Stream 12-month pricing for one simultaneous stream"
+  },
+  {
+    "id": 246,
+    "en": "Plan detail"
+  },
+  {
+    "id": 247,
+    "en": "12-month total · 1 stream"
+  },
+  {
+    "id": 248,
+    "en": "$80.00 CAD"
+  },
+  {
+    "id": 249,
+    "en": "$100.00 CAD"
+  },
+  {
+    "id": 250,
+    "en": "$180.00 CAD"
+  },
+  {
+    "id": 251,
+    "en": "$130.00 CAD"
+  },
+  {
+    "id": 252,
+    "en": "$70.00 CAD"
+  },
+  {
+    "id": 253,
+    "en": "Monthly equivalent"
+  },
+  {
+    "id": 254,
+    "en": "$6.67 CAD"
+  },
+  {
+    "id": 255,
+    "en": "$8.33 CAD"
+  },
+  {
+    "id": 256,
+    "en": "$15.00 CAD"
+  },
+  {
+    "id": 257,
+    "en": "$10.83 CAD"
+  },
+  {
+    "id": 258,
+    "en": "$5.83 CAD"
+  },
+  {
+    "id": 259,
+    "en": "1-month price · 1 stream"
+  },
+  {
+    "id": 260,
+    "en": "$18.00 CAD"
+  },
+  {
+    "id": 261,
+    "en": "$20.00 CAD"
+  },
+  {
+    "id": 262,
+    "en": "$22.00 CAD"
+  },
+  {
+    "id": 263,
+    "en": "Type"
+  },
+  {
+    "id": 264,
+    "en": "Live TV plan"
+  },
+  {
+    "id": 265,
+    "en": "On demand only"
+  },
+  {
+    "id": 266,
+    "en": "Available terms"
+  },
+  {
+    "id": 267,
+    "en": "1, 3, 6, 12 months"
+  },
+  {
+    "id": 268,
+    "en": "1, 2 or 3"
+  },
+  {
+    "id": 269,
+    "en": "Renewal"
+  },
+  {
+    "id": 270,
+    "en": "Manual renewal"
+  },
+  {
+    "id": 271,
+    "en": "Know before you choose"
+  },
+  {
+    "id": 272,
+    "en": "The small print."
+  },
+  {
+    "id": 273,
+    "en": "Made clearer."
+  },
+  {
+    "id": 274,
+    "en": "A term, a price and a stream limit should all tell the same story."
+  },
+  {
+    "id": 275,
+    "en": "Will my subscription renew automatically?"
+  },
+  {
+    "id": 276,
+    "en": "Plans are prepaid for the chosen term. There is no automatic renewal."
+  },
+  {
+    "id": 277,
+    "en": "How many screens can I watch at once?"
+  },
+  {
+    "id": 278,
+    "en": "Choose one, two or three simultaneous streams. Prices vary by server, term and stream count; the plan cards and checkout use the same price table. Household rules and actual service availability must be confirmed before purchase."
+  },
+  {
+    "id": 279,
+    "en": "How does the 24-hour trial work?"
+  },
+  {
+    "id": 280,
+    "en": "The trial costs CAD 2.99, lasts 24 hours and covers one stream. Use it to check your device, connection and requested channels before choosing a longer subscription."
+  },
+  {
+    "id": 281,
+    "en": "Compare IPTV plan terms, total prices in Canadian dollars and simultaneous stream options. Review every detail before checkout."
+  },
+  {
+    "id": 282,
+    "en": "Breadcrumb"
+  },
+  {
+    "id": 283,
+    "en": "24-Hour IPTV Trial | Lumina Stream"
+  },
+  {
+    "id": 284,
+    "en": "Try your own kind of evening"
+  },
+  {
+    "id": 285,
+    "en": "A little trial."
+  },
+  {
+    "id": 286,
+    "en": "A clearer choice."
+  },
+  {
+    "id": 287,
+    "en": "Check your screen, your connection and your favourites before a longer commitment."
+  },
+  {
+    "id": 288,
+    "en": "24-HOUR TRIAL"
+  },
+  {
+    "id": 289,
+    "en": "24 hours."
+  },
+  {
+    "id": 290,
+    "en": "Your own screen."
+  },
+  {
+    "id": 291,
+    "en": "Trial at a glance"
+  },
+  {
+    "id": 292,
+    "en": "The trial is CAD 2.99 for 24 hours on one simultaneous stream. Choose the trial to check your setup before a longer commitment."
+  },
+  {
+    "id": 293,
+    "en": "Make your trial count."
+  },
+  {
+    "id": 294,
+    "en": "Use the television or device you plan to watch on."
+  },
+  {
+    "id": 295,
+    "en": "Check the specific channels and languages you need."
+  },
+  {
+    "id": 296,
+    "en": "Try it during your usual viewing hours."
+  },
+  {
+    "id": 297,
+    "en": "Explore the player and programme guide, if included."
+  },
+  {
+    "id": 298,
+    "en": "Confirm the final trial and renewal terms first."
+  },
+  {
+    "id": 299,
+    "en": "Get the 24-hour trial"
+  },
+  {
+    "id": 300,
+    "en": "24 hours · 1 screen · CAD 2.99"
+  },
+  {
+    "id": 301,
+    "en": "Explore the 24-hour IPTV trial: CAD 2.99, one stream and a practical checklist for testing your device and viewing list."
+  },
+  {
+    "id": 302,
+    "en": "Real cinema seating before a movie"
+  },
+  {
+    "id": 303,
+    "en": "IPTV Channel & Viewing Availability Checklist | Lumina Stream"
+  },
+  {
+    "id": 304,
+    "en": "Find what matters to you"
+  },
+  {
+    "id": 305,
+    "en": "Your kind of watching."
+  },
+  {
+    "id": 306,
+    "en": "A great lineup starts with your favourites. Explore the categories below and build a list to check before you choose a plan."
+  },
+  {
+    "id": 307,
+    "en": "Find your favourites"
+  },
+  {
+    "id": 308,
+    "en": "Explore live TV, movies, sports and international viewing. Tell us the exact channels and languages you want so we can help you choose the right plan."
+  },
+  {
+    "id": 309,
+    "en": "Search viewing categories"
+  },
+  {
+    "id": 310,
+    "en": "8 viewing categories"
+  },
+  {
+    "id": 311,
+    "en": "Viewing interest"
+  },
+  {
+    "id": 312,
+    "en": "Documentary & discovery"
+  },
+  {
+    "id": 313,
+    "en": "Nature, history, science and a little more perspective."
+  },
+  {
+    "id": 314,
+    "en": "Add to my request"
+  },
+  {
+    "id": 315,
+    "en": "Entertainment & drama"
+  },
+  {
+    "id": 316,
+    "en": "Programmes, films and series for the nights you keep free."
+  },
+  {
+    "id": 317,
+    "en": "International & languages"
+  },
+  {
+    "id": 318,
+    "en": "Make room for the languages and cultures in your home."
+  },
+  {
+    "id": 319,
+    "en": "French-language viewing"
+  },
+  {
+    "id": 320,
+    "en": "Ask about the exact French-language and Quebec feeds you need."
+  },
+  {
+    "id": 321,
+    "en": "News & current affairs"
+  },
+  {
+    "id": 322,
+    "en": "Check the local, national and international sources you follow."
+  },
+  {
+    "id": 323,
+    "en": "Confirm the exact event, rights territory and available feed."
+  },
+  {
+    "id": 324,
+    "en": "Family viewing"
+  },
+  {
+    "id": 325,
+    "en": "Ask about age-appropriate programming and parental controls."
+  },
+  {
+    "id": 326,
+    "en": "Music & culture"
+  },
+  {
+    "id": 327,
+    "en": "Performances, arts and the sounds that feel like home."
+  },
+  {
+    "id": 328,
+    "en": "No matching category. You can ask support about any specific channel."
+  },
+  {
+    "id": 329,
+    "en": "interests selected"
+  },
+  {
+    "id": 330,
+    "en": "We’ll add them to your availability enquiry."
+  },
+  {
+    "id": 331,
+    "en": "Ask about availability"
+  },
+  {
+    "id": 332,
+    "en": "Explore viewing categories and create a channel availability request. Confirm your exact channels, languages and region before choosing an IPTV plan."
+  },
+  {
+    "id": 333,
+    "en": "Search a language, interest or category…"
+  },
+  {
+    "id": 334,
+    "en": "IPTV Device Compatibility Checklist | Lumina Stream"
+  },
+  {
+    "id": 335,
+    "en": "Keep the screen you love"
+  },
+  {
+    "id": 336,
+    "en": "Your sofa."
+  },
+  {
+    "id": 337,
+    "en": "Your screen."
+  },
+  {
+    "id": 338,
+    "en": "Your kind of simple."
+  },
+  {
+    "id": 339,
+    "en": "Start with what you already own. Then check the model, player and connection that bring it all together."
+  },
+  {
+    "id": 340,
+    "en": "The short answer"
+  },
+  {
+    "id": 341,
+    "en": "Compatibility depends on the exact device model, operating system, regional app store and the player supported by the service. Choose your device below for a practical setup checklist."
+  },
+  {
+    "id": 342,
+    "en": "All"
+  },
+  {
+    "id": 343,
+    "en": "TV devices"
+  },
+  {
+    "id": 344,
+    "en": "Smart TVs"
+  },
+  {
+    "id": 345,
+    "en": "Mobile"
+  },
+  {
+    "id": 346,
+    "en": "Computers"
+  },
+  {
+    "id": 347,
+    "en": "Your living room, beautifully connected."
+  },
+  {
+    "id": 348,
+    "en": "iPhone & Android"
+  },
+  {
+    "id": 349,
+    "en": "A smaller screen. The same favourite moments."
+  },
+  {
+    "id": 350,
+    "en": "Make room for a little downtime."
+  },
+  {
+    "id": 351,
+    "en": "Brand names identify device families. They do not imply a partnership or endorsement."
+  },
+  {
+    "id": 352,
+    "en": "Check IPTV setup requirements for Fire TV, Android TV, Apple TV, Samsung and LG TVs, phones, Windows and Mac. Confirm your exact model before ordering."
+  },
+  {
+    "id": 353,
+    "en": "Filter devices"
+  },
+  {
+    "id": 354,
+    "en": "IPTV Setup Guides by Device | Lumina Stream"
+  },
+  {
+    "id": 355,
+    "en": "A good start makes all the difference"
+  },
+  {
+    "id": 356,
+    "en": "Less figuring out."
+  },
+  {
+    "id": 357,
+    "en": "More settling in."
+  },
+  {
+    "id": 358,
+    "en": "Choose your device for a focused setup checklist. No mysterious downloads. No guessing which details you need."
+  },
+  {
+    "id": 359,
+    "en": "Before the first watch"
+  },
+  {
+    "id": 360,
+    "en": "Three things"
+  },
+  {
+    "id": 361,
+    "en": "to have ready."
+  },
+  {
+    "id": 362,
+    "en": "Your exact device."
+  },
+  {
+    "id": 363,
+    "en": "Find the model and operating system. Check the supported player in its official app store."
+  },
+  {
+    "id": 364,
+    "en": "Your connection."
+  },
+  {
+    "id": 365,
+    "en": "Use the network you plan to watch on. Compare Ethernet where your hardware supports it."
+  },
+  {
+    "id": 366,
+    "en": "Your account details."
+  },
+  {
+    "id": 367,
+    "en": "Use only credentials issued by your authorised provider. Keep passwords and playlist URLs private."
+  },
+  {
+    "id": 368,
+    "en": "Get a clear IPTV setup checklist for your television, streaming device, phone or computer. Learn what to check before installing a player or adding an account."
+  },
+  {
+    "id": 369,
+    "en": "Fire TV IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 370,
+    "en": "Your device. A clearer start."
+  },
+  {
+    "id": 371,
+    "en": "Settle in with"
+  },
+  {
+    "id": 372,
+    "en": "Fire TV."
+  },
+  {
+    "id": 373,
+    "en": "Check your Fire TV model and the compatible player in your regional Amazon Appstore before ordering."
+  },
+  {
+    "id": 374,
+    "en": "Your setup checklist"
+  },
+  {
+    "id": 375,
+    "en": "Check your model and app store"
+  },
+  {
+    "id": 376,
+    "en": "Install from an official source"
+  },
+  {
+    "id": 377,
+    "en": "Add your authorised account"
+  },
+  {
+    "id": 378,
+    "en": "Load your guide and test a stream"
+  },
+  {
+    "id": 379,
+    "en": "Make the setup your own"
+  },
+  {
+    "id": 380,
+    "en": "Ask about your model"
+  },
+  {
+    "id": 381,
+    "en": "Before installing, confirm your exact Fire TV model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 382,
+    "en": "Check your Fire TV model and the compatible player in your regional Amazon Appstore before ordering. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 383,
+    "en": "Use the official store or the developer’s verified website for your Fire TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 384,
+    "en": "Choose the connection method supported by your player and provider. Enter the supplied server address and login or playlist URL exactly. Check for extra spaces and keep the complete details private."
+  },
+  {
+    "id": 385,
+    "en": "Allow the player to load the content supplied by your provider. Check a channel you care about, the audio language and the programme guide if your service includes one."
+  },
+  {
+    "id": 386,
+    "en": "Save favourites and review parental controls where available. If something fails, note the device model, player version, affected stream and time before contacting support."
+  },
+  {
+    "id": 387,
+    "en": "If it doesn’t work first time."
+  },
+  {
+    "id": 388,
+    "en": "Check whether the issue affects one stream or the entire player. Compare another app on the same device and avoid sharing private credentials in screenshots."
+  },
+  {
+    "id": 389,
+    "en": "Read the buffering checklist"
+  },
+  {
+    "id": 390,
+    "en": "Explore common questions"
+  },
+  {
+    "id": 391,
+    "en": "Prepare your Fire TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 392,
+    "en": "Android & Google TV IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 393,
+    "en": "Android & Google TV."
+  },
+  {
+    "id": 394,
+    "en": "Confirm the app is built for your TV operating system; a phone app is not necessarily a TV app."
+  },
+  {
+    "id": 395,
+    "en": "Before installing, confirm your exact Android & Google TV model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 396,
+    "en": "Confirm the app is built for your TV operating system; a phone app is not necessarily a TV app. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 397,
+    "en": "Use the official store or the developer’s verified website for your Android & Google TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 398,
+    "en": "Prepare your Android & Google TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 399,
+    "en": "Samsung & LG TVs IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 400,
+    "en": "Samsung & LG TVs."
+  },
+  {
+    "id": 401,
+    "en": "App availability varies by model year, region and whether your TV runs Tizen or webOS."
+  },
+  {
+    "id": 402,
+    "en": "Before installing, confirm your exact Samsung & LG TVs model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 403,
+    "en": "App availability varies by model year, region and whether your TV runs Tizen or webOS. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 404,
+    "en": "Use the official store or the developer’s verified website for your Samsung & LG TVs player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 405,
+    "en": "Prepare your Samsung & LG TVs for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 406,
+    "en": "Apple TV IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 407,
+    "en": "Apple TV."
+  },
+  {
+    "id": 408,
+    "en": "Check the tvOS App Store for a player compatible with the credentials supplied by your provider."
+  },
+  {
+    "id": 409,
+    "en": "Before installing, confirm your exact Apple TV model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 410,
+    "en": "Check the tvOS App Store for a player compatible with the credentials supplied by your provider. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 411,
+    "en": "Use the official store or the developer’s verified website for your Apple TV player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 412,
+    "en": "Prepare your Apple TV for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 413,
+    "en": "iPhone & Android IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 414,
+    "en": "iPhone & Android."
+  },
+  {
+    "id": 415,
+    "en": "Check mobile data usage and country restrictions. Your player and provider must both support your phone."
+  },
+  {
+    "id": 416,
+    "en": "Before installing, confirm your exact iPhone & Android model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 417,
+    "en": "Check mobile data usage and country restrictions. Your player and provider must both support your phone. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 418,
+    "en": "Use the official store or the developer’s verified website for your iPhone & Android player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 419,
+    "en": "Prepare your iPhone & Android for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 420,
+    "en": "Windows & Mac IPTV Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 421,
+    "en": "Windows & Mac."
+  },
+  {
+    "id": 422,
+    "en": "A compatible desktop player may support your provider’s playlist. Use only official software downloads."
+  },
+  {
+    "id": 423,
+    "en": "Before installing, confirm your exact Windows & Mac model, the player’s availability in your region and the connection format your provider supports."
+  },
+  {
+    "id": 424,
+    "en": "A compatible desktop player may support your provider’s playlist. Use only official software downloads. Confirm the exact player and any separate app fee with your provider before buying a subscription."
+  },
+  {
+    "id": 425,
+    "en": "Use the official store or the developer’s verified website for your Windows & Mac player. Read its current instructions. Do not install an unfamiliar package just because its name looks similar."
+  },
+  {
+    "id": 426,
+    "en": "Prepare your Windows & Mac for IPTV: check model compatibility, official player sources, account details and connection tests before purchasing."
+  },
+  {
+    "id": 427,
+    "en": "IPTV FAQ: Plans, Devices, Setup & Billing | Lumina Stream"
+  },
+  {
+    "id": 428,
+    "en": "Good questions. Clear answers."
+  },
+  {
+    "id": 429,
+    "en": "A lot less guesswork."
+  },
+  {
+    "id": 430,
+    "en": "From your first question to your first setup. Find the answer you came for, without the runaround."
+  },
+  {
+    "id": 431,
+    "en": "IPTV is television delivered over an internet connection. A compatible device, a player and an authorised content source work together. Plans, channel availability and device limits vary by provider."
+  },
+  {
+    "id": 432,
+    "en": "Search frequently asked questions"
+  },
+  {
+    "id": 433,
+    "en": "All questions"
+  },
+  {
+    "id": 434,
+    "en": "Getting started"
+  },
+  {
+    "id": 435,
+    "en": "Plans & billing"
+  },
+  {
+    "id": 436,
+    "en": "Devices & setup"
+  },
+  {
+    "id": 437,
+    "en": "Streaming & support"
+  },
+  {
+    "id": 438,
+    "en": "Trust & availability"
+  },
+  {
+    "id": 439,
+    "en": "15 answers"
+  },
+  {
+    "id": 440,
+    "en": "Can I check a specific channel before choosing a plan?"
+  },
+  {
+    "id": 441,
+    "en": "Yes. Use the channel request tool to build a list of the channels, languages or programmes that matter to you. Ask support to confirm the exact lineup for your country and plan before you pay. Tell us your country and the exact feeds that matter to you."
+  },
+  {
+    "id": 442,
+    "en": "Does an IPTV player include a subscription?"
+  },
+  {
+    "id": 443,
+    "en": "No. A player is software that plays a stream or playlist. Content access is separate, and some players charge their own fee. Only enter credentials issued by your authorised service provider."
+  },
+  {
+    "id": 444,
+    "en": "What do I need before setup?"
+  },
+  {
+    "id": 445,
+    "en": "Have your device model, a stable internet connection, a compatible player and the connection details supplied by your provider ready. Install software from the official app store or developer source. Keep account credentials private."
+  },
+  {
+    "id": 446,
+    "en": "Why does a stream buffer?"
+  },
+  {
+    "id": 447,
+    "en": "Buffering can come from a weak Wi-Fi signal, network congestion, device limitations or the content source. First compare another app on the same device, restart the player, try Ethernet where available and test a lower playback quality. If only one channel fails, tell support which channel and when it happened."
+  },
+  {
+    "id": 448,
+    "en": "What should I include in a support request?"
+  },
+  {
+    "id": 449,
+    "en": "Share your device model, player name, a description of the issue, the affected channel or title, and when it happened. Never put your password, full playlist URL or payment information in a public message."
+  },
+  {
+    "id": 450,
+    "en": "How can I check a provider’s content permissions?"
+  },
+  {
+    "id": 451,
+    "en": "Ask the provider which content it is authorised to distribute and in which countries. Confirm the business identity, service terms, refund policy and payment route before purchasing. A large channel count alone does not establish that a provider has permission to distribute the content."
+  },
+  {
+    "id": 452,
+    "en": "Can I watch while travelling?"
+  },
+  {
+    "id": 453,
+    "en": "Country restrictions and account rules may limit access when you travel. Check the permitted territory and household rules before relying on the service outside your usual location. A VPN does not change the provider’s distribution rights."
+  },
+  {
+    "id": 454,
+    "en": "No matching answer yet. Try a shorter search or"
+  },
+  {
+    "id": 455,
+    "en": "ask your question"
+  },
+  {
+    "id": 456,
+    "en": "Still a little unsure?"
+  },
+  {
+    "id": 457,
+    "en": "Tell us your device and what you want to watch."
+  },
+  {
+    "id": 458,
+    "en": "Start a conversation"
+  },
+  {
+    "id": 459,
+    "en": "Find direct answers to IPTV questions about plans, CAD pricing, device compatibility, trials, buffering, content availability and Lumina Stream."
+  },
+  {
+    "id": 460,
+    "en": "Try “screens”, “trial” or “buffering”…"
+  },
+  {
+    "id": 461,
+    "en": "Filter questions"
+  },
+  {
+    "id": 462,
+    "en": "The Lumina Journal | IPTV Guides, Setup & Streaming Tips"
+  },
+  {
+    "id": 463,
+    "en": "A little know-how."
+  },
+  {
+    "id": 464,
+    "en": "A better night in."
+  },
+  {
+    "id": 465,
+    "en": "Thoughtful answers for the way you watch. Start with the basics or find the detail that makes the difference."
+  },
+  {
+    "id": 466,
+    "en": "Search journal articles"
+  },
+  {
+    "id": 467,
+    "en": "Streaming"
+  },
+  {
+    "id": 468,
+    "en": "6 practical guides"
+  },
+  {
+    "id": 469,
+    "en": "Buffering? Start with these simple checks."
+  },
+  {
+    "id": 470,
+    "en": "A structured troubleshooting checklist for buffering, from Wi-Fi and device checks to useful support information."
+  },
+  {
+    "id": 471,
+    "en": "What “4K ready” really means for your evenings."
+  },
+  {
+    "id": 472,
+    "en": "Understand the difference between a 4K screen, a 4K source and a streaming experience that supports both."
+  },
+  {
+    "id": 473,
+    "en": "An IPTV buying checklist for Canadian households."
+  },
+  {
+    "id": 474,
+    "en": "Check language options, Canadian-dollar pricing, content availability, support and service terms before subscribing."
+  },
+  {
+    "id": 475,
+    "en": "No guides match your search. Try another topic."
+  },
+  {
+    "id": 476,
+    "en": "Essentials archive"
+  },
+  {
+    "id": 477,
+    "en": "Buying guides archive"
+  },
+  {
+    "id": 478,
+    "en": "Setup archive"
+  },
+  {
+    "id": 479,
+    "en": "Streaming archive"
+  },
+  {
+    "id": 480,
+    "en": "Understand IPTV, compare plans, choose a device and solve streaming problems with practical guides from the Lumina Stream journal."
+  },
+  {
+    "id": 481,
+    "en": "Search devices, plans or streaming…"
+  },
+  {
+    "id": 482,
+    "en": "Filter articles"
+  },
+  {
+    "id": 483,
+    "en": "A viewer using a remote in front of a television"
+  },
+  {
+    "id": 484,
+    "en": "A close-up photograph of a television remote in use"
+  },
+  {
+    "id": 485,
+    "en": "Two people watching television together on a sofa"
+  },
+  {
+    "id": 486,
+    "en": "Article topic archives"
+  },
+  {
+    "id": 487,
+    "en": "What is IPTV? A clear guide before you subscribe. | Lumina Stream"
+  },
+  {
+    "id": 488,
+    "en": "By Lumina Stream editorial"
+  },
+  {
+    "id": 489,
+    "en": "20 November 2026"
+  },
+  {
+    "id": 490,
+    "en": "In this guide"
+  },
+  {
+    "id": 491,
+    "en": "The three parts of your setup"
+  },
+  {
+    "id": 492,
+    "en": "A player is not a content subscription"
+  },
+  {
+    "id": 493,
+    "en": "What determines the picture quality?"
+  },
+  {
+    "id": 494,
+    "en": "Questions worth asking before you pay"
+  },
+  {
+    "id": 495,
+    "en": "All journal articles"
+  },
+  {
+    "id": 496,
+    "en": "IPTV delivers television over an internet connection. The player, content subscription and internet access are separate parts of the experience."
+  },
+  {
+    "id": 497,
+    "en": "IPTV stands for Internet Protocol Television. Rather than arriving through a traditional cable connection or satellite dish, a stream reaches your device over your internet connection. That explains the delivery method; it does not tell you which channels a service includes or whether a provider has permission to distribute them."
+  },
+  {
+    "id": 498,
+    "en": "A working setup usually has three parts: a device such as a television or streaming box, a player that can open the stream, and an active subscription or other authorised source of content. An internet subscription is a separate requirement."
+  },
+  {
+    "id": 499,
+    "en": "An IPTV player organises and plays streams. Installing one does not automatically give you access to television channels, films or series. Some players have an additional purchase or subscription fee. Check that cost before comparing providers."
+  },
+  {
+    "id": 500,
+    "en": "Your provider may supply a playlist address or a server address with login details. Those details can contain private account information. Enter them only in a compatible player that you trust and never post them in a public forum."
+  },
+  {
+    "id": 501,
+    "en": "The source resolution, stream bitrate, your device, display and home network all affect what you see. A service advertising 4K does not mean every programme is available in native 4K. Ask about the particular channels and events you want to watch."
+  },
+  {
+    "id": 502,
+    "en": "When comparing a service, test the same device and network you plan to use every day. A successful test on a phone does not prove that an older television or a distant Wi-Fi connection will work just as well."
+  },
+  {
+    "id": 503,
+    "en": "Ask for the current channel lineup for your country, simultaneous stream limits, device compatibility, full price, renewal terms and refund conditions. Confirm the business identity and how support can be reached."
+  },
+  {
+    "id": 504,
+    "en": "Ask the provider to confirm the content it is authorised to distribute in your location. A large catalogue, low price or polished website is not a substitute for that confirmation. Keep a copy of the terms and order information."
+  },
+  {
+    "id": 505,
+    "en": "Your next useful step."
+  },
+  {
+    "id": 506,
+    "en": "Check your device, make a viewing list and compare the full plan terms before you pay. Use the focused guides below to keep the next step simple."
+  },
+  {
+    "id": 507,
+    "en": "Check your device"
+  },
+  {
+    "id": 508,
+    "en": "Compare subscription plans"
+  },
+  {
+    "id": 509,
+    "en": "About this guide: written for Lumina Stream. Device apps, pricing and availability can change. Confirm current instructions with the official device manufacturer, player developer and your content provider."
+  },
+  {
+    "id": 510,
+    "en": "Keep exploring."
+  },
+  {
+    "id": 511,
+    "en": "All guides"
+  },
+  {
+    "id": 512,
+    "en": "Choose a plan for the way you actually watch. | Lumina Stream"
+  },
+  {
+    "id": 513,
+    "en": "Start with your viewing list"
+  },
+  {
+    "id": 514,
+    "en": "Count simultaneous viewers, not devices"
+  },
+  {
+    "id": 515,
+    "en": "Compare total cost over the same period"
+  },
+  {
+    "id": 516,
+    "en": "Use a trial as a practical test"
+  },
+  {
+    "id": 517,
+    "en": "Choose a plan by checking your must-have channels, device compatibility, simultaneous streams, full price and renewal terms. Test the service before a longer commitment."
+  },
+  {
+    "id": 518,
+    "en": "Write down the programmes, languages and channel names that would make a subscription useful to you. Distinguish something you watch every day from a category you only browse occasionally. This list is more useful than choosing the largest advertised catalogue."
+  },
+  {
+    "id": 519,
+    "en": "Ask the provider to confirm those specific channels for your location and plan. A generic logo grid or an old channel list may not reflect what is currently available. If a particular event is the reason you are subscribing, ask about that event directly."
+  },
+  {
+    "id": 520,
+    "en": "A household may have several televisions and phones but only one or two people watching at the same time. A simultaneous stream limit describes how many streams can run together, which can differ from the number of devices you may register."
+  },
+  {
+    "id": 521,
+    "en": "Confirm household and travel restrictions. Do not assume a two-stream plan can be shared across separate homes. If the terms are unclear, get an answer before checkout."
+  },
+  {
+    "id": 522,
+    "en": "Compare the total amount due for each term, not just the monthly equivalent printed in a large font. Include player fees, taxes, hardware and any recurring renewal charge. A longer prepaid term is a larger commitment even if its monthly equivalent is lower."
+  },
+  {
+    "id": 523,
+    "en": "Lumina Stream uses a single price catalogue across plan cards and checkout. Choose a term and stream count to compare the complete total, not just a monthly equivalent."
+  },
+  {
+    "id": 524,
+    "en": "Try the player on your actual television, check the channels you care about and watch at the times you normally use the service. Explore the programme guide and language options if those features matter to you."
+  },
+  {
+    "id": 525,
+    "en": "Read the trial duration, charge, activation time and any renewal conditions. A trial should help you decide, not hide an unexpected long-term commitment. Keep your confirmation details for reference."
+  },
+  {
+    "id": 526,
+    "en": "Your device. Your sofa. A simpler setup. | Lumina Stream"
+  },
+  {
+    "id": 527,
+    "en": "Identify the device you will actually use"
+  },
+  {
+    "id": 528,
+    "en": "Check an official app source"
+  },
+  {
+    "id": 529,
+    "en": "Prepare the connection details"
+  },
+  {
+    "id": 530,
+    "en": "Test one thing at a time"
+  },
+  {
+    "id": 531,
+    "en": "Check the exact device model, operating system and available player before purchasing. Player availability and features can vary by country and model year."
+  },
+  {
+    "id": 532,
+    "en": "Find the model number and operating system in the device settings or on its product label. A television brand alone is not enough to establish compatibility: different model years can have different software and app support."
+  },
+  {
+    "id": 533,
+    "en": "If you use an HDMI streaming device, check that device separately from the television. The streaming device runs the player, while the television displays its output."
+  },
+  {
+    "id": 534,
+    "en": "Look for a player in your device’s official app store and read its developer information. Confirm that it accepts the type of connection details your provider supplies. An app with a similar name is not necessarily the same product."
+  },
+  {
+    "id": 535,
+    "en": "Avoid downloading unknown packages just because a forum post promises access to premium content. Check the developer’s official instructions and any player fee before installing."
+  },
+  {
+    "id": 536,
+    "en": "Your provider may use a playlist URL or a server address with a username and password. Copy the values carefully and check for accidental spaces. You should not need to share your device account password with the television provider."
+  },
+  {
+    "id": 537,
+    "en": "A playlist URL may itself contain your username and password. Treat the entire address as private. If you need help, redact sensitive parts before sending a screenshot."
+  },
+  {
+    "id": 538,
+    "en": "Load the player, check a channel and then test the programme guide if the service includes one. If something fails, note whether it affects one stream, every stream or the entire app. That distinction helps support find the cause."
+  },
+  {
+    "id": 539,
+    "en": "Keep track of the device model, player version and the time of any issue. Review the setup guide for your device family and contact support before changing advanced settings you do not understand."
+  },
+  {
+    "id": 540,
+    "en": "Buffering? Start with these simple checks. | Lumina Stream"
+  },
+  {
+    "id": 541,
+    "en": "Find out how wide the problem is"
+  },
+  {
+    "id": 542,
+    "en": "Check the connection near the screen"
+  },
+  {
+    "id": 543,
+    "en": "Give the player a clean start"
+  },
+  {
+    "id": 544,
+    "en": "Send support something useful"
+  },
+  {
+    "id": 545,
+    "en": "First check whether the problem affects one channel or every app. Then test your home network, restart the player and try a lower quality setting if available."
+  },
+  {
+    "id": 546,
+    "en": "Try another channel, then another streaming app on the same device. If only one channel fails, the source may be the issue. If every app struggles, your device or network may need attention. A speed test is one signal, not a complete diagnosis."
+  },
+  {
+    "id": 547,
+    "en": "Record the affected channel, time and what the player does. A frozen picture, repeated loading spinner and login error can point to different causes."
+  },
+  {
+    "id": 548,
+    "en": "A fast internet plan does not guarantee a strong Wi-Fi signal beside your television. Walls, distance, interference and other household traffic can affect the connection. Test near the device rather than only next to the router."
+  },
+  {
+    "id": 549,
+    "en": "Where your hardware supports it, compare a wired Ethernet connection. Pause other large downloads during the test. Change one variable at a time so you can see whether it helps."
+  },
+  {
+    "id": 550,
+    "en": "Close and reopen the player. If the problem continues, restart the device using its normal restart option. Check the official store for updates. Avoid clearing account data unless you have the connection details needed to sign back in."
+  },
+  {
+    "id": 551,
+    "en": "If a lower playback quality is available, use it for a comparison. Improvement at a lower quality suggests the connection or device may be struggling with the original stream, but it is not proof of a single cause."
+  },
+  {
+    "id": 552,
+    "en": "Include your device model, player, affected stream, approximate time and whether other apps work. Explain which tests you have already tried. That helps avoid repeating the same steps."
+  },
+  {
+    "id": 553,
+    "en": "Never send a full payment card number, player account password or unredacted playlist in a public message. Support should explain any account information it needs and provide a suitable private channel."
+  },
+  {
+    "id": 554,
+    "en": "What “4K ready” really means for your evenings. | Lumina Stream"
+  },
+  {
+    "id": 555,
+    "en": "Start at the source"
+  },
+  {
+    "id": 556,
+    "en": "Check the full chain"
+  },
+  {
+    "id": 557,
+    "en": "Stability matters as much as a peak speed"
+  },
+  {
+    "id": 558,
+    "en": "Check before committing"
+  },
+  {
+    "id": 559,
+    "en": "To watch native 4K, the content source, plan, player, streaming device and display must all support it, with a connection stable enough for the stream."
+  },
+  {
+    "id": 560,
+    "en": "A stream can only contain the detail supplied by its source. A 4K-capable device may scale a lower-resolution image to fit the screen, but that is different from receiving native 4K content. Ask about the actual channel or title, not just the platform’s maximum capability."
+  },
+  {
+    "id": 561,
+    "en": "Resolution is also separate from HDR, frame rate and audio format. A label that mentions one feature does not promise all the others."
+  },
+  {
+    "id": 562,
+    "en": "Your player, streaming device, connection to the screen and display all need to support the format in use. Device settings or a player limitation can affect the result. Follow the manufacturer’s guidance for your exact model."
+  },
+  {
+    "id": 563,
+    "en": "For a practical test, use the same player, network and display you will normally watch on. A demonstration on a different setup cannot confirm what your own equipment will deliver."
+  },
+  {
+    "id": 564,
+    "en": "A short speed test can show a high number while a wireless connection still fluctuates. Household downloads, signal quality and congestion can all affect sustained playback. Compare different times of day if the problem is intermittent."
+  },
+  {
+    "id": 565,
+    "en": "Choose a playback quality that works reliably on your setup. A stable HD stream can be a better experience than repeatedly interrupted higher-resolution playback."
+  },
+  {
+    "id": 566,
+    "en": "Ask the provider which sources are available in native 4K in your country and on your plan. Confirm any device requirements and use a trial where one is offered."
+  },
+  {
+    "id": 567,
+    "en": "Check the resolution and regional availability of your preferred channels before purchase. A player or screen with 4K support does not make every content source native 4K."
+  },
+  {
+    "id": 568,
+    "en": "An IPTV buying checklist for Canadian households. | Lumina Stream"
+  },
+  {
+    "id": 569,
+    "en": "Make language part of your shortlist"
+  },
+  {
+    "id": 570,
+    "en": "Read the price and payment details together"
+  },
+  {
+    "id": 571,
+    "en": "Check your device before your plan"
+  },
+  {
+    "id": 572,
+    "en": "Keep the provider accountable"
+  },
+  {
+    "id": 573,
+    "en": "Canadian viewers should confirm local content availability, English or French options, prices in CAD, device support and the provider’s rights to distribute the service in Canada."
+  },
+  {
+    "id": 574,
+    "en": "A household may watch news in French, films in English and international programmes in another language. Ask about original audio, subtitles and the specific channels you need. A category called “French” does not guarantee a particular local feed."
+  },
+  {
+    "id": 575,
+    "en": "For viewers in Quebec, distinguish French-language availability from a confirmed Quebec channel lineup. Ask about the exact version of a channel or programme when regional coverage matters."
+  },
+  {
+    "id": 576,
+    "en": "Confirm the currency, total charge, applicable taxes, term and renewal policy. If a monthly equivalent is displayed for an annual plan, check how much will be taken at checkout. Save the final summary."
+  },
+  {
+    "id": 577,
+    "en": "Use a payment route that clearly identifies the merchant. Never send money to an account copied from an unrelated reference website. Use only the payment route shown for your own order."
+  },
+  {
+    "id": 578,
+    "en": "Confirm the model, operating system, player availability and any separate player cost. If more than one person watches at once, check the simultaneous stream limit and household rules."
+  },
+  {
+    "id": 579,
+    "en": "A trial on your own network can reveal practical issues that a feature list will not. Check the channels you need during your usual viewing hours."
+  },
+  {
+    "id": 580,
+    "en": "Look for a clear business identity, contact route, service terms and refund policy. Ask about authorised distribution in Canada and any regional restrictions. Marketing claims alone do not settle those questions."
+  },
+  {
+    "id": 581,
+    "en": "Use these checks to compare the service with your household’s viewing needs. Keep your order information and the service terms for reference."
+  },
+  {
+    "id": 582,
+    "en": "Essentials IPTV Guides | Lumina Stream"
+  },
+  {
+    "id": 583,
+    "en": "A little more"
+  },
+  {
+    "id": 584,
+    "en": "essentials."
+  },
+  {
+    "id": 585,
+    "en": "Browse essentials articles from Lumina Stream: clear, practical information for choosing and setting up your television experience."
+  },
+  {
+    "id": 586,
+    "en": "Buying guides IPTV Guides | Lumina Stream"
+  },
+  {
+    "id": 587,
+    "en": "buying guides."
+  },
+  {
+    "id": 588,
+    "en": "Browse buying guides articles from Lumina Stream: clear, practical information for choosing and setting up your television experience."
+  },
+  {
+    "id": 589,
+    "en": "Setup IPTV Guides | Lumina Stream"
+  },
+  {
+    "id": 590,
+    "en": "setup."
+  },
+  {
+    "id": 591,
+    "en": "Browse setup articles from Lumina Stream: clear, practical information for choosing and setting up your television experience."
+  },
+  {
+    "id": 592,
+    "en": "Streaming IPTV Guides | Lumina Stream"
+  },
+  {
+    "id": 593,
+    "en": "streaming."
+  },
+  {
+    "id": 594,
+    "en": "Browse streaming articles from Lumina Stream: clear, practical information for choosing and setting up your television experience."
+  },
+  {
+    "id": 595,
+    "en": "About Lumina Stream | A Clearer Way to Choose IPTV"
+  },
+  {
+    "id": 596,
+    "en": "Your channels."
+  },
+  {
+    "id": 597,
+    "en": "Your movies."
+  },
+  {
+    "id": 598,
+    "en": "Your kind of TV."
+  },
+  {
+    "id": 599,
+    "en": "Lumina Stream brings live television, films and series into one subscription experience. Choose Duck, Edge, Raccoon, Trex or the on-demand Ciné Pack, with flexible terms and one to three simultaneous streams."
+  },
+  {
+    "id": 600,
+    "en": "Your viewing. Your choice."
+  },
+  {
+    "id": 601,
+    "en": "Pick the term that works for you: one, three, six or twelve months. Compare the full price in Canadian dollars, check your preferred device and choose the number of screens your household needs."
+  },
+  {
+    "id": 602,
+    "en": "Start with the things you love."
+  },
+  {
+    "id": 603,
+    "en": "Live channels, entertainment, sports, family viewing and international programming. Tell us the exact channels and languages you want, and we’ll help you choose a suitable plan."
+  },
+  {
+    "id": 604,
+    "en": "Meet the thinking behind Lumina Stream: clear plans, practical setup help and honest service information. Explore live channels, movies, series and flexible subscription terms."
+  },
+  {
+    "id": 605,
+    "en": "IPTV in Canada: Buying & Setup Checklist | Lumina Stream"
+  },
+  {
+    "id": 606,
+    "en": "Canada"
+  },
+  {
+    "id": 607,
+    "en": "Your viewing checklist · Canada"
+  },
+  {
+    "id": 608,
+    "en": "A clearer IPTV checklist for Canada."
+  },
+  {
+    "id": 609,
+    "en": "Compare CAD pricing, language options, compatible devices and content availability before choosing IPTV in Canada."
+  },
+  {
+    "id": 610,
+    "en": "Make a clearer choice"
+  },
+  {
+    "id": 611,
+    "en": "Start with the Canadian details"
+  },
+  {
+    "id": 612,
+    "en": "Make the total price clear"
+  },
+  {
+    "id": 613,
+    "en": "Try your normal viewing setup"
+  },
+  {
+    "id": 614,
+    "en": "Choose your IPTV subscription for your household in Canada. Start with your channels, languages, device and the number of screens you watch at the same time."
+  },
+  {
+    "id": 615,
+    "en": "Confirm that the provider is authorised to distribute the channels you want in Canada. Ask about the precise regional feed, not just a general category."
+  },
+  {
+    "id": 616,
+    "en": "Check that the quoted price is in Canadian dollars, whether any taxes apply, and how much is due for the entire term. Ask if renewal is manual or automatic."
+  },
+  {
+    "id": 617,
+    "en": "Use your own device and home connection to test the experience. Watch during your usual hours and confirm simultaneous stream rules."
+  },
+  {
+    "id": 618,
+    "en": "Before you choose a plan."
+  },
+  {
+    "id": 619,
+    "en": "Keep your device model, viewing list and preferred term together. Ask the operator to confirm the complete catalogue, price, payment route, service terms and refund policy for your location."
+  },
+  {
+    "id": 620,
+    "en": "Prepare an enquiry"
+  },
+  {
+    "id": 621,
+    "en": "Read the Canadian checklist"
+  },
+  {
+    "id": 622,
+    "en": "Contact & IPTV Availability Enquiries | Lumina Stream"
+  },
+  {
+    "id": 623,
+    "en": "A good place to start"
+  },
+  {
+    "id": 624,
+    "en": "Let’s find"
+  },
+  {
+    "id": 625,
+    "en": "your kind of TV."
+  },
+  {
+    "id": 626,
+    "en": "Your device. Your favourite channels. A question about a plan. Start with a little context and make the next step clearer."
+  },
+  {
+    "id": 627,
+    "en": "Thinking about your setup?"
+  },
+  {
+    "id": 628,
+    "en": "Find your device model and the player you plan to use."
+  },
+  {
+    "id": 629,
+    "en": "A channel you can’t miss?"
+  },
+  {
+    "id": 630,
+    "en": "List the exact names and languages you want to confirm."
+  },
+  {
+    "id": 631,
+    "en": "Prepare your channel, device or subscription enquiry below. You can review and copy the complete message."
+  },
+  {
+    "id": 632,
+    "en": "Tell us a little about it."
+  },
+  {
+    "id": 633,
+    "en": "Your name"
+  },
+  {
+    "id": 634,
+    "en": "Email address"
+  },
+  {
+    "id": 635,
+    "en": "What can we help with?"
+  },
+  {
+    "id": 636,
+    "en": "Channel availability"
+  },
+  {
+    "id": 637,
+    "en": "Device compatibility"
+  },
+  {
+    "id": 638,
+    "en": "Technical support"
+  },
+  {
+    "id": 639,
+    "en": "Something else"
+  },
+  {
+    "id": 640,
+    "en": "A little more detail"
+  },
+  {
+    "id": 641,
+    "en": "Keep passwords, playlist URLs and payment details out of this message."
+  },
+  {
+    "id": 642,
+    "en": "Prepare my message"
+  },
+  {
+    "id": 643,
+    "en": "Nothing is sent. You can review and copy the message."
+  },
+  {
+    "id": 644,
+    "en": "Your prepared message"
+  },
+  {
+    "id": 645,
+    "en": "Copy message"
+  },
+  {
+    "id": 646,
+    "en": "Prepare an IPTV enquiry about your channels, device or plan. Prepare and review your complete channel, device or subscription enquiry."
+  },
+  {
+    "id": 647,
+    "en": "Your device model, the channels or languages you need, and where you plan to watch…"
+  },
+  {
+    "id": 648,
+    "en": "Your IPTV Subscription & Checkout | Lumina Stream"
+  },
+  {
+    "id": 649,
+    "en": "Checkout"
+  },
+  {
+    "id": 650,
+    "en": "Your evening starts with a clear choice"
+  },
+  {
+    "id": 651,
+    "en": "Make yourself"
+  },
+  {
+    "id": 652,
+    "en": "comfortable."
+  },
+  {
+    "id": 653,
+    "en": "One clear summary. Every detail in its place."
+  },
+  {
+    "id": 654,
+    "en": "Your plan"
+  },
+  {
+    "id": 655,
+    "en": "Review & payment"
+  },
+  {
+    "id": 656,
+    "en": "Confirmation"
+  },
+  {
+    "id": 657,
+    "en": "A plan that feels right."
+  },
+  {
+    "id": 658,
+    "en": "Choose your server or trial"
+  },
+  {
+    "id": 659,
+    "en": "$2.99 CAD"
+  },
+  {
+    "id": 660,
+    "en": "1 month"
+  },
+  {
+    "id": 661,
+    "en": "3 months"
+  },
+  {
+    "id": 662,
+    "en": "6 months"
+  },
+  {
+    "id": 663,
+    "en": "12 months"
+  },
+  {
+    "id": 664,
+    "en": "Your main device"
+  },
+  {
+    "id": 665,
+    "en": "Choose your device"
+  },
+  {
+    "id": 666,
+    "en": "Other / not sure yet"
+  },
+  {
+    "id": 667,
+    "en": "Your viewing preferences."
+  },
+  {
+    "id": 668,
+    "en": "Choose the viewing categories you want included in your request."
+  },
+  {
+    "id": 669,
+    "en": "What do you like watching?"
+  },
+  {
+    "id": 670,
+    "en": "A little of everything"
+  },
+  {
+    "id": 671,
+    "en": "A few details for your summary."
+  },
+  {
+    "id": 672,
+    "en": "Full name"
+  },
+  {
+    "id": 673,
+    "en": "Subscriptions for Canada · All prices in CAD"
+  },
+  {
+    "id": 674,
+    "en": "Your details stay on this page until you choose a payment option. We do not ask for card information on this form."
+  },
+  {
+    "id": 675,
+    "en": "Review my order"
+  },
+  {
+    "id": 676,
+    "en": "INTERAC E-TRANSFER"
+  },
+  {
+    "id": 677,
+    "en": "Pay by"
+  },
+  {
+    "id": 678,
+    "en": "Interac e-Transfer."
+  },
+  {
+    "id": 679,
+    "en": "Send your transfer from your own Canadian bank’s app. Use the exact total and include your order reference."
+  },
+  {
+    "id": 680,
+    "en": "Order reference"
+  },
+  {
+    "id": 681,
+    "en": "Preparing reference"
+  },
+  {
+    "id": 682,
+    "en": "Total · CAD"
+  },
+  {
+    "id": 683,
+    "en": "Method"
+  },
+  {
+    "id": 684,
+    "en": "Interac"
+  },
+  {
+    "id": 685,
+    "en": "Copy each field below to avoid typos."
+  },
+  {
+    "id": 686,
+    "en": "Recipient name · Company"
+  },
+  {
+    "id": 687,
+    "en": "Copy"
+  },
+  {
+    "id": 688,
+    "en": "Send to · Email"
+  },
+  {
+    "id": 689,
+    "en": "payments@example.com"
+  },
+  {
+    "id": 690,
+    "en": "Exact amount · CAD"
+  },
+  {
+    "id": 691,
+    "en": "Memo / message · Your order reference"
+  },
+  {
+    "id": 692,
+    "en": "Include your order reference in the transfer memo so the payment can be matched to your subscription."
+  },
+  {
+    "id": 693,
+    "en": "You do not need to choose a bank here. Send the transfer through your own participating Canadian bank or credit union."
+  },
+  {
+    "id": 694,
+    "en": "Check the recipient name your banking app displays before sending."
+  },
+  {
+    "id": 695,
+    "en": "Recipient details are not configured yet."
+  },
+  {
+    "id": 696,
+    "en": "payments@example.com is a placeholder ,  do not send a transfer to it."
+  },
+  {
+    "id": 697,
+    "en": "I have checked the recipient, amount and order reference."
+  },
+  {
+    "id": 698,
+    "en": "Edit my order"
+  },
+  {
+    "id": 699,
+    "en": "I’ve sent the payment"
+  },
+  {
+    "id": 700,
+    "en": "Review my contact & device details"
+  },
+  {
+    "id": 701,
+    "en": "Your kind of evening"
+  },
+  {
+    "id": 702,
+    "en": "Your order summary."
+  },
+  {
+    "id": 703,
+    "en": "Plan"
+  },
+  {
+    "id": 704,
+    "en": "Term"
+  },
+  {
+    "id": 705,
+    "en": "Currency"
+  },
+  {
+    "id": 706,
+    "en": "Canadian dollars"
+  },
+  {
+    "id": 707,
+    "en": "Total"
+  },
+  {
+    "id": 708,
+    "en": "$6.67 monthly equivalent"
+  },
+  {
+    "id": 709,
+    "en": "Review all applicable charges before paying. A summary does not confirm a purchase or activate access."
+  },
+  {
+    "id": 710,
+    "en": "A question before you choose?"
+  },
+  {
+    "id": 711,
+    "en": "Find a clear answer"
+  },
+  {
+    "id": 712,
+    "en": "Configure your IPTV subscription, simultaneous streams and viewing preferences. Review your subscription details and payment availability."
+  },
+  {
+    "id": 713,
+    "en": "Checkout progress"
+  },
+  {
+    "id": 714,
+    "en": "Order summary"
+  },
+  {
+    "id": 715,
+    "en": "A viewer selecting a television channel"
+  },
+  {
+    "id": 716,
+    "en": "Your Subscription Summary | Lumina Stream"
+  },
+  {
+    "id": 717,
+    "en": "Your subscription selection"
+  },
+  {
+    "id": 718,
+    "en": "A good place to start."
+  },
+  {
+    "id": 719,
+    "en": "Your plan selection is shown below. A summary alone does not confirm payment or activate a subscription."
+  },
+  {
+    "id": 720,
+    "en": "Your subscription summary."
+  },
+  {
+    "id": 721,
+    "en": "Choose a subscription plan to see the full summary here."
+  },
+  {
+    "id": 722,
+    "en": "Explore subscription plans"
+  },
+  {
+    "id": 723,
+    "en": "Only your selected plan, subscription term and stream count appear in this address."
+  },
+  {
+    "id": 724,
+    "en": "Find my setup guide"
+  },
+  {
+    "id": 725,
+    "en": "Back to home"
+  },
+  {
+    "id": 726,
+    "en": "Review your selected subscription and check the status of your purchase."
+  },
+  {
+    "id": 727,
+    "en": "Privacy | Lumina Stream"
+  },
+  {
+    "id": 728,
+    "en": "Your information."
+  },
+  {
+    "id": 729,
+    "en": "Handled thoughtfully."
+  },
+  {
+    "id": 730,
+    "en": "Updated 20 November 2026."
+  },
+  {
+    "id": 731,
+    "en": "Your information on this website."
+  },
+  {
+    "id": 732,
+    "en": "The subscription configuration and contact preparation tools keep your contact entries in page memory. They do not send your name or email address to a server. Leaving or refreshing the page clears those entries."
+  },
+  {
+    "id": 733,
+    "en": "Saved order selections."
+  },
+  {
+    "id": 734,
+    "en": "Your browser can save the selected plan, term, stream count, total and order reference on this device. Names and email addresses are not included in that saved record. This local record is not a server-confirmed order or proof of payment."
+  },
+  {
+    "id": 735,
+    "en": "Preferences and technical requests."
+  },
+  {
+    "id": 736,
+    "en": "Your browser may remember whether you paused decorative animations. This website does not use advertising trackers. The hosting provider may process technical request data to deliver and secure the website."
+  },
+  {
+    "id": 737,
+    "en": "Payment information."
+  },
+  {
+    "id": 738,
+    "en": "No card fields are hosted on this website. Interac transfers are made through your own bank. Use only verified recipient details. Never include passwords, full playlist URLs or card details in an enquiry."
+  },
+  {
+    "id": 739,
+    "en": "How Lumina Stream handles your information and browser preferences."
+  },
+  {
+    "id": 740,
+    "en": "Service terms | Lumina Stream"
+  },
+  {
+    "id": 741,
+    "en": "The details."
+  },
+  {
+    "id": 742,
+    "en": "Before you subscribe."
+  },
+  {
+    "id": 743,
+    "en": "Choose your subscription."
+  },
+  {
+    "id": 744,
+    "en": "Plans are priced in Canadian dollars. Terms are one, three, six or twelve months, with one, two or three simultaneous streams. Your order summary shows the selected server, duration, screen count and total."
+  },
+  {
+    "id": 745,
+    "en": "Check your setup."
+  },
+  {
+    "id": 746,
+    "en": "Device and player compatibility varies by model, operating system and app availability. Confirm the channels and regional feeds important to you before purchasing. Picture quality depends on the source, device and connection."
+  },
+  {
+    "id": 747,
+    "en": "Keep account details private."
+  },
+  {
+    "id": 748,
+    "en": "Use your access details only with a compatible player. Do not publish passwords or playlist URLs. A simultaneous-stream allowance does not automatically permit account sharing between separate households."
+  },
+  {
+    "id": 749,
+    "en": "Before payment."
+  },
+  {
+    "id": 750,
+    "en": "Review the complete order and any applicable charges. Payment availability is shown at checkout. Access is not activated by viewing an order summary."
+  },
+  {
+    "id": 751,
+    "en": "Subscription terms, device compatibility and the details to check before purchasing."
+  },
+  {
+    "id": 752,
+    "en": "Refund information | Lumina Stream"
+  },
+  {
+    "id": 753,
+    "en": "A clearer view."
+  },
+  {
+    "id": 754,
+    "en": "Before you pay."
+  },
+  {
+    "id": 755,
+    "en": "Check before you pay."
+  },
+  {
+    "id": 756,
+    "en": "Review the plan, subscription term, number of streams and total. If you need to confirm a channel or device, ask before making a payment."
+  },
+  {
+    "id": 757,
+    "en": "Need help with a purchase?"
+  },
+  {
+    "id": 758,
+    "en": "Prepare a request with your order reference, purchase date and the issue you are experiencing. Do not include a full payment card number, password or unredacted playlist URL."
+  },
+  {
+    "id": 759,
+    "en": "Trial and service issues."
+  },
+  {
+    "id": 760,
+    "en": "The 24-hour trial is a shorter way to check your setup before a longer subscription. Ask about the refund conditions applicable to your order before payment. No fixed refund period or unconditional guarantee is advertised here."
+  },
+  {
+    "id": 761,
+    "en": "How to prepare a refund enquiry and what to check before subscribing to Lumina Stream."
+  }
+]

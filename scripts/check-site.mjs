@@ -10,7 +10,10 @@ for(const page of manifest.pages){
  if(titles.has(page.title))errors.push(page.route+': duplicate title');titles.add(page.title);
  if(descriptions.has(page.description))errors.push(page.route+': duplicate description');descriptions.add(page.description);
  if(!html.includes(`rel="canonical" href="${manifest.origin+page.route}"`))errors.push(page.route+': canonical incorrect');
- if(!html.includes('<html lang="en-CA">'))errors.push(page.route+': language missing');
+ if(!html.includes(`<html lang="${page.lang||'en-CA'}">`))errors.push(page.route+': language missing');
+ if(/—|&mdash;|&#8212;/.test(html))errors.push(page.route+': em dash remains');
+ if(/id="checkout-country"|\/iptv-(?:montreal|toronto|quebec)\//.test(html))errors.push(page.route+': obsolete location selector or city link');
+ if(!html.includes('hreflang="fr-CA"')||!html.includes('hreflang="en-CA"'))errors.push(page.route+': language alternates missing');
  if(!html.includes('<meta name="robots"'))errors.push(page.route+': robots missing');
  for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){try{JSON.parse(match[1]);schemas++;}catch{errors.push(page.route+': malformed JSON-LD');}}
  for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
@@ -21,6 +24,8 @@ for(const page of manifest.pages){
  if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|30,000|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
 }
 const checkout=await fs.readFile(path.join(dist,'checkout/index.html'),'utf8');
+if(JSON.parse(await fs.readFile(path.join(project,'fr-untranslated.json'),'utf8')).length)errors.push('Untranslated French content remains');
+if(!checkout.includes('name="country" value="Canada"'))errors.push('Checkout must be fixed to Canada');
 if(!checkout.includes('data-copy-transfer="memo"')||!checkout.includes('data-copy-transfer="amount"'))errors.push('Interac reference or amount copy control missing');
 if(!checkout.includes('payments@example.com is a placeholder'))errors.push('Missing placeholder payment-recipient notice');
 const blog=await fs.readFile(path.join(dist,'blog/index.html'),'utf8');
