@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://relay-studio-clone-1120.handygait32.chatgpt.site/sitemap.xml

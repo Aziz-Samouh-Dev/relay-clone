@@ -1,12 +1,13 @@
 {
-  "name": "relay-studio-clone",
+  "name": "lumina-stream",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Complete static clone of the public Relay demo, with local assets and original interactions.",
+  "description": "Lumina Stream: a cinematic IPTV storefront, content hub and checkout preview.",
   "scripts": {
     "start": "node scripts/serve.mjs",
     "dev": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs"
+    "build": "node source/build.mjs",
+    "check": "node scripts/check-site.mjs"
   }
 }

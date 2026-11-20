@@ -1,0 +1,163 @@
+{
+  "source": "https://tvsline.org/checkout/",
+  "asOf": "2026-11-20",
+  "currency": "CAD",
+  "trialPrice": 2.99,
+  "plans": [
+    {
+      "id": "duck",
+      "name": "Duck",
+      "kind": "live",
+      "note": "The essentials",
+      "featured": false,
+      "months": 12,
+      "price": 80,
+      "prices": {
+        "1": [
+          15,
+          22,
+          35
+        ],
+        "3": [
+          30,
+          55,
+          70
+        ],
+        "6": [
+          50,
+          80,
+          110
+        ],
+        "12": [
+          80,
+          120,
+          190
+        ]
+      }
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "kind": "live",
+      "note": "Entertainment without limits",
+      "featured": false,
+      "months": 12,
+      "price": 100,
+      "prices": {
+        "1": [
+          18,
+          30,
+          40
+        ],
+        "3": [
+          40,
+          65,
+          85
+        ],
+        "6": [
+          60,
+          100,
+          120
+        ],
+        "12": [
+          100,
+          190,
+          220
+        ]
+      }
+    },
+    {
+      "id": "raccoon",
+      "name": "Raccoon",
+      "kind": "live",
+      "note": "The widest selection",
+      "featured": true,
+      "months": 12,
+      "price": 180,
+      "prices": {
+        "1": [
+          20,
+          32,
+          50
+        ],
+        "3": [
+          45,
+          80,
+          120
+        ],
+        "6": [
+          70,
+          130,
+          190
+        ],
+        "12": [
+          180,
+          230,
+          310
+        ]
+      }
+    },
+    {
+      "id": "trex",
+      "name": "Trex",
+      "kind": "live",
+      "note": "The ultimate catalogue",
+      "featured": false,
+      "months": 12,
+      "price": 130,
+      "prices": {
+        "1": [
+          22,
+          37,
+          50
+        ],
+        "3": [
+          50,
+          80,
+          110
+        ],
+        "6": [
+          80,
+          130,
+          190
+        ],
+        "12": [
+          130,
+          220,
+          320
+        ]
+      }
+    },
+    {
+      "id": "cine",
+      "name": "Ciné Pack",
+      "kind": "vod",
+      "note": "Movies and series on demand",
+      "featured": false,
+      "months": 12,
+      "price": 70,
+      "prices": {
+        "1": [
+          20,
+          40,
+          60
+        ],
+        "3": [
+          35,
+          70,
+          105
+        ],
+        "6": [
+          60,
+          120,
+          180
+        ],
+        "12": [
+          70,
+          140,
+          210
+        ]
+      }
+    }
+  ]
+}
