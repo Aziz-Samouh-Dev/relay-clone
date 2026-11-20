@@ -1,0 +1,217 @@
+{
+  "origin": "https://relay-theme.pages.dev",
+  "created": "2026-11-20T13:47:42.519Z",
+  "records": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "bytes": 66534,
+      "type": "html"
+    },
+    {
+      "route": "/industries/",
+      "file": "industries/index.html",
+      "bytes": 20249,
+      "type": "html"
+    },
+    {
+      "route": "/about/",
+      "file": "about/index.html",
+      "bytes": 20549,
+      "type": "html"
+    },
+    {
+      "route": "/favicon.svg",
+      "file": "favicon.svg",
+      "bytes": 206,
+      "type": "asset"
+    },
+    {
+      "route": "/contact/",
+      "file": "contact/index.html",
+      "bytes": 20729,
+      "type": "html"
+    },
+    {
+      "route": "/blog/",
+      "file": "blog/index.html",
+      "bytes": 21508,
+      "type": "html"
+    },
+    {
+      "route": "/_astro/Layout.BHI6_XxT.css",
+      "file": "_astro/Layout.BHI6_XxT.css",
+      "bytes": 76153,
+      "type": "css"
+    },
+    {
+      "route": "/work/aera/",
+      "file": "work/aera/index.html",
+      "bytes": 22307,
+      "type": "html"
+    },
+    {
+      "route": "/work/form-field/",
+      "file": "work/form-field/index.html",
+      "bytes": 22441,
+      "type": "html"
+    },
+    {
+      "route": "/work/",
+      "file": "work/index.html",
+      "bytes": 23453,
+      "type": "html"
+    },
+    {
+      "route": "/work/pace/",
+      "file": "work/pace/index.html",
+      "bytes": 22302,
+      "type": "html"
+    },
+    {
+      "route": "/images/fitness.webp",
+      "file": "images/fitness.webp",
+      "bytes": 70922,
+      "type": "asset"
+    },
+    {
+      "route": "/images/architecture.webp",
+      "file": "images/architecture.webp",
+      "bytes": 347082,
+      "type": "asset"
+    },
+    {
+      "route": "/services/",
+      "file": "services/index.html",
+      "bytes": 27509,
+      "type": "html"
+    },
+    {
+      "route": "/services/digital-products/",
+      "file": "services/digital-products/index.html",
+      "bytes": 22018,
+      "type": "html"
+    },
+    {
+      "route": "/services/web-design/",
+      "file": "services/web-design/index.html",
+      "bytes": 22015,
+      "type": "html"
+    },
+    {
+      "route": "/services/ecommerce/",
+      "file": "services/ecommerce/index.html",
+      "bytes": 21985,
+      "type": "html"
+    },
+    {
+      "route": "/services/brand-identity/",
+      "file": "services/brand-identity/index.html",
+      "bytes": 22082,
+      "type": "html"
+    },
+    {
+      "route": "/images/objects.webp",
+      "file": "images/objects.webp",
+      "bytes": 77826,
+      "type": "asset"
+    },
+    {
+      "route": "/services/content/",
+      "file": "services/content/index.html",
+      "bytes": 21961,
+      "type": "html"
+    },
+    {
+      "route": "/images/integrations/slack.svg",
+      "file": "images/integrations/slack.svg",
+      "bytes": 1123,
+      "type": "asset"
+    },
+    {
+      "route": "/services/ongoing-support/",
+      "file": "services/ongoing-support/index.html",
+      "bytes": 21997,
+      "type": "html"
+    },
+    {
+      "route": "/images/integrations/notion.svg",
+      "file": "images/integrations/notion.svg",
+      "bytes": 978,
+      "type": "asset"
+    },
+    {
+      "route": "/images/integrations/figma.svg",
+      "file": "images/integrations/figma.svg",
+      "bytes": 1093,
+      "type": "asset"
+    },
+    {
+      "route": "/images/studio.webp",
+      "file": "images/studio.webp",
+      "bytes": 89858,
+      "type": "asset"
+    },
+    {
+      "route": "/images/integrations/github.svg",
+      "file": "images/integrations/github.svg",
+      "bytes": 822,
+      "type": "asset"
+    },
+    {
+      "route": "/images/integrations/zapier.svg",
+      "file": "images/integrations/zapier.svg",
+      "bytes": 2832,
+      "type": "asset"
+    },
+    {
+      "route": "/images/integrations/linear.svg",
+      "file": "images/integrations/linear.svg",
+      "bytes": 453,
+      "type": "asset"
+    },
+    {
+      "route": "/blog/space-to-breathe/",
+      "file": "blog/space-to-breathe/index.html",
+      "bytes": 24869,
+      "type": "html"
+    },
+    {
+      "route": "/blog/before-you-redesign/",
+      "file": "blog/before-you-redesign/index.html",
+      "bytes": 25574,
+      "type": "html"
+    },
+    {
+      "route": "/blog/after-the-launch/",
+      "file": "blog/after-the-launch/index.html",
+      "bytes": 24961,
+      "type": "html"
+    },
+    {
+      "route": "/_astro/rethink-sans-latin-wght-normal.B92CQIW4.woff2",
+      "file": "_astro/rethink-sans-latin-wght-normal.B92CQIW4.woff2",
+      "bytes": 35676,
+      "type": "asset"
+    },
+    {
+      "route": "/privacy/",
+      "file": "privacy/index.html",
+      "bytes": 18369,
+      "type": "html"
+    },
+    {
+      "route": "/_astro/Layout.astro_astro_type_script_index_0_lang.hi8nUscM.js",
+      "file": "_astro/Layout.astro_astro_type_script_index_0_lang.hi8nUscM.js",
+      "bytes": 157316,
+      "type": "js"
+    },
+    {
+      "route": "/_astro/rethink-sans-latin-ext-wght-normal.BbqtUlVa.woff2",
+      "file": "_astro/rethink-sans-latin-ext-wght-normal.BbqtUlVa.woff2",
+      "bytes": 16716,
+      "type": "asset"
+    }
+  ],
+  "failures": []
+}

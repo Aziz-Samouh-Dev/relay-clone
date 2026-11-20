@@ -1,0 +1,12 @@
+{
+  "name": "relay-studio-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Complete static clone of the public Relay demo, with local assets and original interactions.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
