@@ -66,4 +66,4 @@ The original source is retained in Git history and reference-relay/. The existin
 
 ## Assets
 
-Rethink Sans was retained from the Relay reference. Local landscape photographs come from public Unsplash image endpoints. The artwork is illustrative and does not represent a licensed programme or channel catalogue.
+Rethink Sans was retained from the Relay reference. The current television, cinema and sports artwork was created with the built-in image generation tool. See ARTWORK.md for asset paths and prompts. The artwork is illustrative and does not represent a programme or channel catalogue.
