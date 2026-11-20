@@ -5,8 +5,11 @@
   const T=s=>window.LuminaLocale?.text(s)||s;
   const format=n=>new Intl.NumberFormat(document.documentElement.lang.startsWith('fr')?'fr-CA':'en-CA',{style:'currency',currency:catalog.currency||'CAD',maximumFractionDigits:2}).format(n);
   const themeButton=$('.theme-toggle');
-  const applyTheme=()=>{const light=document.documentElement.dataset.theme==='light';themeButton?.setAttribute('aria-pressed',String(light));const label=light?'Switch to dark mode':'Switch to light mode';themeButton?.setAttribute('aria-label',window.LuminaLocale?.text(label)||label);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',light?'#f5f7f2':'#080b0a');};
-  applyTheme();themeButton?.addEventListener('click',()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='light'?'dark':'light';try{localStorage.setItem('lumina:theme',document.documentElement.dataset.theme);}catch{}applyTheme();});
+  const systemTheme=matchMedia('(prefers-color-scheme: light)');
+  let themePreference='system';try{const saved=localStorage.getItem('lumina:theme');if(['light','dark'].includes(saved))themePreference=saved;}catch{}
+  const applyTheme=()=>{const light=themePreference==='system'?systemTheme.matches:themePreference==='light';document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=themePreference;themeButton?.setAttribute('aria-pressed',String(themePreference!=='system'));const fr=document.documentElement.lang.startsWith('fr'),labels=fr?{system:'Système',light:'Clair',dark:'Sombre'}:{system:'System',light:'Light',dark:'Dark'},next={system:'light',light:'dark',dark:'system'}[themePreference];const label=fr?`Thème : ${labels[themePreference]}. Passer au mode ${labels[next].toLowerCase()}.`:`Theme: ${labels[themePreference]}. Switch to ${labels[next].toLowerCase()} mode.`;themeButton?.setAttribute('aria-label',label);themeButton?.setAttribute('title',label);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',light?'#f5f7f2':'#080b0a');};
+  applyTheme();themeButton?.addEventListener('click',()=>{themePreference={system:'light',light:'dark',dark:'system'}[themePreference];try{localStorage.setItem('lumina:theme',themePreference);}catch{}applyTheme();});
+  systemTheme.addEventListener('change',()=>{if(themePreference==='system')applyTheme();});
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   const menu=$('.menu-toggle'),nav=$('.nav');
   function closeMenu(){nav?.classList.remove('is-open');menu?.setAttribute('aria-expanded','false');menu?.setAttribute('aria-label','Open navigation');}

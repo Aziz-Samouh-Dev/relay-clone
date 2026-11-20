@@ -56,3 +56,6 @@ The original Relay snapshot remains in reference-relay/ and Git history. Earlier
 
 The site now has 32 English and 32 French pages, matching language switches, localized metadata and hreflang links. Light mode persists on the visitor's device. Checkout fixes Canada without a country or city selector. City landing pages and links were removed. Automated checks cover all 64 pages and em dash removal. This update's browser QA could not complete because the in-app browser connection timed out.
 
+
+French runtime fix: translation observer disconnects while applying its own changes, and dynamic counters are idempotent. Theme defaults to the operating system and cycles System, Light, Dark. node scripts/check-locale-runtime.mjs checks observer settling and theme persistence/system changes.
+

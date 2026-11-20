@@ -17,10 +17,10 @@
       .replace(/(\d+)-month prepaid term/g,'Abonnement prépayé de $1 mois')
       .replace(/(\d+) viewing categor(?:y|ies)/g,'$1 catégorie(s) de programmes')
       .replace(/(\d+) answers?/g,(_,n)=>`${n} réponse${n==='1'?'':'s'}`)
-      .replace(/(\d+) guides?/g,'$1 guide(s)')
+      .replace(/(\d+) guides?\b(?!\()/g,(_,n)=>`${n} guide${n==='1'?'':'s'}`)
       .replace(/(\d+) month(?:s)?/g,'$1 mois').replace(/(\d+) screens?/g,'$1 écran(s)').replace(/24 hours/g,'24 heures')
       .replace(/monthly equivalent/g,'par mois').replace(/billed for/g,'facturé pour').replace(/billed for the full term/g,'facturé pour la durée totale')
-      .replace(/\/month/g,'/mois').replace(/ \/ mo/g,' / mois').replace(/ total$/,' au total')
+      .replace(/\/month/g,'/mois').replace(/ \/ mo/g,' / mois').replace(/(?<!au) total$/,' au total')
       .replace(/^Copied order reference\.$/,'Référence de commande copiée.').replace(/^Copied amount\.$/,'Montant copié.').replace(/^Copied email\.$/,'Courriel copié.').replace(/^Copied recipient\.$/,'Destinataire copié.')
       .replace(/^Copy this field: /,'Copiez ce champ : ');
   };
@@ -38,5 +38,12 @@
     [...root.childNodes].forEach(apply);
   };
   apply(document.body);
-  new MutationObserver(changes=>{for(const change of changes){if(change.type==='childList')change.addedNodes.forEach(apply);else if(change.type==='characterData')apply(change.target);else apply(change.target);}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href','aria-label','title','placeholder']});
+  const observerOptions={subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['href','aria-label','title','placeholder']};
+  const observer=new MutationObserver(changes=>{
+    // Translation writes must never enqueue another translation pass.
+    observer.disconnect();
+    try{for(const change of changes){if(change.type==='childList')change.addedNodes.forEach(apply);else apply(change.target);}}
+    finally{observer.observe(document.body,observerOptions);}
+  });
+  observer.observe(document.body,observerOptions);
 })();
