@@ -45,3 +45,6 @@ html[data-theme=light] .hero:before{background:linear-gradient(90deg,#050a08b8,t
 .pause-motion .hero-scenes .scene-progress{animation-play-state:paused}
 @media(max-width:700px){.hero-scenes{justify-content:flex-start;gap:6px;margin-top:32px}.hero-scenes button{padding:13px 10px;gap:6px;font-size:.65rem;border-radius:9px}.hero-bg[data-hero-slideshow] .hero-slide{object-position:72% center}.hero-bg[data-hero-slideshow]:after{background:linear-gradient(90deg,#050a08c9,#050a0860),linear-gradient(0deg,#080b0a55,transparent 45%)}.hero .hero-foot{margin-top:24px}}
 @media(prefers-reduced-motion:reduce){.hero-bg[data-hero-slideshow] .hero-slide{transition:none;transform:none;filter:brightness(.86)}.hero-scenes .scene-progress{animation:none!important}.hero-scenes button[aria-pressed=true] .scene-progress{transform:scaleX(1)}}
+
+.hero-bg[data-hero-slideshow] .hero-slide:nth-child(3){object-position:58% 56%}.poster img[src$='movie-couple.jpg']{object-position:58% center}
+

@@ -18,3 +18,6 @@ All current images are real Pexels stock photographs, downloaded locally. No com
 | article-canada.jpg | https://www.pexels.com/photo/5813746/ | Family television time, Tima Miroshnichenko |
 
 Source pages list photographs as free to use under the Pexels license. The images represent viewing themes and do not confirm that a particular pictured event or channel is included in a subscription. Older photographs remain in repository history but no current page references them.
+
+Image correction: movie-couple.jpg replaces viewing-movies.jpg everywhere, using Pexels photo 4307934 by Ketut Subiyanto (man and woman watching together). hero-hockey-arena.jpg replaces the third hero slide, using Pexels photo 33806484 by Anton Nekhaychik (full arena, crowd and match). Original hero hockey and movie-section photographs are no longer referenced.
+
