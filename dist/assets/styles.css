@@ -48,3 +48,8 @@ html[data-theme=light] .hero:before{background:linear-gradient(90deg,#050a08b8,t
 
 .hero-bg[data-hero-slideshow] .hero-slide:nth-child(3){object-position:58% 56%}.poster img[src$='movie-couple.jpg']{object-position:58% center}
 
+/* Keep the homepage setup link at its natural height beside the device CTA. */
+body[data-page='/'] .split .actions{align-items:center}
+body[data-page='/'] .split .actions>.text-link{display:inline-flex;align-items:center;align-self:center;gap:9px;margin:0;padding:7px 0;line-height:1.45;height:auto;max-width:100%;border-bottom:1px solid currentColor}
+body[data-page='/'] .split .actions>.text-link:after{content:'↗';display:inline-block;font-size:1.1em;line-height:1}
+@media(max-width:700px){body[data-page='/'] .split .actions>.text-link{white-space:normal}}
