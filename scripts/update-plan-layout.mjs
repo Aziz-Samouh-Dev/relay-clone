@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+const url=new URL('../source/pricing-components.mjs',import.meta.url);
+let code=await fs.readFile(url,'utf8');
+const comparison=code.slice(code.indexOf('export function comparison()'));
+await fs.writeFile(url,`import {plans} from './site.config.mjs';
+import {planFeatures} from './plan-features.mjs';
+const money=n=>'$'+n.toFixed(2);
+const badges={duck:'Best rate',edge:'Best value',raccoon:'FEATURED PLAN',trex:'English & French',cine:'On-demand option'};
+const controls=p=>\`<div class="card-controls"><span class="control-label">Duration</span><div class="segmented" role="group" aria-label="Subscription duration">\${[1,3,6,12].map(n=>\`<button type="button" data-months="\${n}" aria-pressed="\${n===12}">\${n} mo</button>\`).join('')}</div><span class="control-label">Number of devices</span><div class="segmented" role="group" aria-label="Simultaneous streams">\${[1,2,3].map(n=>\`<button type="button" data-screens="\${n}" aria-pressed="\${n===1}">\${n}</button>\`).join('')}</div></div>\`;
+const planCard=p=>\`<article class="plan plan-config \${p.featured?'featured':''} reveal" data-pricing data-plan="\${p.id}">\${p.featured?'<span class="recommended">FEATURED PLAN</span>':''}<h3>\${p.name}</h3><p class="plan-note">\${p.note}</p><span class="plan-badge">\${badges[p.id]}</span>\${controls(p)}<div class="price"><sup>$</sup><span data-plan-price>\${p.price}</span><small>CAD<span data-price-period></span></small></div><p class="plan-equivalent" data-plan-equivalent>\${money(p.price/12)}/month · \${money(p.price)} total</p><div class="plan-selection"><span data-screen-label>1 simultaneous stream</span><span data-term-label>12-month prepaid term</span></div><ul>\${planFeatures[p.id].map(f=>\`<li>\${f}</li>\`).join('')}</ul><a class="btn \${p.featured?'primary':'white'} full" data-plan-link href="/checkout/?plan=\${p.id}&months=12&screens=1">Choose \${p.name}</a></article>\`;
+export function pricing(){return \`<div class="individual-pricing"><div class="pricing-grid">\${plans.filter(p=>p.kind==='live').map(planCard).join('')}</div><div class="cine-feature"><div class="cine-copy"><span class="eyebrow">A different kind of plan</span><h3>Just one more episode.<br><span class="chrome">Just the Ciné Pack.</span></h3><p>Movies and series, without a live-TV package.</p><p>Choose your duration and devices on this card.</p><div class="badge-list"><span>On-demand option</span><span>1–3 streams</span><span>1–12 month terms</span></div></div>\${planCard(plans.find(p=>p.id==='cine'))}</div><p class="pricing-note">All prices are in CAD. Your total updates for your server, subscription term and simultaneous streams. Select a plan to review your complete order.</p></div>\`}
+`+comparison.replace('<tr><th scope="row">Renewal</th>','<tr><th scope="row">Plan highlights</th>${plans.map(p=>\'<td>\'+planFeatures[p.id].slice(1,4).join(\'<br>\')+\'</td>\').join(\'\')}</tr><tr><th scope="row">Renewal</th>'));
+const appUrl=new URL('../source/app.js',import.meta.url);
+let app=await fs.readFile(appUrl,'utf8');
+app=app.replace("$$('[data-plan]',section).forEach(card=>", "(section.matches('[data-plan]')?[section]:$$('[data-plan]',section)).forEach(card=>");
+await fs.writeFile(appUrl,app);

@@ -53,3 +53,32 @@ body[data-page='/'] .split .actions{align-items:center}
 body[data-page='/'] .split .actions>.text-link{display:inline-flex;align-items:center;align-self:center;gap:9px;margin:0;padding:7px 0;line-height:1.45;height:auto;max-width:100%;border-bottom:1px solid currentColor}
 body[data-page='/'] .split .actions>.text-link:after{content:'↗';display:inline-block;font-size:1.1em;line-height:1}
 @media(max-width:700px){body[data-page='/'] .split .actions>.text-link{white-space:normal}}
+/* Consistent action-link alignment throughout the site, including articles. */
+.actions{align-items:center}
+.text-link{display:inline-flex;align-items:center;align-self:center;gap:8px;line-height:1.45;height:auto;padding:5px 0;max-width:100%;border-bottom:1px solid currentColor}
+.actions>.text-link{margin:0;padding:7px 0;white-space:normal}
+.prose .actions>.text-link{border-radius:0;box-shadow:none;text-decoration:none}
+.plan-config{--plan-accent:#b1c4ff;--plan-tint:#94adff12;min-width:0;padding:25px;display:flex;flex-direction:column}
+.plan-config[data-plan=edge]{--plan-accent:#d3b5ff;--plan-tint:#c49bff12}
+.plan-config[data-plan=raccoon]{--plan-accent:#c4f277;--plan-tint:#c4f27712}
+.plan-config[data-plan=trex],.plan-config[data-plan=cine]{--plan-accent:#edcd83;--plan-tint:#edcd8312}
+.plan-config h3{color:var(--plan-accent)}
+.plan-config .plan-note{min-height:38px;margin-bottom:8px}
+.plan-badge{align-self:flex-start;padding:5px 9px;border-radius:20px;background:var(--plan-tint);color:var(--plan-accent);font-size:.68rem;font-weight:600;margin-bottom:22px}
+.card-controls .control-label{font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0 9px;display:block}
+.card-controls .segmented{display:flex;gap:4px;background:none;padding:0;border:0;margin-bottom:18px}
+.card-controls .segmented button{flex:1;min-width:0;padding:8px 3px;font-size:.68rem;border:1px solid var(--line);border-radius:6px;color:var(--muted);background:#0002}
+.card-controls .segmented button[aria-pressed=true]{color:var(--plan-accent);border-color:var(--plan-accent);background:var(--plan-tint)}
+.plan-config .price{margin-top:10px;margin-bottom:10px;font-size:3.3rem}
+.plan-selection{display:flex;flex-wrap:wrap;gap:6px 12px;color:var(--muted);font-size:.68rem;margin-top:15px}
+.plan-config ul{margin-top:22px;padding-top:24px;flex:1}
+.plan-config li{font-size:.8rem;line-height:1.55;margin-bottom:10px}
+.plan-config li:before{color:var(--plan-accent)}
+.plan-config .btn{margin-top:20px}
+html[data-theme=light] .plan-config{--plan-accent:#34539c;--plan-tint:#34539c10}
+html[data-theme=light] .plan-config[data-plan=edge]{--plan-accent:#7442a1;--plan-tint:#7442a110}
+html[data-theme=light] .plan-config[data-plan=raccoon]{--plan-accent:#426c24;--plan-tint:#426c2410}
+html[data-theme=light] .plan-config[data-plan=trex],html[data-theme=light] .plan-config[data-plan=cine]{--plan-accent:#856118;--plan-tint:#85611810}
+html[data-theme=light] .card-controls .segmented button{background:#fff;color:#536158}
+html[data-theme=light] .card-controls .segmented button[aria-pressed=true]{background:var(--plan-tint);color:var(--plan-accent)}
+@media(max-width:700px){.actions>.text-link{align-self:flex-start}.plan-config{padding:25px}.card-controls .segmented button{padding:10px 5px;font-size:.75rem}}

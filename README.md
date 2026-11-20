@@ -65,3 +65,6 @@ Canada search update: public indexing enabled at the owner's request. Main Engli
 
 Photography refresh: 12 new local stock photographs replace every previous photo reference across English and French pages. The homepage has three dedicated slides, soft blur/crossfade transitions, manual scene buttons, motion pause, hidden-tab pause and reduced-motion support. Browser QA verified image loading, scene switching, French labels and no overflow at 390px. PHOTO-SOURCES.md records sources.
 
+
+Plan redesign: each subscription card has independent duration/device selectors and distinct features taken from the owner's supplied comparison screenshot. Channel/library counts, Canada hosting and support/activation descriptions are owner-provided service specifications, not independently measured statistics. Shared pricing tables remain unchanged. Comparison table includes plan highlights. Text action links use natural height across the entire site.
+

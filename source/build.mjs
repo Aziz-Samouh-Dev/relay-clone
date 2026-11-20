@@ -8,9 +8,11 @@ import {interacPanel} from './interac.mjs';
 import {translatePage,translate,alternateLinks,frenchDictionary,missingFrench} from './localization.mjs';
 import {canadaTranslations,canadaMetadata,canadaCopy,canadaSection,canadaFaqs} from './canada-seo.mjs';
 import {photoTranslations,refreshPhotography} from './photography.mjs';
+import {featureTranslations} from './plan-features.mjs';
 const canadaAnswers=canadaSection();
 Object.assign(frenchDictionary,canadaTranslations);
 Object.assign(frenchDictionary,photoTranslations);
+Object.assign(frenchDictionary,featureTranslations);
 for(const a of articles){const words=[a.answer,...a.sections.flat()].join(' ').trim().split(/\s+/).length;a.read=Math.max(1,Math.ceil(words/200))+' min';}
 const root=path.resolve(import.meta.dirname,'../dist');
 await fs.mkdir(root,{recursive:true});

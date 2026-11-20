@@ -23,7 +23,7 @@ for(const page of manifest.pages){
   const url=new URL(ref,'https://local.example');let relative=decodeURIComponent(url.pathname).slice(1);if(!relative||relative.endsWith('/'))relative+='index.html';else if(!path.extname(relative))relative+='/index.html';references++;
   if(!(await fs.stat(path.join(dist,relative)).catch(()=>null))?.size)errors.push(page.route+': broken reference '+ref);
  }
- if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|30,000|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
+ if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
  if(/(?:hero-real|cinema-real|sports-real|journal-(?:iptv|cinema|device|buffering|4k|canada))\.jpg/.test(html))errors.push(page.route+': replaced photography remains');
 }
 const checkout=await fs.readFile(path.join(dist,'checkout/index.html'),'utf8');
