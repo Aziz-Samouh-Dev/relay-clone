@@ -59,3 +59,6 @@ The site now has 32 English and 32 French pages, matching language switches, loc
 
 French runtime fix: translation observer disconnects while applying its own changes, and dynamic counters are idempotent. Theme defaults to the operating system and cycles System, Light, Dark. node scripts/check-locale-runtime.mjs checks observer settling and theme persistence/system changes.
 
+
+Canada search update: public indexing enabled at the owner's request. Main English/French pages target IPTV Canada with unique titles, descriptions, homepage/plan headings and a visible Canada FAQ section matching FAQPage markup. Organization/WebPage/Service markup identifies Canada without invented offices or city pages. robots.txt permits crawling; checkout and confirmations retain noindex and stay out of the sitemap. Search indexing and AI citations are not guaranteed. Existing placeholder payment guard remains active.
+

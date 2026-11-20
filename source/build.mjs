@@ -6,6 +6,9 @@ import {pricing,comparison} from './pricing-components.mjs';
 import {storefrontCopy,businessPage} from './storefront.mjs';
 import {interacPanel} from './interac.mjs';
 import {translatePage,translate,alternateLinks,frenchDictionary,missingFrench} from './localization.mjs';
+import {canadaTranslations,canadaMetadata,canadaCopy,canadaSection,canadaFaqs} from './canada-seo.mjs';
+const canadaAnswers=canadaSection();
+Object.assign(frenchDictionary,canadaTranslations);
 for(const a of articles){const words=[a.answer,...a.sections.flat()].join(' ').trim().split(/\s+/).length;a.read=Math.max(1,Math.ceil(words/200))+' min';}
 const root=path.resolve(import.meta.dirname,'../dist');
 await fs.mkdir(root,{recursive:true});
@@ -32,7 +35,9 @@ function deviceCard(d){return `<article class="card device-card reveal" data-cat
 function trialBanner(){return `<div class="trial-banner"><div><h3>A little trial. A much easier decision.</h3><p>24 hours · 1 stream · CAD ${trial.price.toFixed(2)} example price</p></div>${btn('/free-trial/','Explore the trial','')}</div>`}
 async function page(route,title,description,body,options={}){
  const brandText=s=>s.replaceAll('Relay TV','Lumina Stream').replaceAll('The Relay','The Lumina').replaceAll('the Relay','the Lumina').replaceAll('relay television','lumina stream').replaceAll('relay TV','lumina stream').replaceAll('RELAY','LUMINA');
- title=storefrontCopy(brandText(title));description=storefrontCopy(brandText(description));body=storefrontCopy(brandText(businessPage(route)||body));
+ title=storefrontCopy(brandText(title));description=storefrontCopy(brandText(description));body=canadaCopy(storefrontCopy(brandText(businessPage(route)||body)));
+ if(canadaMetadata[route])[title,description]=canadaMetadata[route];
+ if(['/','/subscription/','/iptv-canada/'].includes(route))body+=canadaAnswers;
  if(route==='/checkout/')body=body.replace(/<div data-checkout-step="2" hidden>[\s\S]*?<\/form>/,interacPanel()+'</form>');
  if(route==='/'){const section=body.match(/<section class="section band" id="plans">[\s\S]*?<\/section>/)?.[0];if(section){body=body.replace(section,'');const end=body.indexOf('</section>',body.indexOf('<section class="device-rail"'))+10;body=body.slice(0,end)+section+body.slice(end);}}
  const canonical=site.origin+route;
@@ -40,6 +45,12 @@ async function page(route,title,description,body,options={}){
  const schema=[{'@type':'Organization','@id':site.origin+'/#organization',name:site.name,url:site.origin+'/',logo:site.origin+'/assets/logo.svg'}, {'@type':'WebSite','@id':site.origin+'/#website',name:site.name,url:site.origin+'/',inLanguage:'en-CA'}, {'@type':'WebPage','@id':canonical+'#page',url:canonical,name:title,description,inLanguage:'en-CA',isPartOf:{'@id':site.origin+'/#website'},dateModified:site.updated}];
  if(route!=='/')schema.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:site.origin+'/'},{'@type':'ListItem',position:2,name:options.label||title.split('|')[0].trim(),item:canonical}]});
  if(options.schema)schema.push(...options.schema);
+ schema[0].areaServed={'@type':'Country',name:'Canada',identifier:'CA'};
+ schema[2].spatialCoverage={'@type':'Country',name:'Canada',identifier:'CA'};
+ if(['/','/subscription/','/iptv-canada/'].includes(route)){
+  schema.push({'@type':'FAQPage',mainEntity:canadaFaqs.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))});
+  schema.push({'@type':'Service','@id':canonical+'#service',name:site.name,serviceType:'IPTV',provider:{'@id':site.origin+'/#organization'},areaServed:{'@type':'Country',name:'Canada',identifier:'CA'},url:canonical});
+ }
  const html=`<!doctype html><html lang="en-CA"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#080b0a"><title>${escape(title)}</title><meta name="description" content="${escape(description)}"><meta name="robots" content="${noindex?'noindex, follow':'index, follow, max-image-preview:large'}"><link rel="canonical" href="${canonical}"><meta property="og:type" content="${options.article?'article':'website'}"><meta property="og:site_name" content="${site.name}"><meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site.origin}/assets/hero-real.jpg"><meta property="og:image:alt" content="Lumina Stream television and movie night at home"><meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escape(title)}"><meta name="twitter:description" content="${escape(description)}"><meta name="twitter:image" content="${site.origin}/assets/hero-real.jpg"><link rel="icon" href="/assets/logo.svg" type="image/svg+xml"><link rel="preload" href="/assets/rethink-sans.woff2" as="font" type="font/woff2" crossorigin>${route==='/'?'<link rel="preload" href="/assets/hero-real.jpg" as="image" fetchpriority="high">':''}<script>{let t="system";try{t=localStorage.getItem("lumina:theme")||"system";}catch{}document.documentElement.dataset.themePreference=t;document.documentElement.dataset.theme=t==="light"||t!=="dark"&&matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}</script><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">${json({'@context':'https://schema.org','@graph':schema})}</script><script id="site-catalog" type="application/json">${json(catalog)}</script><script defer src="/assets/locale.js"></script><script defer src="/assets/app.js"></script></head><body data-page="${route}">${header(route)}<main id="main">${body}</main>${options.checkout?'':footer()}</body></html>`;
  const en=storefrontCopy(brandText(html)).replaceAll('—',', ').replaceAll('&#8212;',', ').replaceAll('&mdash;',', ').replace('</head>',alternateLinks(route,site.origin)+'</head>').replace(/(<a class="language-toggle"[^>]*href=")[^"]+/,`$1/fr${route}`); const fr=translatePage(en,route,site.origin); for(const [url,content,lang] of [[route,en,'en-CA'],['/fr'+route,fr,'fr-CA']]){const dest=path.join(root,url.slice(1),'index.html');await fs.mkdir(path.dirname(dest),{recursive:true});await fs.writeFile(dest,content);pages.push({route:url,title:lang==='fr-CA'?translate(title):title,description:lang==='fr-CA'?translate(description):description,noindex,lang,kind:options.article?'article':'page'});}
 }
@@ -90,7 +101,7 @@ for(const [slug,label,title,desc,...paragraphs] of policies)await page('/'+slug+
 await fs.writeFile(path.join(root,'404.html'),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Page not found | Lumina Stream</title><link rel="stylesheet" href="/assets/styles.css"></head><body><main class="section wrap"><span class="eyebrow">A small detour</span><h1>Let’s get you<br>back home.</h1><p style="margin-top:25px">That page is not here. Find your next step below.</p><div class="actions">${btn('/','Back to home')}${btn('/faq/','Find an answer','')}</div></main></body></html>`);
 const indexable=pages.filter(p=>!/(?:^|\/)(?:checkout|order-confirmation)\//.test(p.route));
 await fs.writeFile(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+indexable.map(p=>`<url><loc>${site.origin+p.route}</loc><lastmod>${site.updated}</lastmod></url>`).join('')+'</urlset>');
-await fs.writeFile(path.join(root,'robots.txt'),`User-agent: *\n${site.indexing?'Allow: /\nDisallow: /checkout/\nDisallow: /order-confirmation/':'Disallow: /'}\n\nSitemap: ${site.origin}/sitemap.xml\n`);
+await fs.writeFile(path.join(root,'robots.txt'),`User-agent: *\n${site.indexing?'Allow: /':'Disallow: /'}\n\nSitemap: ${site.origin}/sitemap.xml\n`);
 await fs.writeFile(path.resolve(import.meta.dirname,'../site-manifest.json'),JSON.stringify({name:site.name,origin:site.origin,preview:site.preview,indexing:site.indexing,pages},null,2));
 console.log(`Built ${pages.length} static pages. Preview: ${site.preview}. Public indexing: ${site.indexing}.`);
 

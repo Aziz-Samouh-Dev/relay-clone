@@ -15,6 +15,8 @@ for(const page of manifest.pages){
  if(/id="checkout-country"|\/iptv-(?:montreal|toronto|quebec)\//.test(html))errors.push(page.route+': obsolete location selector or city link');
  if(!html.includes('hreflang="fr-CA"')||!html.includes('hreflang="en-CA"'))errors.push(page.route+': language alternates missing');
  if(!html.includes('<meta name="robots"'))errors.push(page.route+': robots missing');
+ if(manifest.indexing&&!page.noindex&&!html.includes('content="index, follow, max-image-preview:large"'))errors.push(page.route+': indexing unexpectedly blocked');
+ if(/\/(?:checkout|order-confirmation)\//.test(page.route)&&!html.includes('content="noindex, follow"'))errors.push(page.route+': transactional page is indexable');
  for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){try{JSON.parse(match[1]);schemas++;}catch{errors.push(page.route+': malformed JSON-LD');}}
  for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
   const ref=m[1];if(!ref.startsWith('/')||ref.startsWith('//'))continue;
@@ -32,6 +34,12 @@ const blog=await fs.readFile(path.join(dist,'blog/index.html'),'utf8');
 const journalImages=[...blog.matchAll(/class="article-img"[^>]*><img src="([^"]+)"/g)].map(m=>m[1]);
 if(journalImages.length!==6||new Set(journalImages).size!==6)errors.push('Journal must have six distinct article images');
 const home=await fs.readFile(path.join(dist,'index.html'),'utf8');
+if(!/<h1[^>]*>IPTV for Canada\./.test(home))errors.push('Canada targeting missing from homepage h1');
+const frHome=await fs.readFile(path.join(dist,'fr/index.html'),'utf8');
+if(!frHome.includes('IPTV pour le Canada.'))errors.push('French Canada targeting missing');
+if(!home.includes('"areaServed":{"@type":"Country","name":"Canada","identifier":"CA"}'))errors.push('Canada service area schema missing');
+const robots=await fs.readFile(path.join(dist,'robots.txt'),'utf8');
+if(manifest.indexing&&(!robots.includes('Allow: /')||robots.includes('Disallow: /')))errors.push('Public crawling blocked');
 if(!home.includes('class="device-track"'))errors.push('Animated device banner missing');
 if(home.includes('class="preview-bar"'))errors.push('Obsolete preview banner present');
 if(/(?:watching-tv|cinema-tv|sports-tv)\.jpg/.test(home))errors.push('Generated imagery still referenced on home');

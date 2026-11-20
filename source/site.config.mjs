@@ -5,7 +5,7 @@ export const site = {
   origin: 'https://relay-studio-clone-1120.handygait32.chatgpt.site',
   locale: 'en-CA',
   currency: 'CAD',
-  indexing: false,
+  indexing: true,
   preview: false,
   updated: '2026-11-20',
   supportEmail: '',
