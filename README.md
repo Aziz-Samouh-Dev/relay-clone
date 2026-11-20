@@ -1,10 +1,10 @@
 # Lumina Stream
 
-A 35-page responsive IPTV storefront based on the cinematic Relay design, with TVSLine-inspired page structure, original copy and a three-step checkout preview.
+A 35-page IPTV storefront with real stock photography, a unique photo for every Journal article, a large animated device banner, subscription comparisons, setup guides and Interac checkout instructions.
 
-## Run and edit
+## Run
 
-Node.js 22 or newer. No dependency installation needed.
+Requires Node.js 22 or newer. No dependencies need installing.
 
 ```sh
 npm run build
@@ -12,58 +12,42 @@ npm run check
 npm start
 ```
 
-Open http://localhost:4173. Set PORT to use another port. Rebuild after editing source.
+Open http://localhost:4173. Set PORT for a different port. Rebuild after source changes.
 
-- source/site.config.mjs: brand, canonical origin, currency, indexing flag, FAQ and device content.
-- source/pricing.json: single price catalogue used by cards, comparisons, checkout and confirmation.
-- source/pricing-components.mjs: plan presentation and comparison.
-- source/articles.mjs: six original journal articles.
-- source/build.mjs: static HTML, metadata, JSON-LD, sitemap and robots generation.
-- source/styles.css and source/app.js: presentation, responsive layouts and interactions.
-- dist/: complete deployable static site.
-- reference-relay/: preserved original Relay snapshot, excluded from deployment.
-- site-manifest.json: generated route and metadata inventory.
+## Edit
 
-## Pages
+- source/site.config.mjs: brand, domain, FAQ, devices and Interac recipient configuration.
+- source/pricing.json: the owner-approved CAD catalogue for Duck, Edge, Raccoon, Trex and Cine Pack, plus trial settings in site.config.mjs.
+- source/pricing-components.mjs: subscription cards and comparison table.
+- source/articles.mjs: original Journal articles and their six different photographs.
+- source/storefront.mjs: sales copy and business information pages.
+- source/interac.mjs: recipient, exact amount, memo and copy-button payment layout.
+- source/app.js: interactive controls, local order selections and recipient guard.
+- source/styles.css: responsive design, hero motion, purchase-button emphasis and device marquee.
+- source/build.mjs: generated HTML, metadata, structured data, sitemap and robots.
+- PHOTO-SOURCES.md: the real photography source list.
+- dist/: static deployment output.
 
-Home, subscriptions, trial, channel interests, devices, setup index, six device guides, FAQ, journal index, six articles, four category archives, about, Canada/Quebec/Montreal/Toronto checklists, contact, checkout, confirmation, privacy, service terms and refund information. A custom 404 page is also included.
+## Prices
 
-## Owner-specified pricing
+The owner requested the same price catalogue as TVSLine. The snapshot includes five plans, four terms and three stream counts, plus the CAD 2.99 trial. A scheduled price in the supplied reference makes the Raccoon 12-month, one-stream total CAD 180 as of 20 November 2026. All displayed totals and Interac amounts use the same catalogue, without percentage approximations.
 
-The owner confirmed the Lumina Stream brand and requested TVSLine pricing. The snapshot comes from the public reference checkout catalogue on 20 November 2026. It includes Duck, Edge, Raccoon, Trex and Cine Pack, with 1/3/6/12-month terms and 1/2/3 simultaneous streams, plus a CAD 2.99 24-hour trial.
+## Interac setup and current behavior
 
-The reference includes a scheduled Raccoon change effective 1 November 2026: 12 months and one stream costs CAD 180. Some static HTML still shows CAD 120. This site uses the effective checkout value, CAD 180. Other stream counts are unchanged. The catalogue excludes reference trackers, payment recipients, support accounts and API endpoints.
+The owner requested placeholder contact information. source/site.config.mjs therefore has payments@example.com and interac.configured=false. The checkout shows the requested recipient / email / amount / memo layout, but disables the payment-sent action while the recipient is a placeholder. It does not copy the reference company's identity or payment address.
 
-## Current behavior
+To configure the real recipient, set the actual legal recipient name and email, then set interac.configured=true. The client additionally rejects reserved example.com/.net/.org recipient addresses. Bank transfers occur in the buyer's banking app, not on this website.
 
-Pricing uses the exact catalogue, including distinct prices for every duration and stream count. The trial is fixed to 24 hours and one stream. Cine Pack is labelled on demand, without live channels.
+When a visitor reviews an order, the site generates a LUM- reference and stores the selection on that browser: plan, term, stream count, total, currency and status. It does not store names or email addresses. This is a local record, not a server-confirmed order. A production order database, payment verification, fulfilment and activation email delivery are not connected. Those must be implemented before claiming server-saved orders, verified receipt or automatic activation.
 
-Checkout holds customer entries only in page memory, displays a review, then shows an explicit preview confirmation. No order, payment or activation occurs. Personal details never enter the confirmation URL. Contact prepares a local message for copying; it does not send or store enquiries.
+The contact form prepares a message for copying and does not send it. A real support destination is still required for email submission.
 
-The operator identity, domain, support destination, payment provider, actual channel catalogue, distribution permissions and final policies are still missing. No invented ratings, customer counts, channel counts, uptime guarantees or testimonials are published.
+## Search
 
-## SEO, AEO and GEO
+Pages are static HTML with unique metadata, canonical URLs, breadcrumbs, social metadata and JSON-LD. The sitemap excludes transactional pages. The owner-private Site retains noindex and disallowed crawling. Public access and a real canonical domain must be configured for public Google/AI discovery; no indexing or ranking has been claimed.
 
-All pages are static HTML with readable content, unique titles/descriptions, canonical URLs, social metadata, breadcrumbs and internal links. Organization, WebSite, WebPage, FAQ and article structured data matches visible content. The sitemap excludes checkout and confirmation. Images have alt text, the local font uses font-display swap, below-fold images are lazy loaded and reduced-motion preferences are supported.
+## Checks
 
-Answer-first sections, focused questions, comparison tables and original guides support readers and search systems. No special AI files or ranking guarantees are used. Google says normal SEO foundations apply to its AI search features: https://developers.google.com/search/docs/appearance/ai-features
+npm run check covers all 35 pages, 1,390 internal references, valid JSON-LD, unique metadata, six different Journal images, the device banner and placeholder Interac guard. Browser QA checked pricing consistency, copy controls, generated references, mobile field overflow, Journal filtering, image loading and removal of example-plan labels.
 
-The existing Site remains owner-private and indexing is disabled in source/site.config.mjs. Robots disallows crawling and page metadata specifies noindex during the business preview. A private preview cannot appear in public Google or AI results.
-
-Before a public search launch:
-
-1. Set the actual domain, operator identity, support contacts and final service catalogue.
-2. Connect a real payment provider and order/activation backend. Validate prices and signed payment callbacks on the server. Never fulfil an order based only on a browser confirmation.
-3. Confirm content rights and territories, actual device support, final taxes, trial terms, renewal and refund policies. Replace preview copy with confirmed details.
-4. Approve public access, enable site.indexing, remove preview notices when the service is actually live, rebuild and redeploy.
-5. Verify the domain in Google Search Console, submit /sitemap.xml, validate structured data and review crawl/performance results. No Search Console submission has been made here.
-
-## Validation
-
-npm run check checks all generated pages, internal links/assets, unique metadata, canonical URLs, language attributes, JSON-LD syntax and checkout/sitemap boundaries. Browser QA covers desktop and mobile rendering, navigation, reference pricing, trial constraints, checkout review and confirmation, FAQ search, blog filters, channel requests and local enquiry preparation.
-
-The original source is retained in Git history and reference-relay/. The existing private Site identity is preserved in .openai/hosting.json.
-
-## Assets
-
-Rethink Sans was retained from the Relay reference. The current television, cinema and sports artwork was created with the built-in image generation tool. See ARTWORK.md for asset paths and prompts. The artwork is illustrative and does not represent a programme or channel catalogue.
+The original Relay snapshot remains in reference-relay/ and Git history. Earlier generated artwork is retained for history but is not referenced by current pages.

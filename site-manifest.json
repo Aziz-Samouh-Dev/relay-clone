@@ -1,27 +1,27 @@
 {
   "name": "Lumina Stream",
   "origin": "https://relay-studio-clone-1120.handygait32.chatgpt.site",
-  "preview": true,
+  "preview": false,
   "indexing": false,
   "pages": [
     {
       "route": "/",
       "title": "Lumina Stream | A Better Kind of IPTV & TV Time",
-      "description": "Explore IPTV plans, device setup guides and clear answers with Lumina Stream. Compare example plans in CAD and preview a simpler way to choose your television.",
+      "description": "Explore IPTV plans, device setup guides and clear answers with Lumina Stream. Compare subscription plans in CAD and choose a simpler way to enjoy your television.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/subscription/",
-      "title": "IPTV Plans & Example Prices in CAD | Lumina Stream",
-      "description": "Compare IPTV plan terms, total example prices in Canadian dollars and simultaneous stream options. Review every detail before the preview checkout.",
+      "title": "IPTV Subscription Plans & Prices in CAD | Lumina Stream",
+      "description": "Compare IPTV plan terms, total prices in Canadian dollars and simultaneous stream options. Review every detail before checkout.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/free-trial/",
-      "title": "24-Hour IPTV Trial Preview | Lumina Stream",
-      "description": "Explore the proposed 24-hour IPTV trial: CAD 2.99, one stream and a practical checklist for testing your device and viewing list.",
+      "title": "24-Hour IPTV Trial | Lumina Stream",
+      "description": "Explore the 24-hour IPTV trial: CAD 2.99, one stream and a practical checklist for testing your device and viewing list.",
       "noindex": true,
       "kind": "page"
     },
@@ -91,7 +91,7 @@
     {
       "route": "/faq/",
       "title": "IPTV FAQ: Plans, Devices, Setup & Billing | Lumina Stream",
-      "description": "Find direct answers to IPTV questions about plans, CAD pricing, device compatibility, trials, buffering, content availability and the Lumina Stream preview.",
+      "description": "Find direct answers to IPTV questions about plans, CAD pricing, device compatibility, trials, buffering, content availability and Lumina Stream.",
       "noindex": true,
       "kind": "page"
     },
@@ -175,7 +175,7 @@
     {
       "route": "/about/",
       "title": "About Lumina Stream | A Clearer Way to Choose IPTV",
-      "description": "Meet the thinking behind Lumina Stream: clear plans, practical setup help and honest service information. Learn what is included in this website preview.",
+      "description": "Meet the thinking behind Lumina Stream: clear plans, practical setup help and honest service information. Explore live channels, movies, series and flexible subscription terms.",
       "noindex": true,
       "kind": "page"
     },
@@ -210,42 +210,42 @@
     {
       "route": "/contact/",
       "title": "Contact & IPTV Availability Enquiries | Lumina Stream",
-      "description": "Prepare an IPTV enquiry about your channels, device or plan. The Lumina Stream preview lets you copy your message without sending or storing personal information.",
+      "description": "Prepare an IPTV enquiry about your channels, device or plan. Prepare and review your complete channel, device or subscription enquiry.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/checkout/",
-      "title": "Preview Your IPTV Plan & Checkout | Lumina Stream",
-      "description": "Configure an example IPTV plan, simultaneous streams and viewing preferences. Review your order and preview checkout without making a payment.",
+      "title": "Your IPTV Subscription & Checkout | Lumina Stream",
+      "description": "Configure your IPTV subscription, simultaneous streams and viewing preferences. Review your subscription details and payment availability.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/order-confirmation/",
-      "title": "Order Preview Confirmation | Lumina Stream",
-      "description": "Review the end of the Lumina Stream checkout preview. No payment has been taken, no order submitted and no subscription activated.",
+      "title": "Your Subscription Summary | Lumina Stream",
+      "description": "Review your selected subscription and check the status of your purchase.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/privacy/",
       "title": "Privacy | Lumina Stream",
-      "description": "How this website preview handles your information.",
+      "description": "How Lumina Stream handles your information and browser preferences.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/terms/",
       "title": "Service terms | Lumina Stream",
-      "description": "What you need to know about this website preview.",
+      "description": "Subscription terms, device compatibility and the details to check before purchasing.",
       "noindex": true,
       "kind": "page"
     },
     {
       "route": "/refund-policy/",
       "title": "Refund information | Lumina Stream",
-      "description": "Refund information for the Lumina Stream website preview.",
+      "description": "How to prepare a refund enquiry and what to check before subscribing to Lumina Stream.",
       "noindex": true,
       "kind": "page"
     }

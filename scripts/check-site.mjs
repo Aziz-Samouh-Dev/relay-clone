@@ -21,9 +21,17 @@ for(const page of manifest.pages){
  if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|30,000|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
 }
 const checkout=await fs.readFile(path.join(dist,'checkout/index.html'),'utf8');
-if(!checkout.includes('No card information is requested.'))errors.push('Checkout preview notice missing');
+if(!checkout.includes('data-copy-transfer="memo"')||!checkout.includes('data-copy-transfer="amount"'))errors.push('Interac reference or amount copy control missing');
+if(!checkout.includes('payments@example.com is a placeholder'))errors.push('Missing placeholder payment-recipient notice');
+const blog=await fs.readFile(path.join(dist,'blog/index.html'),'utf8');
+const journalImages=[...blog.matchAll(/class="article-img"[^>]*><img src="([^"]+)"/g)].map(m=>m[1]);
+if(journalImages.length!==6||new Set(journalImages).size!==6)errors.push('Journal must have six distinct article images');
+const home=await fs.readFile(path.join(dist,'index.html'),'utf8');
+if(!home.includes('class="device-track"'))errors.push('Animated device banner missing');
+if(home.includes('class="preview-bar"'))errors.push('Obsolete preview banner present');
+if(/(?:watching-tv|cinema-tv|sports-tv)\.jpg/.test(home))errors.push('Generated imagery still referenced on home');
 const app=await fs.readFile(path.join(dist,'assets/app.js'),'utf8');
 if(/fetch\(|localStorage\.setItem\([^)]*(?:email|password|name)/.test(app))errors.push('Unexpected network submission or sensitive storage');
 const sitemap=await fs.readFile(path.join(dist,'sitemap.xml'),'utf8');
 if(sitemap.includes('/checkout/')||sitemap.includes('/order-confirmation/'))errors.push('Transactional pages must not be in sitemap');
-if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`PASS: ${manifest.pages.length} pages, ${references} local references, ${schemas} valid JSON-LD graphs; unique metadata, checkout preview and sitemap checks passed.`);
+if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`PASS: ${manifest.pages.length} pages, ${references} local references, ${schemas} valid JSON-LD graphs; six unique Journal photos, sales metadata, checkout and sitemap checks passed.`);
