@@ -455,6 +455,134 @@
       "description": "Préparez une demande de remboursement et découvrez les vérifications utiles avant de vous abonner.",
       "lang": "fr-CA",
       "kind": "page"
+    },
+    {
+      "route": "/order/",
+      "title": "Track Your Order | Lumina Stream",
+      "description": "Securely track your Lumina Stream order, payment review, invoices and subscription activation.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/order/",
+      "title": "Suivre votre commande | Lumina Stream",
+      "description": "Suivez votre commande Lumina Stream, la vérification du paiement, les factures et l’activation de votre abonnement.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/",
+      "title": "Dashboard | Lumina Stream administration",
+      "description": "Dashboard management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/",
+      "title": "Tableau de bord | Administration Lumina Stream",
+      "description": "Gestion de la rubrique tableau de bord pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/orders/",
+      "title": "Orders | Lumina Stream administration",
+      "description": "Orders management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/orders/",
+      "title": "Commandes | Administration Lumina Stream",
+      "description": "Gestion de la rubrique commandes pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/payments/",
+      "title": "Payments | Lumina Stream administration",
+      "description": "Payments management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/payments/",
+      "title": "Paiements | Administration Lumina Stream",
+      "description": "Gestion de la rubrique paiements pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/invoices/",
+      "title": "Invoices | Lumina Stream administration",
+      "description": "Invoices management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/invoices/",
+      "title": "Factures | Administration Lumina Stream",
+      "description": "Gestion de la rubrique factures pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/customers/",
+      "title": "Customers | Lumina Stream administration",
+      "description": "Customers management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/customers/",
+      "title": "Clients | Administration Lumina Stream",
+      "description": "Gestion de la rubrique clients pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/subscriptions/",
+      "title": "Subscriptions | Lumina Stream administration",
+      "description": "Subscriptions management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/subscriptions/",
+      "title": "Abonnements | Administration Lumina Stream",
+      "description": "Gestion de la rubrique abonnements pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/admin/settings/",
+      "title": "Settings | Lumina Stream administration",
+      "description": "Settings management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/settings/",
+      "title": "Paramètres | Administration Lumina Stream",
+      "description": "Gestion de la rubrique paramètres pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
     }
   ]
 }

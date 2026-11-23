@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+import {passwordHash,random} from '../server/security.mjs';
+const file=new URL('../.env.local',import.meta.url);try{await fs.access(file);console.log('.env.local exists. No secrets were changed.');}catch{const password=random();await fs.writeFile(file,`AUTH_MODE=password\nLOCAL_DEV=true\nADMIN_EMAIL=admin@localhost.invalid\nADMIN_PASSWORD_HASH=${await passwordHash(password)}\nLOCAL_ADMIN_PASSWORD=${password}\nORDER_SECRET=${random()}\nSETTINGS_KEY=${random()}\n`,{flag:'wx',mode:0o600});console.log('Created .env.local. Read LOCAL_ADMIN_PASSWORD there to sign in locally. Keep this file private.');}

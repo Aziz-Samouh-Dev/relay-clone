@@ -7,8 +7,8 @@ const fixed=new Set(['en_CA','Lumina','Stream','Lumina Stream','lumina stream','
 export const missingFrench=new Set();
 const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(Number(n)));
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-export function translate(s,record=true){const key=decode(String(s)).trim();if(frenchDictionary[key]!==undefined)return frenchDictionary[key];if(/^\$[\d.,]+ CAD$/.test(key))return key.slice(1,-4).replace('.',',')+' $ CAD';if(fixed.has(key)||!/[A-Za-z]/.test(key)||key.startsWith('#')||key.includes('@')||/^(?:https?:|index,|noindex,|summary_large_image|website|article|width=|text\/)/.test(key))return key;if(record)missingFrench.add(key);return key;}
-const frPath=p=>p.startsWith('/assets/')||p.startsWith('/fr/')?p:'/fr'+p;
+export function translate(s,record=true){const key=decode(String(s)).trim();if(key==='no-referrer')return key;if(frenchDictionary[key]!==undefined)return frenchDictionary[key];if(/^\$[\d.,]+ CAD$/.test(key))return key.slice(1,-4).replace('.',',')+' $ CAD';if(fixed.has(key)||!/[A-Za-z]/.test(key)||key.startsWith('#')||key.includes('@')||/^(?:https?:|index,|noindex,|summary_large_image|website|article|width=|text\/)/.test(key))return key;if(record)missingFrench.add(key);return key;}
+const frPath=p=>p.startsWith('/assets/')||p.startsWith('/api/')||p.startsWith('/signin-with-chatgpt')||p.startsWith('/fr/')?p:'/fr'+p;
 export function translatePage(html,route,origin){
  let source=html.replace(/<option([^>]*)>([^<]*)<\/option>/g,(all,attrs,text)=>/\bvalue=/.test(attrs)?all:`<option${attrs} value="${escape(decode(text))}">${text}</option>`);
  let result='';

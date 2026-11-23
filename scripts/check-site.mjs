@@ -21,7 +21,7 @@ for(const page of manifest.pages){
  for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
   const ref=m[1];if(!ref.startsWith('/')||ref.startsWith('//'))continue;
   const url=new URL(ref,'https://local.example');let relative=decodeURIComponent(url.pathname).slice(1);if(!relative||relative.endsWith('/'))relative+='index.html';else if(!path.extname(relative))relative+='/index.html';references++;
-  if(!(await fs.stat(path.join(dist,relative)).catch(()=>null))?.size)errors.push(page.route+': broken reference '+ref);
+  if(!ref.startsWith('/signin-with-chatgpt')&&!(await fs.stat(path.join(dist,relative)).catch(()=>null))?.size)errors.push(page.route+': broken reference '+ref);
  }
  if(/relay-theme\.pages\.dev|tvsline\.org|Luxpaynorth|99\.9%/.test(html))errors.push(page.route+': stale or unverified reference content');
  if(/(?:hero-real|cinema-real|sports-real|journal-(?:iptv|cinema|device|buffering|4k|canada))\.jpg/.test(html))errors.push(page.route+': replaced photography remains');
@@ -29,8 +29,8 @@ for(const page of manifest.pages){
 const checkout=await fs.readFile(path.join(dist,'checkout/index.html'),'utf8');
 if(JSON.parse(await fs.readFile(path.join(project,'fr-untranslated.json'),'utf8')).length)errors.push('Untranslated French content remains');
 if(!checkout.includes('name="country" value="Canada"'))errors.push('Checkout must be fixed to Canada');
-if(!checkout.includes('data-copy-transfer="memo"')||!checkout.includes('data-copy-transfer="amount"'))errors.push('Interac reference or amount copy control missing');
-if(!checkout.includes('payments@example.com is a placeholder'))errors.push('Missing placeholder payment-recipient notice');
+if(!checkout.includes('data-server-payment')||!checkout.includes('/assets/commerce.js'))errors.push('Server checkout integration missing');
+if(checkout.includes('payments@example.com'))errors.push('Placeholder payment recipient must not be exposed');
 const blog=await fs.readFile(path.join(dist,'blog/index.html'),'utf8');
 const journalImages=[...blog.matchAll(/class="article-img"[^>]*><img src="([^"]+)"/g)].map(m=>m[1]);
 if(journalImages.length!==6||new Set(journalImages).size!==6)errors.push('Journal must have six distinct article images');
@@ -51,5 +51,7 @@ if(/(?:watching-tv|cinema-tv|sports-tv)\.jpg/.test(home))errors.push('Generated 
 const app=await fs.readFile(path.join(dist,'assets/app.js'),'utf8');
 if(/fetch\(|localStorage\.setItem\([^)]*(?:email|password|name)/.test(app))errors.push('Unexpected network submission or sensitive storage');
 const sitemap=await fs.readFile(path.join(dist,'sitemap.xml'),'utf8');
-if(sitemap.includes('/checkout/')||sitemap.includes('/order-confirmation/'))errors.push('Transactional pages must not be in sitemap');
+if(sitemap.includes('/checkout/')||sitemap.includes('/order-confirmation/')||sitemap.includes('/admin/')||sitemap.includes('/order/'))errors.push('Private and transactional pages must not be in sitemap');
+const commerce=await fs.readFile(path.join(dist,'assets/commerce.js'),'utf8');
+if(/sessionStorage|lumina:orders/.test(commerce+app))errors.push('Unexpected browser order storage');
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`PASS: ${manifest.pages.length} pages, ${references} local references, ${schemas} valid JSON-LD graphs; six unique Journal photos, sales metadata, checkout and sitemap checks passed.`);

@@ -5,9 +5,20 @@
   "type": "module",
   "description": "Lumina Stream: a cinematic IPTV storefront, content hub and checkout preview.",
   "scripts": {
-    "start": "node scripts/serve.mjs",
-    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve-commerce.mjs",
+    "dev": "node scripts/serve-commerce.mjs",
     "build": "node source/build.mjs",
-    "check": "node scripts/check-site.mjs"
+    "check": "node scripts/check-site.mjs",
+    "dev:static": "node scripts/serve.mjs",
+    "setup:local": "node scripts/setup-local.mjs",
+    "build:worker": "node scripts/build-worker.mjs",
+    "test": "npm run build:worker && node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
   }
 }

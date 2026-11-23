@@ -1,0 +1,11 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import worker from '../server/worker.mjs';
+import {LocalD1,LocalBucket} from '../server/local.mjs';
+try{process.loadEnvFile('.env.local');}catch{}
+const project=path.resolve(import.meta.dirname,'..'),data=path.join(project,'.local'),root=path.join(project,'dist');await fs.mkdir(data,{recursive:true});const DB=new LocalD1(path.join(data,'lumina.sqlite'));await DB.migrate();
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.svg':'image/svg+xml','.json':'application/json','.woff2':'font/woff2','.txt':'text/plain','.xml':'application/xml'};
+const env={...process.env,LOCAL_DEV:'true',DB,BUCKET:new LocalBucket(path.join(data,'private')),ASSETS:{async fetch(req){try{const url=new URL(req.url);let p=decodeURIComponent(url.pathname);if(p.endsWith('/'))p+='index.html';else if(!path.extname(p))p+='/index.html';const file=path.resolve(root,'.'+p);if(!file.startsWith(root+path.sep))return new Response('Forbidden',{status:403});return new Response(await fs.readFile(file),{headers:{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache'}});}catch{return new Response('Not found',{status:404});}}}};
+const server=http.createServer(async(req,res)=>{try{const origin='http://localhost:'+(process.env.PORT||4173);const chunks=[];let size=0;for await(const c of req){size+=c.length;if(size>20000){res.writeHead(413);res.end();return;}chunks.push(c);}const request=new Request(origin+req.url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)}),response=await worker.fetch(request,env);res.writeHead(response.status,Object.fromEntries(response.headers));res.end(req.method==='HEAD'?undefined:Buffer.from(await response.arrayBuffer()));}catch{res.writeHead(500);res.end('Request failed');}});
+server.listen(Number(process.env.PORT||4173),'127.0.0.1',()=>console.log('Lumina commerce preview: http://localhost:'+(process.env.PORT||4173)));for(const sig of ['SIGINT','SIGTERM'])process.on(sig,()=>server.close(()=>{DB.close();process.exit(0);}));

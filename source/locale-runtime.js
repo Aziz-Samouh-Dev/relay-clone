@@ -24,7 +24,7 @@
       .replace(/^Copied order reference\.$/,'Référence de commande copiée.').replace(/^Copied amount\.$/,'Montant copié.').replace(/^Copied email\.$/,'Courriel copié.').replace(/^Copied recipient\.$/,'Destinataire copié.')
       .replace(/^Copy this field: /,'Copiez ce champ : ');
   };
-  const localPath=url=>french&&url.startsWith('/')&&!url.startsWith('/fr/')&&!url.startsWith('/assets/')?'/fr'+url:url;
+  const localPath=url=>french&&url.startsWith('/')&&!url.startsWith('/fr/')&&!url.startsWith('/assets/')&&!url.startsWith('/api/')&&!url.startsWith('/signin-with-chatgpt')?'/fr'+url:url;
   window.LuminaLocale={french,text,localPath};
   const language=document.querySelector('[data-language-toggle]');
   if(language){const path=french?location.pathname.replace(/^\/fr(?=\/)/,''): '/fr'+location.pathname;language.href=path+location.search+location.hash;language.textContent=french?'EN':'FR';}

@@ -1,5 +1,7 @@
 # Lumina Stream
 
+The local code now includes a durable order/payment/invoice backend and bilingual administration. Read [COMMERCE.md](COMMERCE.md) for the current architecture, local login setup, database migration, Cloudflare bindings, test results and production configuration requirements. Production has not been changed. Earlier notes below describe the prior static storefront and its history.
+
 A 35-page IPTV storefront with real stock photography, a unique photo for every Journal article, a large animated device banner, subscription comparisons, setup guides and Interac checkout instructions.
 
 ## Run
