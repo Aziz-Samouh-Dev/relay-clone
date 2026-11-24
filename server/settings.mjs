@@ -1,9 +1,10 @@
 import {decrypt,encrypt,fail,now,string} from './security.mjs';
 export const defaults=()=>({mode:'test',seller:{name:'',address:'',email:'',taxNumber:''},tax:{configured:false,rateBps:0,label:'Tax not configured'},interac:{enabled:false,accountVerified:false,recipientName:'',email:''},crypto:{enabled:false,legalApproved:false,operationsApproved:false,wallets:[],rates:{}},email:{enabled:false,from:''}});
-export async function settings(env){const row=await env.DB.prepare('SELECT encrypted FROM settings WHERE id=1').first();return row?decrypt(row.encrypted,env.SETTINGS_KEY):defaults();}
+export async function settings(env){const row=await env.DB.prepare('SELECT encrypted FROM settings WHERE id=1').first();return row?decrypt(row.encrypted,env.SETTINGS_KEY):{...defaults(),mode:env.LOCAL_DEV==='true'?'test':'live'};}
 export function legalReady(s){return !!(s.seller.name&&s.seller.address&&s.seller.email&&s.tax.configured);}
 export function ready(s,method){if(s.mode==='test')return true;if(!legalReady(s))return false;if(method==='interac')return s.interac.enabled&&s.interac.accountVerified&&s.interac.recipientName&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s.interac.email)&&!s.interac.email.includes('example.');return s.crypto.enabled&&s.crypto.legalApproved&&s.crypto.operationsApproved&&s.crypto.wallets.length>0;}
 export async function saveSettings(env,input,actor){
+ if(env.LOCAL_DEV!=='true'&&input.mode!=='live')fail(400,'Production accepts real commerce settings only');
  const s=defaults();if(!['test','live'].includes(input.mode))fail(400,'Invalid mode');s.mode=input.mode;
  for(const key of ['name','address','email','taxNumber'])s.seller[key]=string(input.seller?.[key]||'',0,500);
  const t=input.tax||{};if(!Number.isInteger(t.rateBps)||t.rateBps<0||t.rateBps>3000)fail(400,'Invalid tax rate');s.tax={configured:t.configured===true,rateBps:t.rateBps,label:string(t.label||'Tax not configured',1,100)};

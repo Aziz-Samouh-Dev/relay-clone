@@ -1,5 +1,13 @@
 # Lumina Stream commerce implementation
 
+## Production-only platform (supersedes the demo UI below)
+
+The current customer/admin source removes demo checkout, demo creation controls, financial mode switches and demo revenue cards. Production API requests (LOCAL_DEV is not true) cannot create simulated orders or access historical simulated orders, claims or PDFs. Admin lists and dashboard queries always select live records. Historical simulated rows and private documents remain intact in storage, excluded from actual revenue and normal application views; no conversion, deletion or archive interface is added.
+
+Production settings accept live commerce only. If no settings row exists, the configuration defaults to live with all payment methods disabled and seller/tax configuration incomplete. Real order creation is refused until seller/tax details and at least one verified payment method are configured. `/api/checkout-options` exposes only readiness and available method identifiers, never receiving details. The checkout button stays disabled when ordering is unavailable, and unavailable methods cannot be selected. Operator-provided receiving details are never fabricated. LOCAL_DEV must never be enabled on the deployed Worker; isolated developer regression fixtures retain financial test coverage without exposing a production test mode.
+
+Read-only production inspection found eight historical simulated orders (three paid) and no saved settings row. No production rows have been changed. The owner authorized deployment after checks pass and real setup is complete. Deployment and database settings configuration remain pending actual seller name/address, support email, receiving Interac name/email and tax configuration; optional crypto requires the verified token/network/address configuration. No additional migration is needed for the production-only filtering. Preserve the existing financial classification, secrets, migrations, D1/R2 bindings and historical audit records.
+
 ## Full demo financial workflow
 
 The existing immutable-through-API order/quote `mode` separation is reused: `test` means simulated, `live` means real financial activity. No new database columns or migrations are required for this feature. Invoice snapshots retain their mode; subscription and customer financial views inherit order mode. Real and demo revenue both use `server/revenue.mjs`, which totals paid orders with verified claims and matching quote/order environments. Test orders never count toward Verified Live Revenue.
