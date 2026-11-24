@@ -5,4 +5,8 @@ node_modules/
 .dev.vars
 .local/
 .worker-build/
-wrangler.jsonc
+
+.wrangler/
+.dev.vars.*
+.env.*
+!.env.example

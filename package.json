@@ -7,18 +7,25 @@
   "scripts": {
     "start": "node scripts/serve-commerce.mjs",
     "dev": "node scripts/serve-commerce.mjs",
-    "build": "node source/build.mjs",
+    "build": "node source/build.mjs && node scripts/build-worker.mjs",
     "check": "node scripts/check-site.mjs",
     "dev:static": "node scripts/serve.mjs",
     "setup:local": "node scripts/setup-local.mjs",
     "build:worker": "node scripts/build-worker.mjs",
-    "test": "npm run build:worker && node --test tests/*.test.mjs"
+    "test": "npm run build:worker && node --test tests/*.test.mjs",
+    "build:cloudflare": "npm run build",
+    "dev:cloudflare": "npm run build:cloudflare && wrangler dev --local --port 8787",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "check:cloudflare": "wrangler deploy --dry-run --outdir .worker-build/dry-run",
+    "deploy:cloudflare": "node scripts/check-cloudflare-config.mjs && wrangler deploy",
+    "check:worker:local": "node scripts/check-worker-local.mjs"
   },
   "dependencies": {
     "pdf-lib": "^1.17.1",
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "esbuild": "^0.28.2"
+    "esbuild": "^0.28.2",
+    "wrangler": "4.167.0"
   }
 }

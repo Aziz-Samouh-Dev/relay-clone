@@ -4,9 +4,11 @@ The local code now includes a durable order/payment/invoice backend and bilingua
 
 A 35-page IPTV storefront with real stock photography, a unique photo for every Journal article, a large animated device banner, subscription comparisons, setup guides and Interac checkout instructions.
 
+For the existing Cloudflare Worker integration and GitHub build settings, see [CLOUDFLARE.md](CLOUDFLARE.md).
+
 ## Run
 
-Requires Node.js 22 or newer. No dependencies need installing.
+Requires Node.js 22 or newer. Install dependencies with npm ci.
 
 ```sh
 npm run build

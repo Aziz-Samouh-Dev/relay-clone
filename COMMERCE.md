@@ -37,19 +37,7 @@ Database operations use D1 prepared statements and atomic `batch()` transactions
 
 ## Cloudflare configuration, after deployment approval
 
-This change needs a Worker-backed deployment; publishing only `dist/` would leave the API unavailable. The current production static manifest is deliberately unchanged.
-
-`wrangler.example.jsonc` is a deployment template, not an active production configuration. It declares:
-
-- Worker entry `.worker-build/index.js`, generated with `npm run build:worker`.
-- Existing static website in `dist/` through the `ASSETS` binding.
-- Worker-first routing for `/api/*`.
-- D1 binding `DB`, with the real database ID supplied by the operator, and `migrations_dir: migrations`.
-- Private R2 binding `BUCKET`. Do not enable an R2 public domain or public development URL for invoice storage.
-
-When using Cloudflare directly, copy the example into an ignored `wrangler.jsonc`, supply the actual account resource identifiers, and use Wrangler's D1 migrations command against the selected database. Run local migrations before remote migrations. Remote migrations and deployment require the owner's approval; neither was run here.
-
-When using the existing Sites hosting integration, keep the same project ID, convert its static deployment to a Worker entry with the static asset binding, and provision the logical D1/R2 bindings through Sites. Confirm that the selected hosting path serves the existing static assets and applies `migrations/0001_commerce.sql` before publication. Do not create another Site or point the existing static manifest at the Worker bundle as if it were HTML.
+The tracked Wrangler configuration now targets the existing relay-clone Worker with DB bound to lumina-db (907cf85d-f371-41ab-aeaf-aeb5edac386c) and private R2 binding INVOICES bound to lumina-invoices. See [CLOUDFLARE.md](CLOUDFLARE.md) for build settings, local tests and the production approval sequence. The existing Sites hosting manifest remains unchanged; direct Cloudflare builds use Wrangler.
 
 Runtime secrets:
 
@@ -126,3 +114,11 @@ Administration now uses a responsive left sidebar and compact spacing. Orders, p
 
 Navigation correction: the original storefront top navbar remains visible on admin pages, including its existing language and theme controls. The administrative sidebar is an additional floating glass panel below it, matching the navbar's rounded border, translucency, pill links and lime accent. Desktop layout verifies the header and sidebar do not overlap. Data table functionality remains in place. Local changes only.
 
+
+## Subscription delivery and dashboard cards
+
+Migration `0002_subscription_delivery.sql` adds encrypted provider-access records. On a paid, fulfilled order with an active subscription, the administrator can save Xtream server URL/username/password or an M3U URL and setup instructions, then explicitly email a private order-access link. Credentials never appear in the email, audit records or general order response. The customer must present the private order capability and explicitly reveal access; expiry/cancellation/refund blocks disclosure. Provider accounts must still be created in the operator's own panel. Email sends are manual and version-idempotent. Updating credentials resets delivery status so the new version can be sent.
+
+Dashboard cards now link to matching table filters. Revenue and monthly reporting show live and simulated payments separately. The current local example has CAD 365 simulated revenue and CAD 0 live revenue.
+
+Localhost tracking links only work on the computer running the server. A public HTTPS deployment is required before emailing live subscription access to real clients. The Resend onboarding sender remains for owner testing; customer delivery needs a verified sending domain. No client access email was sent during this implementation. Nine integration tests now include encrypted access, authorization, expiry, secret-free mocked email, duplicate-send protection and revenue/card filter accuracy. Production was not deployed. Apply the second migration before a later approved server deployment.

@@ -1,9 +1,35 @@
 {
-  "name": "lumina-stream",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "relay-clone",
   "main": ".worker-build/index.js",
   "compatibility_date": "2026-11-23",
-  "assets": {"directory":"dist","binding":"ASSETS","run_worker_first":["/api/*"]},
-  "d1_databases": [{"binding":"DB","database_name":"lumina-stream-orders","database_id":"REPLACE_WITH_REAL_DATABASE_ID","migrations_dir":"migrations"}],
-  "r2_buckets": [{"binding":"BUCKET","bucket_name":"lumina-stream-invoices-private"}],
-  "vars": {"AUTH_MODE":"password"}
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ],
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lumina-db",
+      "database_id": "907cf85d-f371-41ab-aeaf-aeb5edac386c",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "INVOICES",
+      "bucket_name": "lumina-invoices"
+    }
+  ],
+  "vars": {
+    "AUTH_MODE": "password"
+  },
+  "build": {
+    "command": "npm run build:cloudflare"
+  }
 }
