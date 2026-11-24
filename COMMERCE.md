@@ -1,5 +1,17 @@
 # Lumina Stream commerce implementation
 
+## Cancellation and unresolved claim correction
+
+The source now initializes the status selector from the saved order and displays API failures inline without discarding the selected status or reason. Successful changes reload the order from D1; dashboard/list views load current D1 state on navigation.
+
+Cancellation requires a reason, no fulfillment or subscription history, and an unpaid order. A paid test order additionally requires the explicit administrative test-cancellation checkbox; its payment and invoice history remain unchanged. Real paid orders require financial reconciliation/verified refund, and closed orders cannot be reopened through the status selector. Repeated identical status updates do not duplicate audit records.
+
+Pending claims may be rejected on closed orders with a recorded reason, reviewer and timestamp. Approval on closed orders is blocked. A reviewer reporting actual receipt must use separate financial reconciliation rather than reject the payment as unpaid; this change does not implement or send refunds. Closed order/payment states and original records are preserved.
+
+`migrations/0003_closed_order_reviews.sql` replaces only the rejection trigger and adds a transactional closed-order approval guard. It does not delete records or rewrite old migrations. It was tested using isolated local D1; production application requires approval. After approval, apply the pending migration with `npx wrangler d1 migrations apply lumina-db --remote`, then use the existing approved build/deployment workflow to publish source changes. Do not push an auto-deployed branch before approval. Existing `dist` and `.worker-build` outputs were not rebuilt for this fix.
+
+Validation: `node --test tests/*.test.mjs` passes 17 tests, including UI event behavior, persistence, open/closed claim rejection, test/real paid cancellation safeguards, subscription protection and duplicate audit prevention.
+
 Implemented locally in the existing repository. **Production has not been deployed or reconfigured.** The existing `.openai/hosting.json`, project ID, public audience and hosted database remain unchanged.
 
 ## Existing architecture and changes
