@@ -17,7 +17,7 @@ export async function updateOrderStatus(env,o,p,actor){
  const timestamp=now(),action=testCancellation?'test_order_cancelled':'order_status';
  // Optimistic state checks and the subscription guard are repeated in the write.
  await env.DB.batch([
-  env.DB.prepare('UPDATE orders SET order_status=? WHERE id=? AND order_status=? AND payment_status=? AND mode=? AND NOT EXISTS(SELECT 1 FROM subscriptions WHERE order_id=?)').bind(p.status,o.id,o.order_status,o.payment_status,o.mode,o.id),
+  env.DB.prepare('UPDATE orders SET order_status=? WHERE id=? AND order_status=? AND payment_status=? AND mode=? AND NOT EXISTS(SELECT 1 FROM subscriptions WHERE order_id=?)').bind(p.status,o.id,o.order_status,o.stored_payment_status??o.payment_status,o.mode,o.id),
   env.DB.prepare('INSERT INTO audit(actor,action,order_id,details,created_at) SELECT ?,?,?,?,? WHERE changes()=1').bind(actor,action,o.id,JSON.stringify({from:o.order_status,status:p.status,reason,testCancellation}),timestamp)
  ]);
  const saved=await env.DB.prepare('SELECT order_status FROM orders WHERE id=?').bind(o.id).first();

@@ -1,5 +1,39 @@
 # Lumina Stream commerce implementation
 
+## Full demo financial workflow
+
+The existing immutable-through-API order/quote `mode` separation is reused: `test` means simulated, `live` means real financial activity. No new database columns or migrations are required for this feature. Invoice snapshots retain their mode; subscription and customer financial views inherit order mode. Real and demo revenue both use `server/revenue.mjs`, which totals paid orders with verified claims and matching quote/order environments. Test orders never count toward Verified Live Revenue.
+
+After approved deployment, sign in normally and open `/admin/?financial=demo`. Use **Create demo order** to open `/checkout/?demo=1`. The same checkout form posts through the authenticated, CSRF-protected `/api/admin/demo-orders` endpoint, using actual catalogue pricing and server tax calculation. It always creates test-mode orders, even if the global store is configured for live commerce, without changing those settings. Client-supplied totals and mode cannot promote a demo order to live. Enter clearly fictional names and `@example.invalid` addresses. Admin creation is recorded against the authenticated administrator.
+
+Choose Interac, USDT or USDC. Destinations remain `test-only@example.invalid` or `TEST-ONLY-NOT-A-PAYMENT-ADDRESS`; no provider is contacted. For fake confirmation/hash input use `test-demo-transaction-0001` (vary it per crypto transaction). In Payments, choose Demo financial data and review the claim. Simulate the displayed checks and use a `DEMO-`, `TEST-` or `SIMULATED-` verification reference; approval records Paid/Processing in test mode, not real financial receipt. Rejection and cancellation use the existing safeguarded paths. Simulated activation requires a similarly prefixed fulfillment reference and records only local subscription dates; no upstream account is provisioned.
+
+Demo Live Revenue is `/admin/orders/?status=paid&mode=test&demo=1`. Real Verified Live Revenue remains `/admin/orders/?status=paid&mode=live`. Both views use the same Orders table, status filters and revenue aggregation. Financial mode switches also apply to payments, invoices, subscriptions and customer order totals. Demo PDFs display `DEMO / TEST - NO REAL PAYMENT RECEIVED` and a not-a-tax-invoice notice. They use private `invoices/demo-ID.pdf` keys, leaving existing PDF objects untouched. Test-mode invoice emails and subscription-link emails are refused server-side, even if a provider API key is configured. No email is sent by approval or activation.
+
+Validation used isolated local D1/R2 adapters, with outbound HTTP disabled. The full test creates Edge 12 months/1 screen (CAD 100), Duck 12 months/2 screens (CAD 120), and Trex 12 months/1 screen (CAD 130), approves Interac/USDT/USDC simulations, generates authorized private PDFs, records simulated activation and asserts CAD 350 demo revenue versus CAD 0 real revenue. Repeated operations do not duplicate financial/audit records; unauthenticated access, cross-customer PDF access, email attempts and unlabelled activation are blocked. Rejection/cancellation preserve histories. All 26 tests and existing static/locale checks passed without a rebuild.
+
+No production data or configuration was changed and no code was deployed. After explicit approval, verify the preceding migration 0004 is applied, then use the existing build/deploy workflow. Keep the existing Worker name, D1/R2 bindings, secrets and payment settings unchanged. Creating demo records in production is a separate operator action after deployment, not part of the local validation.
+
+## Main status and trial duration formatting
+
+`source/order-format.js` is shared by browser scripts and the Worker. The primary order badge gives Cancelled priority, with a red badge; the separate payment column/history retains its financial state. Details, recent orders and customer tracking use the same rule, with persisted data fetched again after status changes.
+
+Trial duration is identified by product type/plan ID and represented in API responses and new invoice snapshots as `{value:24,unit:'hours'}`. Standard terms remain calendar months. Legacy invoice snapshots retain support for the existing trial name/zero-month representation. Duration and screen labels are shared across checkout, order summaries, tracking, administration, subscriptions and PDF generation in English/French. New trial activations expire exactly 86,400,000 milliseconds after activation; standard month-end clamping remains unchanged.
+
+Production read-only inspection found order LUM-2026-000003 correctly stored as trial, months=0, screens=1, with a zero-month pro forma snapshot and no activated trial subscriptions. No duration correction is proposed for existing records. Existing private PDF objects are not rewritten.
+
+This fix needs no new migration. Existing migration 0004 remains required by the preceding payment-state source change. The build source includes the shared browser asset before commerce/admin scripts. No build or deployment was performed; after approval use the normal build/deploy workflow, preserving existing secrets and bindings. Existing dist checks passed without regenerating dist; 25 source/API/UI/PDF tests passed.
+
+## Authoritative order payment state
+
+Migration `0004_authoritative_payment_state.sql` adds the read-only `order_payment_records` view. It exposes every order with a canonical payment status: Refunded first, then Paid (stored paid or verified claim), Awaiting verification (any pending claim), Rejected (rejected claims with no pending/verified claim), otherwise Pending payment. Order fulfillment state is independent. Multiple historical claims are preserved; the existing unique pending-claim constraint still allows one unresolved submission at a time.
+
+All order API reads, admin order filters/sorts, dashboard metrics/recent orders and customer tracking use this view. The original constrained `orders.payment_status` remains a storage summary; Rejected is a derived API status, not a new stored enum. The internal storage summary is excluded from public API output. Historical stale summaries are interpreted correctly without an UPDATE/backfill of existing records. The replacement rejection trigger synchronizes future unpaid storage summaries regardless of cancellation, preserving paid/refunded states and verified payments, without touching fulfillment or duplicating audit history.
+
+Admin Orders and dashboard recent orders show separate Order Status and Payment Status columns. Orders has independent status filters. Details label both states explicitly. API responses are no-store; admin fetches also explicitly bypass browser caching. Open rejected orders can retry payment instructions; cancelled/refunded/fulfilled orders do not expose the retry form.
+
+After explicit approval, apply pending migrations first with `npx wrangler d1 migrations apply lumina-db --remote`, then build and deploy through the existing Cloudflare workflow. This order is required because the corrected source reads the new view. Do not push an automatically deployed branch before the migration/deployment approval. No production records were manually repaired, and no build or deployment was run for this source change.
+
 ## Cancellation and unresolved claim correction
 
 The source now initializes the status selector from the saved order and displays API failures inline without discarding the selected status or reason. Successful changes reload the order from D1; dashboard/list views load current D1 state on navigation.
