@@ -41,3 +41,12 @@ test('checkout selection normalizes trial and standard plans without stale summa
  const trial=F.checkoutSelection(catalog,{plan:'trial',months:'12',screens:'3'});assert.equal(trial.plan_name,'24-hour trial');assert.equal(trial.months,0);assert.equal(trial.screens,1);assert.equal(trial.total_cents,299);assert.equal(F.formatDuration(trial),'24 hours');
  const back=F.checkoutSelection(catalog,{plan:'duck',months:'3',screens:'2'});assert.equal(back.plan_name,'Duck');assert.equal(back.months,3);assert.equal(back.screens,2);assert.equal(back.total_cents,5500);
 });
+test('checkout chooses an eligible network instead of an empty Ethereum account list',()=>{
+ const tron={id:'tron-1',network:'tron',isDefault:true};
+ assert.deepEqual(F.paymentAccountSelection([tron],'ethereum',''),{networks:['tron'],network:'tron',accounts:[tron],accountId:'tron-1'});
+ const eth={id:'eth-1',network:'ethereum'},other={id:'tron-2',network:'tron'};
+ assert.equal(F.paymentAccountSelection([tron,eth,other],'ethereum','eth-1').accountId,'eth-1');
+ assert.equal(F.paymentAccountSelection([tron,other],'tron','tron-2').accountId,'tron-2');
+ assert.equal(F.paymentAccountSelection([], 'tron','tron-1').accountId,'');
+ const interac={id:'interac-1',network:''};assert.equal(F.paymentAccountSelection([interac],'','').accountId,'interac-1');
+});
