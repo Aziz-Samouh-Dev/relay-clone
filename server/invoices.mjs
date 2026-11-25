@@ -1,13 +1,14 @@
 import '../source/order-format.js';
 const {durationFor,formatDuration,formatScreens}=globalThis.LuminaOrderFormat;
 import {PDFDocument,StandardFonts,rgb} from 'pdf-lib';
+import {invoiceReady} from './settings.mjs';
 import {fail,now,random} from './security.mjs';
 export const invoiceNumber=i=>`${i.kind==='proforma'?'PF':i.kind==='credit'?'CN':'INV'}-${i.created_at.slice(0,4)}-${String(i.id).padStart(6,'0')}`;
 export const orderReference=o=>`LUM-${o.created_at.slice(0,4)}-${String(o.id).padStart(6,'0')}`;
-export function invoiceSnapshot(order,customer,s,method='Unselected'){return JSON.stringify({order:orderReference(order),customer:{name:customer.name,email:customer.email},product:order.plan_name,plan_id:order.plan_id,product_type:order.plan_id==='trial'?'trial':'subscription',duration:durationFor(order),months:order.months,screens:order.screens,subtotal:order.subtotal_cents,tax:order.tax_cents,taxLabel:order.tax_label,total:order.total_cents,currency:'CAD',seller:s.seller,mode:s.mode,method,locale:order.locale});}
+export function invoiceSnapshot(order,customer,s,method='Unselected'){return JSON.stringify({order:orderReference(order),customer:{name:customer.name,email:customer.email},documentRole:s.mode==='live'&&!invoiceReady(s)?'non_fiscal':'invoice',product:order.plan_name,plan_id:order.plan_id,product_type:order.plan_id==='trial'?'trial':'subscription',duration:durationFor(order),months:order.months,screens:order.screens,subtotal:order.subtotal_cents,tax:order.tax_cents,taxLabel:order.tax_label,total:order.total_cents,currency:'CAD',seller:s.seller,mode:s.mode,method,locale:order.locale});}
 export async function pdfInvoice(i){const s=JSON.parse(i.snapshot),fr=s.locale==='fr-CA',doc=await PDFDocument.create(),font=await doc.embedFont(StandardFonts.Helvetica),bold=await doc.embedFont(StandardFonts.HelveticaBold);let page,y;
  const line=(value,heading=false)=>{const text=String(value).replace(/[^\x20-\x7e\u00a0-\u00ff]/g,' ');if(!page||y<60){page=doc.addPage([595,842]);y=785;}const words=text.split(' ');let row='';for(const w of words){if(font.widthOfTextAtSize(row+w,11)>490){page.drawText(row,{x:48,y,size:11,font:heading?bold:font,color:rgb(.08,.16,.1)});y-=18;row='';}row+=w+' ';}page.drawText(row,{x:48,y,size:heading?14:11,font:heading?bold:font});y-=heading?30:22;};
- line('Lumina Stream',true);line(`${invoiceNumber(i)} | ${i.kind.toUpperCase()} | ${i.status}`,true);
+ line('Lumina Stream',true);if(s.documentRole==='non_fiscal'||i.status==='draft')line(fr?'BROUILLON / RÉSUMÉ NON FISCAL':'DRAFT / NON-FISCAL PAYMENT SUMMARY',true);line(`${invoiceNumber(i)} | ${i.status==='draft'?'NON-FISCAL SUMMARY':i.kind.toUpperCase()} | ${i.status}`,true);
  if(s.mode==='test'){line('DEMO / TEST - NO REAL PAYMENT RECEIVED',true);line(fr?'SIMULATION - Ne constitue pas une facture fiscale.':'SIMULATION - NOT A TAX INVOICE.');}
  line(s.seller.name||(fr?'Identité légale du vendeur non configurée':'Legal seller identity not configured'));line(s.seller.address||'');line(s.seller.email||'');if(s.seller.taxNumber)line('Tax ID: '+s.seller.taxNumber);
  line((fr?'Commande : ':'Order: ')+s.order);line((fr?'Date : ':'Date: ')+i.created_at.slice(0,10));line(s.customer.name);line(s.customer.email);line(`${s.product} | ${formatDuration(s,s.locale||'en-CA')} | ${formatScreens(s.screens,s.locale||'en-CA')}`);
