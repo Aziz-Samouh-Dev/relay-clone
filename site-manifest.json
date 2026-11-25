@@ -521,6 +521,22 @@
       "kind": "page"
     },
     {
+      "route": "/admin/payment-accounts/",
+      "title": "Payment accounts | Lumina Stream administration",
+      "description": "Payment accounts management for administrators.",
+      "noindex": true,
+      "lang": "en-CA",
+      "kind": "page"
+    },
+    {
+      "route": "/fr/admin/payment-accounts/",
+      "title": "Comptes de paiement | Administration Lumina Stream",
+      "description": "Gestion de la rubrique comptes de paiement pour les administrateurs.",
+      "noindex": true,
+      "lang": "fr-CA",
+      "kind": "page"
+    },
+    {
       "route": "/admin/invoices/",
       "title": "Invoices | Lumina Stream administration",
       "description": "Invoices management for administrators.",

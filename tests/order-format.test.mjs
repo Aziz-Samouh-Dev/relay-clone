@@ -34,3 +34,10 @@ test('trial PDF text and snapshots use hours, including legacy snapshots; standa
   }
  }
 });
+
+test('checkout selection normalizes trial and standard plans without stale summaries',async()=>{
+ const fs=await import('node:fs/promises'),pricing=JSON.parse(await fs.readFile(new URL('../source/pricing.json',import.meta.url),'utf8')),catalog={plans:pricing.plans,trial:{id:'trial',name:'24-hour trial',price:pricing.trialPrice}};
+ const raccoon=F.checkoutSelection(catalog,{plan:'raccoon',months:'12',screens:'3'});assert.equal(raccoon.plan_name,'Raccoon');assert.equal(raccoon.total_cents,31000);
+ const trial=F.checkoutSelection(catalog,{plan:'trial',months:'12',screens:'3'});assert.equal(trial.plan_name,'24-hour trial');assert.equal(trial.months,0);assert.equal(trial.screens,1);assert.equal(trial.total_cents,299);assert.equal(F.formatDuration(trial),'24 hours');
+ const back=F.checkoutSelection(catalog,{plan:'duck',months:'3',screens:'2'});assert.equal(back.plan_name,'Duck');assert.equal(back.months,3);assert.equal(back.screens,2);assert.equal(back.total_cents,5500);
+});
