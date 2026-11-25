@@ -10,7 +10,8 @@ export class LocalD1 {
 }
 export class LocalBucket {
  constructor(directory){this.directory=directory;}
- file(key){if(!/^invoices\/(?:demo-)?\d+\.pdf$/.test(key))throw new Error('Invalid private file key');return path.join(this.directory,key);}
+ file(key){if(!/^(?:invoices\/(?:demo-)?\d+\.pdf|test-backups\/[a-f0-9]{64}\.json)$/.test(key))throw new Error('Invalid private file key');return path.join(this.directory,key);}
  async get(key){try{const bytes=await fs.readFile(this.file(key));return {arrayBuffer:async()=>bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength)};}catch(e){if(e.code==='ENOENT')return null;throw e;}}
+ async delete(key){await fs.rm(this.file(key),{force:true});}
  async put(key,data){const file=this.file(key);await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,data);}
 }

@@ -1,0 +1,17 @@
+ALTER TABLE settings ADD COLUMN version INTEGER NOT NULL DEFAULT 1;
+ALTER TABLE settings ADD COLUMN mode_changed_at TEXT;
+ALTER TABLE settings ADD COLUMN mode_changed_by TEXT;
+ALTER TABLE orders ADD COLUMN checkout_revision INTEGER;
+ALTER TABLE quotes ADD COLUMN checkout_revision INTEGER;
+CREATE UNIQUE INDEX environment_change_request ON audit(actor,json_extract(details,'$.requestId')) WHERE action='environment_mode_changed';
+CREATE TRIGGER immutable_order_environment BEFORE UPDATE OF mode ON orders WHEN NEW.mode!=OLD.mode BEGIN SELECT RAISE(ABORT,'Order environment is immutable'); END;
+CREATE TRIGGER checkout_revision_guard BEFORE INSERT ON orders WHEN NEW.checkout_revision IS NOT NULL AND NEW.checkout_revision!=COALESCE((SELECT version FROM settings WHERE id=1),0) BEGIN SELECT RAISE(ABORT,'Checkout configuration changed; refresh and review your order'); END;
+CREATE TRIGGER quote_revision_guard BEFORE INSERT ON quotes WHEN NEW.checkout_revision IS NOT NULL AND NEW.checkout_revision!=COALESCE((SELECT version FROM settings WHERE id=1),0) BEGIN SELECT RAISE(ABORT,'Checkout configuration changed; refresh payment options'); END;
+CREATE TRIGGER quote_environment_guard BEFORE INSERT ON quotes WHEN NEW.mode IS NOT (SELECT mode FROM orders WHERE id=NEW.order_id) BEGIN SELECT RAISE(ABORT,'Payment environment mismatch'); END;
+CREATE TRIGGER claim_environment_guard BEFORE INSERT ON claims WHEN NOT EXISTS(SELECT 1 FROM quotes q JOIN orders o ON o.id=q.order_id WHERE q.id=NEW.quote_id AND q.order_id=NEW.order_id AND q.mode=o.mode) BEGIN SELECT RAISE(ABORT,'Payment environment mismatch'); END;
+CREATE TRIGGER immutable_claim_environment BEFORE UPDATE OF order_id,quote_id ON claims WHEN NEW.order_id!=OLD.order_id OR NEW.quote_id!=OLD.quote_id BEGIN SELECT RAISE(ABORT,'Claim environment is immutable'); END;
+CREATE TRIGGER invoice_environment_guard BEFORE INSERT ON invoices WHEN json_extract(NEW.snapshot,'$.mode') IS NOT (SELECT mode FROM orders WHERE id=NEW.order_id) BEGIN SELECT RAISE(ABORT,'Invoice environment mismatch'); END;
+CREATE TRIGGER immutable_invoice_environment BEFORE UPDATE OF order_id,snapshot ON invoices WHEN NEW.order_id!=OLD.order_id OR json_extract(NEW.snapshot,'$.mode') IS NOT json_extract(OLD.snapshot,'$.mode') BEGIN SELECT RAISE(ABORT,'Invoice environment is immutable'); END;
+CREATE TRIGGER immutable_subscription_environment BEFORE UPDATE OF order_id,customer_id ON subscriptions WHEN NEW.order_id!=OLD.order_id OR NEW.customer_id!=OLD.customer_id BEGIN SELECT RAISE(ABORT,'Subscription environment is immutable'); END;
+CREATE TABLE environment_delivery_leases(id TEXT PRIMARY KEY,revision INTEGER NOT NULL,expires_at TEXT NOT NULL);
+CREATE TRIGGER environment_delivery_revision_guard BEFORE INSERT ON environment_delivery_leases WHEN NEW.revision!=COALESCE((SELECT version FROM settings WHERE id=1),0) BEGIN SELECT RAISE(ABORT,'Checkout configuration changed; email delivery paused'); END;
