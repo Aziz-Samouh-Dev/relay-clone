@@ -50,3 +50,10 @@ test('checkout chooses an eligible network instead of an empty Ethereum account 
  assert.equal(F.paymentAccountSelection([], 'tron','tron-1').accountId,'');
  const interac={id:'interac-1',network:''};assert.equal(F.paymentAccountSelection([interac],'','').accountId,'interac-1');
 });
+
+test('grouped payment review preserves every independent live verification requirement',()=>{
+ assert.deepEqual(F.paymentReviewChecks({},'crypto'),{received:false,amount:false,recipient:false,token:false,network:false,success:false,finality:false});
+ const incomplete=F.paymentReviewChecks({funds:true,destination:true},'crypto');assert.equal(incomplete.received,true);assert.equal(incomplete.amount,true);assert.equal(incomplete.token,true);assert.equal(incomplete.network,true);assert.equal(incomplete.success,false);assert.equal(incomplete.finality,false);
+ assert.ok(Object.values(F.paymentReviewChecks({funds:true,destination:true,settled:true},'crypto')).every(Boolean));
+ assert.deepEqual(F.paymentReviewChecks({funds:true,destination:false},'interac'),{received:true,amount:true,recipient:false});
+});
